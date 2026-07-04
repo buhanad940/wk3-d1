@@ -69,7 +69,9 @@ window.APP_SECTIONS["home"] = {
   <thead><tr><th>Section</th><th>What you will find</th></tr></thead>
   <tbody>
     <tr><td><strong>Arrival &amp; First 30 Days</strong></td><td>Landing-day logistics, how to play Marhaba orientation, a week-by-week first-month plan, and the unwritten rules.</td></tr>
+    <tr><td><strong>Packing &amp; Tech Setup</strong></td><td>What to pack vs. buy in Abu Dhabi, the documents list, and the digital setup to finish before you fly.</td></tr>
     <tr><td><strong>First Semester</strong></td><td>Your exact course plan, AEP prep, Calculus Plans A/B/C, summer-course options, and a morning + 1–3 PM schedule template.</td></tr>
+    <tr><td><strong>Schedule Builder</strong></td><td>An interactive weekly grid: sketch candidate sections and get automatic checks against your morning + 1–3 PM, no-late-classes preference.</td></tr>
     <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan that fits both study-away semesters and the Rhodes timeline.</td></tr>
     <tr><td><strong>Core Curriculum</strong></td><td>How to choose Core courses strategically — including saving the right slots for Florence and the double-count question that can free a semester.</td></tr>
     <tr><td><strong>J-Term &amp; Summers</strong></td><td>All three January Terms and all three summers planned — including the summer Calculus/Multivariable option and the research-vs-course decision.</td></tr>
@@ -77,13 +79,20 @@ window.APP_SECTIONS["home"] = {
     <tr><td><strong>Study Away</strong></td><td>Florence and New York planning, what to ask Global Education, and course-planning rules while abroad.</td></tr>
     <tr><td><strong>Professors &amp; Courses</strong></td><td>How to research professors in math, economics, and writing — plus a comparison tool where you rate clarity, grading fairness, workload, feedback, office hours, and Rhodes/Econ fit.</td></tr>
     <tr><td><strong>Advising</strong></td><td>Complete question banks for every advising topic you listed, plus how to run an advising meeting.</td></tr>
+    <tr><td><strong>Writing Lab</strong></td><td>The craft section: argument mechanics, the five-pass revision workflow, and playbooks for FYWS, economics writing, and personal statements.</td></tr>
+    <tr><td><strong>Data &amp; Quant Toolkit</strong></td><td>The skill ladder from spreadsheets to Stata/R to a portfolio project, timed to arrive just before each course needs it.</td></tr>
     <tr><td><strong>Research &amp; Capstone</strong></td><td>Getting into faculty research as an underclassman, the four-year research ladder, and how the Economics capstone works.</td></tr>
     <tr><td><strong>Internships &amp; Careers</strong></td><td>Where NYUAD economists go, the recruiting calendar mapped to your plan (including New York fall), CV and interview strategy.</td></tr>
+    <tr><td><strong>Leadership &amp; Clubs</strong></td><td>The SIG ecosystem, the member-to-leader arc mapped to your four years, starting something new, and leading well.</td></tr>
     <tr><td><strong>Money &amp; Financial Aid</strong></td><td>Understanding your aid package, what Abu Dhabi costs, budgeting for two study-aways, earning on campus, and financial safety rules.</td></tr>
     <tr><td><strong>Campus Life</strong></td><td>Housing, dining, transport, weather, traditions, athletics, student interest groups, and small practical details.</td></tr>
     <tr><td><strong>Abu Dhabi &amp; UAE</strong></td><td>The city and country beyond campus — culture, etiquette, law essentials, day trips, and the anti-regret exploration plan.</td></tr>
+    <tr><td><strong>Travel &amp; Breaks</strong></td><td>Flights home, break-by-break booking strategy, time-zone systems, and the visa triple-check that prevents border disasters.</td></tr>
+    <tr><td><strong>Languages &amp; Arabic</strong></td><td>Arabic and Italian plans that fit your real schedule, plus keeping your home language sharp as a career asset.</td></tr>
     <tr><td><strong>Community &amp; Groups</strong></td><td>How to find real student groups and Facebook pages, how to verify rumors, and how to avoid spreading private or false claims.</td></tr>
     <tr><td><strong>Support &amp; Resources</strong></td><td>Health &amp; Wellness, academic support, writing support, Career Development, Global Education, library, IT.</td></tr>
+    <tr><td><strong>Wellbeing &amp; Balance</strong></td><td>Sleep, movement, connection, and meaning as engineered systems, plus a monthly early-warning dashboard.</td></tr>
+    <tr><td><strong>Safety &amp; Emergencies</strong></td><td>Emergency numbers, the health decision tree, UAE-specific safety (heat, sea, desert, roads), and looking out for each other.</td></tr>
     <tr><td><strong>Study Habits</strong></td><td>Daily routines built around your morning + early-afternoon schedule, study systems, and exam strategy.</td></tr>
     <tr><td><strong>GPA &amp; Grade Tracker</strong></td><td>A cumulative GPA calculator across all eight semesters, plus a target calculator for the grades you still need.</td></tr>
     <tr><td><strong>Checklists &amp; Templates</strong></td><td>Pre-arrival, weekly, registration, and advising checklists (they save automatically), plus email templates.</td></tr>

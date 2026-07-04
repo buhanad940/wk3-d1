@@ -312,6 +312,63 @@ button.btn.danger { background: var(--danger); }
 
 .stars { color: var(--gold); letter-spacing: 1px; white-space: nowrap; }
 
+/* ---------- Schedule builder ---------- */
+
+.sched-grid {
+  display: grid;
+  grid-template-columns: 52px repeat(5, minmax(120px, 1fr));
+  gap: 4px;
+  min-width: 680px;
+}
+.sched-grid .sg-head {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--violet-dark);
+  text-align: center;
+  padding: 4px 0;
+}
+.sched-grid .sg-times {
+  position: relative;
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+}
+.sched-grid .sg-times div { position: absolute; right: 6px; transform: translateY(-50%); }
+.sched-grid .sg-day {
+  position: relative;
+  background: #fbfaff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.sched-grid .sg-hourline {
+  position: absolute;
+  left: 0; right: 0;
+  border-top: 1px dashed #eae5f3;
+}
+.sched-block {
+  position: absolute;
+  left: 3px; right: 3px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 0.72rem;
+  line-height: 1.25;
+  overflow: hidden;
+  color: #fff;
+  background: var(--violet);
+  box-shadow: 0 1px 3px rgba(35,32,42,0.25);
+}
+.sched-block.kind-rec   { background: #7c3aed; }
+.sched-block.kind-oh    { background: var(--ok); }
+.sched-block.kind-study { background: #64748b; }
+.sched-block.kind-sig   { background: var(--gold); }
+.sched-block.kind-other { background: var(--info); }
+.sched-block.late       { background: var(--danger); }
+.sched-block .sb-time { opacity: 0.85; display: block; font-size: 0.66rem; }
+
+.sched-flag { padding: 6px 10px; border-radius: 8px; margin: 4px 0; font-size: 0.9rem; }
+.sched-flag.ok    { background: var(--ok-bg); color: #14532d; }
+.sched-flag.amber { background: var(--warn-bg); color: #6b4c00; }
+.sched-flag.red   { background: var(--danger-bg); color: #7f1d1d; }
+
 /* ---------- Search results ---------- */
 
 .search-results {

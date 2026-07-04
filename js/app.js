@@ -239,6 +239,173 @@
     render();
   }
 
+  /* ---------- Schedule builder ---------- */
+
+  var LS_SCHED = "nyuad-compass-sched";
+  var DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+  var DAY_START = 8 * 60, DAY_END = 19 * 60; // grid: 08:00–19:00
+  var PX_PER_MIN = 0.9;
+
+  var schedGrid = document.getElementById("s-grid");
+  if (schedGrid) {
+    var sched = loadJSON(LS_SCHED, []);
+
+    // populate time selects (07:00–18:45 starts, 15-min steps)
+    (function () {
+      var startSel = document.getElementById("s-start");
+      var endSel = document.getElementById("s-end");
+      for (var m = 7 * 60; m <= 19 * 60; m += 15) {
+        var label = fmtTime(m);
+        startSel.add(new Option(label, m));
+        endSel.add(new Option(label, m));
+      }
+      startSel.value = 9 * 60;
+      endSel.value = 9 * 60 + 75;
+    })();
+
+    function fmtTime(mins) {
+      var h = Math.floor(mins / 60), m = mins % 60;
+      return (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m;
+    }
+
+    function kindClass(kind) {
+      if (kind === "Recitation/Lab") return "kind-rec";
+      if (kind === "Office hours") return "kind-oh";
+      if (kind === "Study block") return "kind-study";
+      if (kind === "SIG / activity") return "kind-sig";
+      if (kind === "Class") return "";
+      return "kind-other";
+    }
+
+    function escS(s) {
+      var d = document.createElement("div");
+      d.textContent = s == null ? "" : String(s);
+      return d.innerHTML;
+    }
+
+    function renderSched() {
+      // grid
+      var html = '<div class="sg-head"></div>';
+      DAY_NAMES.forEach(function (d) { html += '<div class="sg-head">' + d + "</div>"; });
+      var colH = (DAY_END - DAY_START) * PX_PER_MIN;
+      html += '<div class="sg-times" style="height:' + colH + 'px">';
+      for (var t = DAY_START; t <= DAY_END; t += 60) {
+        html += "<div style=\"top:" + ((t - DAY_START) * PX_PER_MIN) + "px\">" + fmtTime(t) + "</div>";
+      }
+      html += "</div>";
+      for (var day = 0; day < 5; day++) {
+        html += '<div class="sg-day" style="height:' + colH + 'px">';
+        for (var h = DAY_START + 60; h < DAY_END; h += 60) {
+          html += '<div class="sg-hourline" style="top:' + ((h - DAY_START) * PX_PER_MIN) + 'px"></div>';
+        }
+        sched.forEach(function (b) {
+          if (b.days.indexOf(day) < 0) return;
+          var top = (Math.max(b.start, DAY_START) - DAY_START) * PX_PER_MIN;
+          var height = (Math.min(b.end, DAY_END) - Math.max(b.start, DAY_START)) * PX_PER_MIN;
+          if (height <= 0) return;
+          var late = b.kind === "Class" && b.start >= 16 * 60;
+          html += '<div class="sched-block ' + (late ? "late" : kindClass(b.kind)) + '" style="top:' + top +
+            "px;height:" + Math.max(height - 2, 14) + 'px" title="' + escS(b.name) + '">' +
+            escS(b.name) + '<span class="sb-time">' + fmtTime(b.start) + "–" + fmtTime(b.end) + "</span></div>";
+        });
+        html += "</div>";
+      }
+      schedGrid.innerHTML = html;
+
+      // list with delete buttons
+      var list = document.getElementById("s-list");
+      list.innerHTML = sched.length
+        ? sched.map(function (b, i) {
+            return '<span style="display:inline-block;margin:3px 6px 3px 0;font-size:0.85rem">' +
+              escS(b.name) + " (" + b.days.map(function (d) { return DAY_NAMES[d]; }).join("") + " " +
+              fmtTime(b.start) + "–" + fmtTime(b.end) + ") " +
+              '<button class="btn danger small" data-sdel="' + i + '">✕</button></span>';
+          }).join("")
+        : '<span style="color:var(--ink-soft);font-size:0.9rem">No blocks yet — add your candidate sections above.</span>';
+
+      renderVerdict();
+    }
+
+    function renderVerdict() {
+      var warnings = [];
+      var classes = sched.filter(function (b) { return b.kind === "Class" || b.kind === "Recitation/Lab"; });
+
+      // conflicts (any block kind)
+      for (var i = 0; i < sched.length; i++) {
+        for (var j = i + 1; j < sched.length; j++) {
+          var shared = sched[i].days.filter(function (d) { return sched[j].days.indexOf(d) >= 0; });
+          if (shared.length && sched[i].start < sched[j].end && sched[j].start < sched[i].end) {
+            warnings.push({ level: "red", msg: "Conflict: " + sched[i].name + " overlaps " + sched[j].name +
+              " on " + shared.map(function (d) { return DAY_NAMES[d]; }).join(", ") + "." });
+          }
+        }
+      }
+
+      var late = classes.filter(function (b) { return b.start >= 16 * 60; });
+      late.forEach(function (b) {
+        warnings.push({ level: "red", msg: b.name + " starts at " + fmtTime(b.start) +
+          " — violates your no-late-classes rule." });
+      });
+
+      var morning = classes.some(function (b) { return b.start < 12 * 60; });
+      var earlyAft = classes.some(function (b) { return b.start >= 12 * 60 + 30 && b.start < 15 * 60; });
+      var ideal = classes.some(function (b) { return b.start >= 13 * 60 && b.start <= 15 * 60; });
+
+      if (classes.length) {
+        if (!morning) warnings.push({ level: "amber", msg: "No morning class yet — your preferred pattern has one." });
+        if (!earlyAft) warnings.push({ level: "amber", msg: "No early-afternoon class yet — you wanted one around 13:00–15:00." });
+        else if (!ideal) warnings.push({ level: "amber", msg: "Afternoon class is outside the ideal 13:00–15:00 start window (workable, off-pattern)." });
+      }
+
+      var verdictEl = document.getElementById("s-verdict");
+      var box = document.getElementById("s-warnings");
+      var hasRed = warnings.some(function (w) { return w.level === "red"; });
+      var verdict = !classes.length ? "no classes yet" : hasRed ? "needs fixes" : warnings.length ? "workable, off-pattern" : "fits your preference";
+      verdictEl.textContent = verdict;
+
+      box.innerHTML = warnings.length
+        ? warnings.map(function (w) { return '<div class="sched-flag ' + w.level + '">' + escS(w.msg) + "</div>"; }).join("")
+        : (classes.length
+            ? '<div class="sched-flag ok">✅ Morning class + early-afternoon class, nothing late, no conflicts. This is your pattern — now find real sections matching it in Albert.</div>'
+            : '<div class="sched-flag amber">Add class blocks to check them against your preferences.</div>');
+    }
+
+    document.getElementById("s-add").addEventListener("click", function () {
+      var name = document.getElementById("s-name").value.trim();
+      if (!name) { document.getElementById("s-name").focus(); return; }
+      var days = [];
+      for (var d = 0; d < 5; d++) {
+        if (document.getElementById("s-d" + d).checked) days.push(d);
+      }
+      if (!days.length) return;
+      var start = parseInt(document.getElementById("s-start").value, 10);
+      var end = parseInt(document.getElementById("s-end").value, 10);
+      if (end <= start) return;
+      sched.push({ name: name, days: days, start: start, end: end, kind: document.getElementById("s-kind").value });
+      saveJSON(LS_SCHED, sched);
+      document.getElementById("s-name").value = "";
+      renderSched();
+    });
+
+    document.getElementById("s-list").addEventListener("click", function (e) {
+      if (e.target.dataset.sdel !== undefined) {
+        sched.splice(parseInt(e.target.dataset.sdel, 10), 1);
+        saveJSON(LS_SCHED, sched);
+        renderSched();
+      }
+    });
+
+    document.getElementById("s-reset").addEventListener("click", function () {
+      if (confirm("Clear the whole schedule sketch?")) {
+        sched = [];
+        saveJSON(LS_SCHED, sched);
+        renderSched();
+      }
+    });
+
+    renderSched();
+  }
+
   /* ---------- GPA calculator & grade tracker ---------- */
 
   var LS_GRADES = "nyuad-compass-grades";
