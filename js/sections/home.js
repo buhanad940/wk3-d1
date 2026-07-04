@@ -68,17 +68,26 @@ window.APP_SECTIONS["home"] = {
 <table>
   <thead><tr><th>Section</th><th>What you will find</th></tr></thead>
   <tbody>
+    <tr><td><strong>Arrival &amp; First 30 Days</strong></td><td>Landing-day logistics, how to play Marhaba orientation, a week-by-week first-month plan, and the unwritten rules.</td></tr>
     <tr><td><strong>First Semester</strong></td><td>Your exact course plan, AEP prep, Calculus Plans A/B/C, summer-course options, and a morning + 1–3 PM schedule template.</td></tr>
     <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan that fits both study-away semesters and the Rhodes timeline.</td></tr>
+    <tr><td><strong>Core Curriculum</strong></td><td>How to choose Core courses strategically — including saving the right slots for Florence and the double-count question that can free a semester.</td></tr>
+    <tr><td><strong>J-Term &amp; Summers</strong></td><td>All three January Terms and all three summers planned — including the summer Calculus/Multivariable option and the research-vs-course decision.</td></tr>
     <tr><td><strong>Rhodes Roadmap</strong></td><td>Eligibility, selection criteria, year-by-year actions, referee strategy, and honest backup scholarships.</td></tr>
     <tr><td><strong>Study Away</strong></td><td>Florence and New York planning, what to ask Global Education, and course-planning rules while abroad.</td></tr>
     <tr><td><strong>Professors &amp; Courses</strong></td><td>How to research professors in math, economics, and writing — plus a comparison tool where you rate clarity, grading fairness, workload, feedback, office hours, and Rhodes/Econ fit.</td></tr>
     <tr><td><strong>Advising</strong></td><td>Complete question banks for every advising topic you listed, plus how to run an advising meeting.</td></tr>
+    <tr><td><strong>Research &amp; Capstone</strong></td><td>Getting into faculty research as an underclassman, the four-year research ladder, and how the Economics capstone works.</td></tr>
+    <tr><td><strong>Internships &amp; Careers</strong></td><td>Where NYUAD economists go, the recruiting calendar mapped to your plan (including New York fall), CV and interview strategy.</td></tr>
+    <tr><td><strong>Money &amp; Financial Aid</strong></td><td>Understanding your aid package, what Abu Dhabi costs, budgeting for two study-aways, earning on campus, and financial safety rules.</td></tr>
     <tr><td><strong>Campus Life</strong></td><td>Housing, dining, transport, weather, traditions, athletics, student interest groups, and small practical details.</td></tr>
+    <tr><td><strong>Abu Dhabi &amp; UAE</strong></td><td>The city and country beyond campus — culture, etiquette, law essentials, day trips, and the anti-regret exploration plan.</td></tr>
     <tr><td><strong>Community &amp; Groups</strong></td><td>How to find real student groups and Facebook pages, how to verify rumors, and how to avoid spreading private or false claims.</td></tr>
     <tr><td><strong>Support &amp; Resources</strong></td><td>Health &amp; Wellness, academic support, writing support, Career Development, Global Education, library, IT.</td></tr>
     <tr><td><strong>Study Habits</strong></td><td>Daily routines built around your morning + early-afternoon schedule, study systems, and exam strategy.</td></tr>
+    <tr><td><strong>GPA &amp; Grade Tracker</strong></td><td>A cumulative GPA calculator across all eight semesters, plus a target calculator for the grades you still need.</td></tr>
     <tr><td><strong>Checklists &amp; Templates</strong></td><td>Pre-arrival, weekly, registration, and advising checklists (they save automatically), plus email templates.</td></tr>
+    <tr><td><strong>Glossary &amp; FAQ</strong></td><td>The NYUAD acronym decoder ring and honest answers to the questions first-years are embarrassed to ask.</td></tr>
   </tbody>
 </table>
 </div>

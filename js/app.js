@@ -239,6 +239,119 @@
     render();
   }
 
+  /* ---------- GPA calculator & grade tracker ---------- */
+
+  var LS_GRADES = "nyuad-compass-grades";
+  var GRADE_POINTS = {
+    "A": 4.0, "A-": 3.667, "B+": 3.333, "B": 3.0, "B-": 2.667,
+    "C+": 2.333, "C": 2.0, "C-": 1.667, "D+": 1.333, "D": 1.0, "F": 0
+  };
+
+  var gTbody = document.getElementById("g-tbody");
+  if (gTbody) {
+    var grades = loadJSON(LS_GRADES, []);
+
+    function gradedOnly() {
+      return grades.filter(function (g) { return GRADE_POINTS.hasOwnProperty(g.grade); });
+    }
+
+    function cumGPA() {
+      var pts = 0, cr = 0;
+      gradedOnly().forEach(function (g) {
+        pts += GRADE_POINTS[g.grade] * g.credits;
+        cr += g.credits;
+      });
+      return cr ? pts / cr : null;
+    }
+
+    function escG(s) {
+      var d = document.createElement("div");
+      d.textContent = s == null ? "" : String(s);
+      return d.innerHTML;
+    }
+
+    function renderGrades() {
+      gTbody.innerHTML = grades.map(function (g, i) {
+        var pts = GRADE_POINTS.hasOwnProperty(g.grade)
+          ? (GRADE_POINTS[g.grade] * g.credits).toFixed(1)
+          : "—";
+        return "<tr><td>" + escG(g.sem) + "</td><td>" + escG(g.name) + "</td><td>" + g.credits +
+          "</td><td>" + escG(g.grade) + "</td><td>" + pts + "</td>" +
+          '<td><button class="btn danger small" data-gdel="' + i + '">✕</button></td></tr>';
+      }).join("");
+
+      var gpa = cumGPA();
+      var totalCr = grades.reduce(function (s, g) { return s + g.credits; }, 0);
+      var gradedCr = gradedOnly().reduce(function (s, g) { return s + g.credits; }, 0);
+      var summary = document.getElementById("g-summary");
+      if (summary) summary.textContent = grades.length + " courses · " + totalCr + " credits";
+      var stats = document.getElementById("g-stats");
+      if (stats) {
+        stats.innerHTML = gpa === null
+          ? "<strong>No graded courses yet.</strong> Add courses above; P and In-progress entries track credits without affecting GPA."
+          : "<strong>Cumulative GPA: " + gpa.toFixed(3) + "</strong> over " + gradedCr +
+            " graded credits (" + (totalCr - gradedCr) + " credits P/in-progress). " +
+            "Rhodes-track reference point: sustained A-range ≈ 3.7+.";
+      }
+    }
+
+    document.getElementById("g-add").addEventListener("click", function () {
+      var name = document.getElementById("g-name").value.trim();
+      if (!name) { document.getElementById("g-name").focus(); return; }
+      grades.push({
+        name: name,
+        sem: document.getElementById("g-sem").value,
+        credits: parseFloat(document.getElementById("g-credits").value),
+        grade: document.getElementById("g-grade").value
+      });
+      saveJSON(LS_GRADES, grades);
+      document.getElementById("g-name").value = "";
+      renderGrades();
+    });
+
+    gTbody.addEventListener("click", function (e) {
+      if (e.target.dataset.gdel !== undefined) {
+        grades.splice(parseInt(e.target.dataset.gdel, 10), 1);
+        saveJSON(LS_GRADES, grades);
+        renderGrades();
+      }
+    });
+
+    document.getElementById("g-reset").addEventListener("click", function () {
+      if (confirm("Delete ALL grade entries? This cannot be undone.")) {
+        grades = [];
+        saveJSON(LS_GRADES, grades);
+        renderGrades();
+      }
+    });
+
+    document.getElementById("g-calc").addEventListener("click", function () {
+      var target = parseFloat(document.getElementById("g-target").value);
+      var remaining = parseFloat(document.getElementById("g-remaining").value);
+      var out = document.getElementById("g-target-out");
+      if (isNaN(target) || isNaN(remaining) || remaining <= 0) {
+        out.textContent = "Enter a numeric target GPA and remaining credits.";
+        return;
+      }
+      var pts = 0, cr = 0;
+      gradedOnly().forEach(function (g) {
+        pts += GRADE_POINTS[g.grade] * g.credits;
+        cr += g.credits;
+      });
+      var needed = (target * (cr + remaining) - pts) / remaining;
+      if (needed <= 0) {
+        out.textContent = "Target already secured — even all-F futures cannot drop you below it (nice problem to have; do not test it).";
+      } else if (needed > 4.0) {
+        out.textContent = "Needed average is " + needed.toFixed(3) + " — above 4.0, so this target is not reachable with the given remaining credits. Adjust the target or credits.";
+      } else {
+        out.textContent = "You need an average of " + needed.toFixed(3) + " across the remaining " + remaining +
+          " credits (" + (needed <= 3.0 ? "comfortable" : needed <= 3.667 ? "achievable with your systems" : "demanding — protect the theory semesters") + ").";
+      }
+    });
+
+    renderGrades();
+  }
+
   /* ---------- Search ---------- */
 
   var searchBox = document.getElementById("global-search");
