@@ -6,13 +6,47 @@ window.APP_SECTIONS["four-year"] = {
   title: "Four-Year Plan",
   icon: "🗺️",
   html: `
-<h2>Four-Year Plan — Economics, Two Study-Aways, Rhodes Track <span class="badge confirm">verify with adviser</span></h2>
+<h2>Four-Year Plan — Economics + Finance Concentration, Two Study-Aways, Rhodes Track <span class="badge confirm">verify with adviser</span></h2>
 <p class="section-lede">
-  A full semester-by-semester map from AEP to graduation. It fits your fixed points — Economics major,
-  Florence in sophomore spring, New York in junior fall, Rhodes application in senior fall — and shows where
-  Calculus Plans B/C and summer courses slot in. Course names are representative; exact requirements come from
-  the official Economics program page and your adviser.
+  A full semester-by-semester map from AEP to graduation. It fits your fixed points — Economics major with a
+  <strong>finance concentration</strong>, Florence in sophomore spring, New York in junior fall, Rhodes
+  application in senior fall — and shows where Calculus Plans B/C and summer courses slot in. Course names are
+  representative; exact requirements come from the official Economics program page and your adviser.
 </p>
+
+<h3>The finance concentration — how it plugs into this plan</h3>
+<div class="callout warn">
+  <strong>Confirm the mechanism first.</strong> "Concentration in finance" can be delivered several ways
+  depending on current NYUAD policy: a formal concentration/track inside the Economics major, a minor or
+  cross-listed program, or a deliberate cluster of finance electives on your transcript plus finance-focused
+  capstone work. All three end in the same place — an economics graduate with demonstrable finance depth —
+  but the paperwork differs. The Advising section now has the exact questions; ask them in your first-year
+  advising meetings so the requirement math is settled before sophomore registration.
+</div>
+<div class="card">
+  <h4>💹 The finance layer, year by year</h4>
+  <ul>
+    <li><strong>Year 1:</strong> nothing changes — Markets, Calculus, and statistics ARE the finance foundation.
+        Optional: join a finance/investment SIG to start the vocabulary early (see Leadership section).</li>
+    <li><strong>Year 2 (Abu Dhabi fall):</strong> take the foundational finance course NYUAD offers (corporate
+        finance / foundations of financial markets — whatever the current catalog names it) once intermediate
+        micro and statistics are underway. This is also when Summer 2 finance internship applications open.</li>
+    <li><strong>Year 3 fall (New York) — the concentration's anchor semester:</strong> New York has one of the
+        deepest finance course catalogs anywhere (including Stern cross-registration options where NYUAD
+        students are permitted — verify access and credit rules early). Target 1–2 finance courses here:
+        corporate finance, valuation, capital markets, or financial econometrics. Pre-approve them for
+        concentration/major credit in writing, like every study-away course.</li>
+    <li><strong>Year 3 spring–Year 4:</strong> one more finance elective in Abu Dhabi if required, and — the
+        high-leverage move — point the <strong>capstone</strong> at a finance question (asset pricing, banking,
+        sovereign wealth, Gulf capital markets). A finance capstone makes the concentration visible in every
+        interview and application.</li>
+    <li><strong>Threaded throughout:</strong> the Data &amp; Quant Toolkit ladder doubles as finance preparation —
+        spreadsheets → statistics → econometrics is exactly the technical stack finance recruiting tests.</li>
+  </ul>
+  <p><strong>Rhodes note:</strong> a finance concentration and a Rhodes narrative are fully compatible — frame it
+  as understanding how capital flows shape development, markets, and policy (which is also honest). What weakens
+  a Rhodes file is not finance; it is depth in nothing. The concentration adds depth.</p>
+</div>
 
 <div class="callout warn">
   <strong>How to read this plan.</strong> NYUAD degrees combine: (1) the <strong>major</strong> (Economics:
@@ -91,7 +125,9 @@ window.APP_SECTIONS["four-year"] = {
     <li><strong>Econometrics / statistics sequence course</strong> as required.</li>
     <li><strong>Multivariable Calculus</strong> <em>if</em> you choose the more mathematical track (recommended if
         graduate school in economics is on your radar — ask your adviser whether the major/track requires it).</li>
-    <li><strong>Core course.</strong></li>
+    <li><strong>Foundational finance course</strong> (corporate finance / financial markets — current catalog
+        name varies) — the concentration's first dedicated course, or a Core course here and finance in spring,
+        depending on offerings.</li>
   </ul>
   <p><strong>Rhodes moves:</strong> take a real leadership role in one organization; ask an economics professor
   about joining research; check the Rhodes UAE information session if offered.</p>
@@ -127,9 +163,10 @@ window.APP_SECTIONS["four-year"] = {
   <p class="sem-note">NYU's New York campus (Washington Square). See the Study Away section for the note about
   the "Bloomerpool" name you mentioned — confirm the exact site name with Global Education.</p>
   <ul>
-    <li>1–2 <strong>Economics electives</strong> from NYU New York's large catalog (pre-approve them for NYUAD
-        major credit BEFORE the semester — this is the #1 study-away paperwork mistake).</li>
-    <li><strong>Intermediate Macroeconomics</strong> here if approved and not yet taken, otherwise an elective.</li>
+    <li>1–2 <strong>finance courses</strong> from New York's deep catalog — valuation, capital markets, financial
+        econometrics, or Stern cross-registration if permitted (pre-approve everything for NYUAD
+        major/concentration credit BEFORE the semester — this is the #1 study-away paperwork mistake).</li>
+    <li><strong>Intermediate Macroeconomics</strong> here if approved and not yet taken, otherwise an economics elective.</li>
     <li>1 course purely for growth (policy, philosophy, data science, journalism — Rhodes loves range).</li>
     <li>Attend economics research seminars — in New York you can also visit think tanks, the UN, and Fed events.</li>
   </ul>
@@ -147,7 +184,8 @@ window.APP_SECTIONS["four-year"] = {
   <h4>Spring, Year 3 (in Abu Dhabi)</h4>
   <ul>
     <li><strong>Remaining intermediate theory course</strong> (micro or macro — whichever is left).</li>
-    <li><strong>Economics elective</strong> aligned with your capstone direction.</li>
+    <li><strong>Economics/finance elective</strong> aligned with your capstone direction (a finance-flavored
+        capstone makes the concentration visible — see the finance layer above).</li>
     <li><strong>Core / degree requirements cleanup</strong> — run a degree audit with your adviser this semester.</li>
     <li>Identify your <strong>capstone adviser</strong> and topic before summer.</li>
   </ul>
@@ -194,7 +232,7 @@ window.APP_SECTIONS["four-year"] = {
   <tbody>
     <tr><td>End of Year 1</td><td>FYWS done; Calculus done (any plan A/B/C); 1–2 Economics courses done; statistics started or scheduled.</td><td>Use summer (Plan C) and rebalance Year 2 fall with adviser.</td></tr>
     <tr><td>Before Florence (end of Y2 fall)</td><td>Intermediate micro done or scheduled; study-away courses pre-approved; on pace for ~half of Core.</td><td>Consider swapping which semester goes abroad — flexibility beats forcing a broken sequence.</td></tr>
-    <tr><td>Before New York (end of Y3 summer... i.e., end of Y2 spring + summer)</td><td>Econometrics done; capstone-relevant interests identified; major electives mapped to NY offerings.</td><td>Take an extra Economics course in Y3 spring; reduce NY electives-for-fun to one.</td></tr>
+    <tr><td>Before New York (end of Y2 spring + summer)</td><td>Econometrics done; foundational finance course done; capstone-relevant interests identified; finance/major electives mapped to NY offerings and pre-approved.</td><td>Take an extra Economics course in Y3 spring; reduce NY electives-for-fun to one.</td></tr>
     <tr><td>Start of Year 4</td><td>Only capstone + a small number of requirements left; Rhodes application ready to submit.</td><td>Drop optional commitments in fall — capstone and application quality outrank everything.</td></tr>
   </tbody>
 </table>

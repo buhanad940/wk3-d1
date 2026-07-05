@@ -73,6 +73,23 @@ window.APP_SECTIONS["advising"] = {
 </details>
 
 <details>
+  <summary>💹 Finance concentration</summary>
+  <ul>
+    <li>I want a concentration in finance alongside the Economics major. What is the official mechanism at NYUAD
+        right now — a formal concentration/track, a minor, or a planned cluster of finance electives?</li>
+    <li>Which finance courses does NYUAD currently offer, which are required for the concentration (if formal),
+        and how often does each run?</li>
+    <li>What are the prerequisites for the foundational finance course, and does my Calculus/statistics timing
+        (including Plans B/C) affect when I can take it?</li>
+    <li>During my New York junior fall: can NYUAD students take finance courses at Stern or elsewhere at NYU,
+        what is the cross-registration process, and which courses have historically counted toward the
+        concentration/major?</li>
+    <li>Can my senior capstone be on a finance topic, and which faculty supervise finance-related capstones?</li>
+    <li>Does the finance concentration change my Core or elective math in any way I should plan around now?</li>
+  </ul>
+</details>
+
+<details>
   <summary>📈 Economics major</summary>
   <ul>
     <li>Can we map the full Economics requirement list against my four-year draft (I have it with me)?</li>

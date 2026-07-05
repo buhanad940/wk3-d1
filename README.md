@@ -23,13 +23,13 @@ localStorage — nothing leaves your machine.
 | **Packing & Tech Setup** | Pack-vs-buy tables, document checklists, tech loadout, pre-flight digital setup |
 | **First Semester Plan** | AEP (reading + FYWS prep), Methods of the Written Voice, Calculus (Plans A/B/C), Markets, summer-course options, and a morning + 1–3 PM schedule template |
 | **Schedule Builder** | Interactive weekly grid with automatic conflict detection and preference checks (morning + 1–3 PM, no late classes) |
-| **Four-Year Plan** | Semester-by-semester Economics plan fitting both study-aways, J-Terms, summers, capstone, and the Rhodes timeline |
+| **Four-Year Plan** | Semester-by-semester Economics plan with a finance-concentration layer, fitting both study-aways, J-Terms, summers, capstone, and the Rhodes timeline |
 | **Core Curriculum** | Strategy for choosing Core courses, saving culture slots for Florence, the 10-minute course evaluation method, double-counting questions |
 | **J-Term & Summers** | All three January Terms and all three summers planned, summer Calculus/Multivariable pre-flight checklist, research-vs-course decision framework |
 | **Rhodes Roadmap** | Eligibility (constituency check first), selection criteria vs. myths, year-by-year actions, referee strategy, parallel scholarship paths, impact-journal template |
 | **Study Away** | Florence and New York planning timelines, course pre-approval rules, Global Education question list — including a verification note about the unconfirmed "Bloomerpool" site name |
 | **Professors & Courses** | How to research professors legitimately (no hearsay ratings of real people), plus a private comparison tool rating clarity, grading fairness, workload, feedback, office hours, and Econ/Rhodes fit |
-| **Advising** | Meeting playbook and copyable question banks: course planning, Calculus, summer courses, Economics, Rhodes, Florence, New York, graduation requirements |
+| **Advising** | Meeting playbook and copyable question banks: course planning, Calculus, summer courses, the finance concentration, Economics, Rhodes, Florence, New York, graduation requirements |
 | **Writing Lab** | Argument mechanics, five-pass revision workflow, playbooks for FYWS, economics writing, and personal statements, integrity rules |
 | **Data & Quant Toolkit** | Skill ladder (spreadsheets → R/Python → Stata/econometrics → capstone pipeline), clean-work rules, portfolio project guidance |
 | **Research & Capstone** | Getting into faculty research early, the four-year research ladder, capstone mechanics, topic seeds, research integrity |

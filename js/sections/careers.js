@@ -29,6 +29,9 @@ window.APP_SECTIONS["careers"] = {
     consulting firms — all recruit in the Gulf and love quantitative economists.</p>
     <p>Entry: structured internship pipelines with <strong>early deadlines (a year+ ahead)</strong>; case/interview
     prep via student groups; your New York fall is prime recruiting territory.</p>
+    <p><strong>Your finance concentration feeds this directly:</strong> the foundational course before recruiting
+    season, New York finance electives during it, and a finance capstone as interview material (see the
+    Four-Year Plan's finance layer).</p>
   </div>
   <div class="card">
     <h4>🎓 Research &amp; academia</h4>

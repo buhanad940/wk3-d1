@@ -31,8 +31,9 @@ window.APP_SECTIONS["home"] = {
 <div class="card-grid">
   <div class="card">
     <h4>🎓 Degree goal</h4>
-    <p><strong>B.A. in Economics</strong>, NYU Abu Dhabi, Class of 2030 (four years from Fall 2026 entry —
-       adjust if your start year differs).</p>
+    <p><strong>B.A. in Economics with a finance concentration</strong>, NYU Abu Dhabi, Class of 2030 (four years
+       from Fall 2026 entry — adjust if your start year differs). The concentration's anchor semester is your
+       New York junior fall; see the Four-Year Plan's finance layer.</p>
   </div>
   <div class="card">
     <h4>🏆 Long-term goal</h4>
