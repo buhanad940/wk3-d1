@@ -7,9 +7,43 @@
 
   var LS_CHECKS = "nyuad-compass-checks";
   var LS_PROFS = "nyuad-compass-profs";
+  var LS_THEME = "nyuad-compass-theme";
 
   var sections = window.APP_SECTIONS || {};
   var order = window.APP_ORDER || [];
+
+  /* ---------- Dark mode toggle ---------- */
+
+  var themeBtn = document.getElementById("theme-toggle");
+  if (themeBtn) {
+    var root = document.documentElement;
+    var systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
+
+    function effectiveTheme() {
+      var explicit = root.getAttribute("data-theme");
+      if (explicit === "dark" || explicit === "light") return explicit;
+      return systemDark && systemDark.matches ? "dark" : "light";
+    }
+
+    function paintIcon() {
+      themeBtn.textContent = effectiveTheme() === "dark" ? "☀️" : "🌙";
+    }
+
+    themeBtn.addEventListener("click", function () {
+      var next = effectiveTheme() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem(LS_THEME, next); } catch (e) { /* private mode */ }
+      paintIcon();
+    });
+
+    if (systemDark && systemDark.addEventListener) {
+      systemDark.addEventListener("change", function () {
+        if (!root.getAttribute("data-theme")) paintIcon();
+      });
+    }
+
+    paintIcon();
+  }
 
   /* ---------- Render sections + nav ---------- */
 
