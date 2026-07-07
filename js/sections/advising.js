@@ -57,23 +57,30 @@ window.APP_SECTIONS["advising"] = {
 </details>
 
 <details>
-  <summary>🧮 Calculus (Plans A/B/C)</summary>
+  <summary>🧮 Calculus &amp; Multivariable (Plans A/B/C)</summary>
   <ul>
     <li>How does math placement work, and could it change which Calculus course I start in?</li>
     <li>If I cannot take Calculus in the fall, what exactly moves in my Economics sequence, and by how much?</li>
     <li>Is taking Calculus in the spring (Plan B) fully compatible with Florence in sophomore spring?</li>
-    <li>Does the Economics major require Multivariable Calculus for any track, and would you recommend it for a
-        student considering graduate school in economics?</li>
-    <li>Which statistics course does Economics require, and does it have Calculus as a prerequisite?</li>
+    <li>Can you confirm: Calculus, Multivariable Calculus, Data Analysis (ECON-UH 2020), and Econometrics
+        (SOCSC-UH 3220) must all be completed in Abu Dhabi — no exceptions for outside transfer credit, even
+        in summer?</li>
+    <li>When in my sequence should I plan Multivariable Calculus, given it must land before junior-year study
+        away and be completed in Abu Dhabi?</li>
+    <li>Statistics for the Social and Behavioral Sciences is required before Florence — can it sit alongside
+        Calculus in Y1 spring, or should it move to Y2 fall?</li>
   </ul>
 </details>
 
 <details>
   <summary>☀️ Summer courses</summary>
   <ul>
-    <li>Can NYUAD students take summer courses — at NYU New York, online, or at another university — and how does approval work?</li>
-    <li>Specifically: could I take Calculus or Multivariable Calculus in the summer after year one? What has to be true for the credit and prerequisite to count?</li>
-    <li>What is the deadline and form for pre-approving an outside/summer course?</li>
+    <li>Does NYUAD run its own Abu Dhabi summer sessions, and does Calculus (or Multivariable Calculus) ever
+        appear on that schedule?</li>
+    <li>Since Calculus and Multivariable Calculus must be completed in Abu Dhabi, is an NYUAD-administered Abu
+        Dhabi summer offering the only summer option for these two courses — confirm no outside-university
+        transfer is possible for them specifically.</li>
+    <li>What is the deadline and form for pre-approving any other outside/summer elective?</li>
     <li>How do summer courses interact with financial aid and housing?</li>
     <li>In your experience, is a summer course or a research assistantship more valuable for a student with my goals?</li>
   </ul>
@@ -82,27 +89,32 @@ window.APP_SECTIONS["advising"] = {
 <details>
   <summary>💹 Finance concentration</summary>
   <ul>
-    <li>I want a concentration in finance alongside the Economics major. What is the official mechanism at NYUAD
-        right now — a formal concentration/track, a minor, or a planned cluster of finance electives?</li>
-    <li>Which finance courses does NYUAD currently offer, which are required for the concentration (if formal),
-        and how often does each run?</li>
-    <li>What are the prerequisites for the foundational finance course, and does my Calculus/statistics timing
-        (including Plans B/C) affect when I can take it?</li>
-    <li>During my New York junior fall: can NYUAD students take finance courses at Stern or elsewhere at NYU,
-        what is the cross-registration process, and which courses have historically counted toward the
-        concentration/major?</li>
-    <li>Can my senior capstone be on a finance topic, and which faculty supervise finance-related capstones?</li>
-    <li>Does the finance concentration change my Core or elective math in any way I should plan around now?</li>
+    <li>Can you confirm the exact current name of my concentration — is it "Finance and Market Studies"? — and
+        its full requirement list beyond the 72-credit core Economics list (the major-with-concentration
+        minimum is 80 credits; what fills the remaining ~8)?</li>
+    <li>Which finance electives does NYUAD offer in Abu Dhabi, and when should I take Introduction to
+        Accounting and Foundations of Financial Markets (and Corporate Finance if relevant) so they are done
+        before my New York semester?</li>
+    <li>New York is the officially recommended site for this concentration — can we confirm which NY finance
+        electives have historically counted toward it, and pre-approve my likely list before I apply?</li>
+    <li>Can my senior capstone (Capstone Seminar + Capstone Project) be on a finance topic, and which faculty
+        supervise finance-related capstones?</li>
+    <li>Given the GPA ≥ 3.5 gate on my second study-away semester (New York), what is the realistic timeline for
+        confirming I have cleared it before I apply?</li>
   </ul>
 </details>
 
 <details>
   <summary>📈 Economics major</summary>
   <ul>
-    <li>Can we map the full Economics requirement list against my four-year draft (I have it with me)?</li>
-    <li>What is the recommended order for intermediate micro, intermediate macro, and econometrics, and which are offered every semester vs. once a year?</li>
-    <li>How does the senior capstone work — timing, adviser matching, and what strong projects look like?</li>
-    <li>Which requirements are safe to complete abroad, and which should only be done in Abu Dhabi?</li>
+    <li>Can we map the full Economics requirement list (72 credits: ECON-UH/MATH-UH/SOCSC-UH courses) against
+        my four-year draft (I have it with me)?</li>
+    <li>What is the recommended order for Intermediate Micro, Intermediate Macro, Data Analysis, and
+        Econometrics, and which are offered every semester vs. once a year?</li>
+    <li>How does the two-course senior capstone work (Capstone Seminar, then Capstone Project) — timing,
+        adviser matching, and what strong projects look like?</li>
+    <li>Can you confirm which requirements must stay in Abu Dhabi (Calculus, Multivariable Calculus, Data
+        Analysis, Econometrics) versus which are safe to take abroad as electives?</li>
     <li>How do I get involved in faculty research as a first- or second-year?</li>
   </ul>
 </details>
@@ -121,20 +133,26 @@ window.APP_SECTIONS["advising"] = {
 <details>
   <summary>🇮🇹 Florence study away</summary>
   <ul>
-    <li>Does sophomore spring in Florence create any prerequisite problems for my Economics sequence?</li>
+    <li>Can we confirm I will have completed all four sophomore-spring prerequisites (Markets, Statistics,
+        Calculus, GEPS/Intro Macro) before I apply?</li>
     <li>What is the application timeline for a spring semester in Florence, counted back from today?</li>
-    <li>How do I pre-approve Florence courses for Core/major credit, and who signs?</li>
-    <li>Is there anything I must complete in Abu Dhabi before that semester (advising checkpoints, declarations)?</li>
+    <li>How do I pre-approve Florence courses for Gen Ed/major credit, and who signs?</li>
+    <li>Since I won't yet qualify for 300-level economics electives at the site, what is the strongest Gen Ed /
+        exploration course list Florence typically offers?</li>
   </ul>
 </details>
 
 <details>
   <summary>🗽 New York study away</summary>
   <ul>
-    <li>Junior fall in New York: any conflicts with capstone preparation or once-a-year NYUAD courses?</li>
-    <li>Which NYU New York economics courses have historically transferred as major requirements vs. electives for NYUAD students?</li>
+    <li>Can we confirm, in writing, that I will have completed Intermediate Micro, Intermediate Macro, Data
+        Analysis, and Multivariable Calculus (all in Abu Dhabi) before I apply for New York?</li>
+    <li>Can we also confirm my cumulative GPA will be at or above 3.5 — the gate on my second away semester —
+        by the time I apply?</li>
+    <li>Which NYU New York finance electives have historically counted toward the Finance and Market Studies
+        concentration, and which require Introduction to Accounting / Foundations of Financial Markets as a
+        prerequisite I should complete here first?</li>
     <li>How early should I start the US visa process for a fall semester, given my nationality?</li>
-    <li>A schedule question: I heard a site name "Bloomerpool" — can you or Global Education tell me what site that actually refers to, if anything?</li>
   </ul>
 </details>
 
@@ -142,10 +160,13 @@ window.APP_SECTIONS["advising"] = {
   <summary>🎓 Graduation requirements</summary>
   <ul>
     <li>Can we run a degree audit now and again each spring, so nothing surprises me senior year?</li>
-    <li>Exactly how many credits, Core courses, and major courses remain in my plan, and where is the slack?</li>
-    <li>Are there non-course requirements (J-Term participation, residency semesters in Abu Dhabi, capstone
-        presentation) I should have on my calendar?</li>
-    <li>What is the latest semester by which each remaining requirement can safely be scheduled?</li>
+    <li>My understanding is Gen Ed is 26 credits, the major is 72, and major-with-concentration is a minimum
+        of 80 — can you confirm these numbers and the total credits I need to graduate, including any free
+        electives?</li>
+    <li>Are there non-course requirements (the two Field Colloquia J-Terms, residency semesters in Abu Dhabi,
+        capstone presentation) I should have on my calendar?</li>
+    <li>What is the latest semester by which each remaining requirement can safely be scheduled, given that
+        Calculus, Multivariable Calculus, Data Analysis, and Econometrics must all be done in Abu Dhabi?</li>
     <li>If I ever needed a lighter semester (health, application season), what are my options without delaying graduation?</li>
   </ul>
 </details>

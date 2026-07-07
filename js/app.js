@@ -488,11 +488,15 @@
       if (summary) summary.textContent = grades.length + " courses · " + totalCr + " credits";
       var stats = document.getElementById("g-stats");
       if (stats) {
-        stats.innerHTML = gpa === null
-          ? "<strong>No graded courses yet.</strong> Add courses above; P and In-progress entries track credits without affecting GPA."
-          : "<strong>Cumulative GPA: " + gpa.toFixed(3) + "</strong> over " + gradedCr +
-            " graded credits (" + (totalCr - gradedCr) + " credits P/in-progress). " +
-            "Rhodes-track reference point: sustained A-range ≈ 3.7+.";
+        if (gpa === null) {
+          stats.innerHTML = "<strong>No graded courses yet.</strong> Add courses above; P and In-progress entries track credits without affecting GPA.";
+        } else {
+          var gateNote = gpa >= 3.5
+            ? "✅ At or above the 3.5 gate for your second study-away semester (New York)."
+            : "⚠️ Below the 3.5 gate for your second study-away semester (New York) — needs " + (3.5 - gpa).toFixed(3) + " more before you'd clear it at this credit total.";
+          stats.innerHTML = "<strong>Cumulative GPA: " + gpa.toFixed(3) + "</strong> over " + gradedCr +
+            " graded credits (" + (totalCr - gradedCr) + " credits P/in-progress). " + gateNote;
+        }
       }
     }
 

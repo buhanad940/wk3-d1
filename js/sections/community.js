@@ -67,8 +67,8 @@ window.APP_SECTIONS["community"] = {
     <li><strong>Checkability:</strong> is there an official place this would be written — student portal,
         bulletin, office email? <em>If a claim is checkable and nobody has checked it, you are not holding
         information, you are holding a rumor.</em> Check it: one email to the relevant office settles most campus
-        rumors in a day. (Your "Bloomerpool" study-away name is a live example — one Global Education email
-        resolves it.)</li>
+        rumors in a day — the same instinct that turned an unclear pathway document into confirmed prerequisite
+        chains for this app.</li>
     <li><strong>Incentive scan:</strong> who benefits if this spreads? Panic-sells in marketplace groups,
         section-switching stampedes before registration, and "that professor is impossible" talk all have
         beneficiaries.</li>

@@ -31,9 +31,10 @@ window.APP_SECTIONS["home"] = {
 <div class="card-grid">
   <div class="card">
     <h4>🎓 Degree goal</h4>
-    <p><strong>B.A. in Economics with a finance concentration</strong>, NYU Abu Dhabi, Class of 2030 (four years
-       from Fall 2026 entry — adjust if your start year differs). The concentration's anchor semester is your
-       New York junior fall; see the Four-Year Plan's finance layer.</p>
+    <p><strong>B.A. in Economics with a Finance and Market Studies concentration</strong> (confirm the exact
+       name), NYU Abu Dhabi, Class of 2030. Major: 72 credits; major-with-concentration: minimum 80 credits;
+       General Education: 26 credits. New York is the concentration's officially recommended, and your planned,
+       anchor semester — see the Four-Year Plan's finance layer.</p>
   </div>
   <div class="card">
     <h4>🏆 Long-term goal</h4>
@@ -48,9 +49,10 @@ window.APP_SECTIONS["home"] = {
   </div>
   <div class="card">
     <h4>✈️ Study away</h4>
-    <p><strong>Florence</strong> — sophomore spring. <strong>New York</strong> — junior fall.
-       (Your note said "New York/Bloomerpool" — see the Study Away section for an important
-       verification note about that second name.)</p>
+    <p><strong>Florence</strong> — sophomore spring (Gen Ed/exploration electives). <strong>New York</strong> —
+       junior fall (finance electives; officially recommended for your concentration). Your <strong>second</strong>
+       away semester (New York) requires a <strong>cumulative GPA ≥ 3.5</strong> — see Study Away and the GPA
+       Tracker.</p>
   </div>
   <div class="card">
     <h4>⏰ Schedule style</h4>
@@ -59,8 +61,9 @@ window.APP_SECTIONS["home"] = {
   </div>
   <div class="card">
     <h4>🧮 Math timing</h4>
-    <p>Calculus deferred to Y1 spring (your Plan A), summer as backup. The hard deadline: <strong>Calculus done
-       by end of Year 1</strong> — hold that, and graduation, study away, finance, and Rhodes all stay on time.</p>
+    <p>Calculus deferred to Y1 spring (your Plan A), an Abu Dhabi summer offering as backup — Calculus,
+       Multivariable Calculus, Data Analysis, and Econometrics must all be completed <strong>in Abu Dhabi</strong>,
+       never transferred in. The hard deadline: <strong>Calculus done by end of Year 1.</strong></p>
   </div>
 </div>
 
@@ -73,11 +76,11 @@ window.APP_SECTIONS["home"] = {
     <tr><td><strong>Packing &amp; Tech Setup</strong></td><td>What to pack vs. buy in Abu Dhabi, the documents list, and the digital setup to finish before you fly.</td></tr>
     <tr><td><strong>First Semester</strong></td><td>Your exact course plan, AEP prep, Calculus Plans A/B/C, summer-course options, and a morning + 1–3 PM schedule template.</td></tr>
     <tr><td><strong>Schedule Builder</strong></td><td>An interactive weekly grid: sketch candidate sections and get automatic checks against your morning + 1–3 PM, no-late-classes preference.</td></tr>
-    <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan that fits both study-away semesters and the Rhodes timeline.</td></tr>
-    <tr><td><strong>Core Curriculum</strong></td><td>How to choose Core courses strategically — including saving the right slots for Florence and the double-count question that can free a semester.</td></tr>
-    <tr><td><strong>J-Term &amp; Summers</strong></td><td>All three January Terms and all three summers planned — including the summer Calculus/Multivariable option and the research-vs-course decision.</td></tr>
+    <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan built on the official study-away prerequisite chains, the Abu-Dhabi-only course rule, the 3.5 GPA gate, and the Rhodes timeline.</td></tr>
+    <tr><td><strong>Core Curriculum</strong></td><td>The real Gen Ed structure (26 credits: PE, Quantitative Reasoning, Experimental Inquiry, Islamic Studies, Colloquia, Field Colloquia, four Core Competencies) and how to sequence it.</td></tr>
+    <tr><td><strong>J-Term &amp; Summers</strong></td><td>All three January Terms (including the two required Field Colloquia) and all three summers planned, with the Abu-Dhabi-only rule for math/econ requirements.</td></tr>
     <tr><td><strong>Rhodes Roadmap</strong></td><td>Eligibility, selection criteria, year-by-year actions, referee strategy, and honest backup scholarships.</td></tr>
-    <tr><td><strong>Study Away</strong></td><td>Florence and New York planning, what to ask Global Education, and course-planning rules while abroad.</td></tr>
+    <tr><td><strong>Study Away</strong></td><td>The official prerequisite chain per away semester, the 3.5 GPA gate on a second semester, concentration-site fit, and Florence/New York planning.</td></tr>
     <tr><td><strong>Professors &amp; Courses</strong></td><td>How to research professors in math, economics, and writing — plus a comparison tool where you rate clarity, grading fairness, workload, feedback, office hours, and Rhodes/Econ fit.</td></tr>
     <tr><td><strong>Advising</strong></td><td>Complete question banks for every advising topic you listed, plus how to run an advising meeting.</td></tr>
     <tr><td><strong>Writing Lab</strong></td><td>The craft section: argument mechanics, the five-pass revision workflow, and playbooks for FYWS, economics writing, and personal statements.</td></tr>

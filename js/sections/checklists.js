@@ -50,9 +50,10 @@ window.APP_SECTIONS["checklists"] = {
 
 <h3>✈️ Study-away application checklist (run twice: Florence, New York)</h3>
 <div class="card">
+  <label class="check"><input type="checkbox" data-ck="sa-0"> All prerequisite courses for this away semester confirmed complete (see Four-Year Plan / Study Away tables) — and, if this is your second away semester, cumulative GPA ≥ 3.5 confirmed via the GPA Tracker.</label>
   <label class="check"><input type="checkbox" data-ck="sa-1"> Global Education info session attended; application window and criteria noted.</label>
   <label class="check"><input type="checkbox" data-ck="sa-2"> Application submitted before deadline.</label>
-  <label class="check"><input type="checkbox" data-ck="sa-3"> 5–6 candidate courses identified at host site; pre-approval for major/Core credit obtained IN WRITING.</label>
+  <label class="check"><input type="checkbox" data-ck="sa-3"> 5–6 candidate courses identified at host site; pre-approval for major/Gen Ed credit obtained IN WRITING.</label>
   <label class="check"><input type="checkbox" data-ck="sa-4"> Visa process started (Italy/US) — earliest possible date, especially the US interview.</label>
   <label class="check"><input type="checkbox" data-ck="sa-5"> Housing application at host site submitted on opening day.</label>
   <label class="check"><input type="checkbox" data-ck="sa-6"> Insurance coverage abroad confirmed; flights booked; banking/phone plan sorted.</label>
@@ -125,8 +126,8 @@ window.APP_SECTIONS["checklists"] = {
   <summary>To an office — verifying a rumor (the two-line classic)</summary>
   <p><em>Subject: Quick verification — [claim]</em></p>
   <p>Dear [Office],</p>
-  <p>I have heard from other students that [claim — e.g., "the deadline for X moved to Y" / "a study-away site
-  called 'Bloomerpool' exists"]. Could you confirm whether this is accurate, or point me to the official
+  <p>I have heard from other students that [claim — e.g., "the deadline for X moved to Y" / "course Z no longer
+  requires this prerequisite"]. Could you confirm whether this is accurate, or point me to the official
   information?</p>
   <p>Thank you very much!<br>[Name], [Year]</p>
 </details>

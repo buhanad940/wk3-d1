@@ -20,20 +20,25 @@ window.APP_SECTIONS["glossary"] = {
     <tr><td><strong>AEP</strong></td><td>Academic Enrichment Program — pre-first-year academic preparation (your reading + FYWS prep track, continuing into fall as the zero-credit Methods of the Written Voice writing course).</td></tr>
     <tr><td><strong>Albert</strong></td><td>NYU's student information system — registration, course search, grades. The only authoritative source for course times.</td></tr>
     <tr><td><strong>ARC</strong></td><td>Academic Resource Center — tutoring, academic coaching, study-skills workshops.</td></tr>
-    <tr><td><strong>Capstone</strong></td><td>The senior-year research project every NYUAD student completes in their major.</td></tr>
-    <tr><td><strong>Core</strong></td><td>The Core Curriculum — required courses across disciplinary categories outside your major.</td></tr>
+    <tr><td><strong>Capstone</strong></td><td>Your two-course senior research sequence in Economics: Capstone Seminar (ECON-UH 4020) then Capstone Project (ECON-UH 4099).</td></tr>
+    <tr><td><strong>Core Competencies</strong></td><td>Four required Gen Ed areas: Arts, Design, and Technology; Cultural Exploration and Analysis; Data and Discovery; Structures of Thought and Society — one course each (see Core Curriculum section).</td></tr>
     <tr><td><strong>D2</strong></td><td>The main dining hall (from "Dining 2" in campus building shorthand). Where campus actually socializes.</td></tr>
-    <tr><td><strong>FYWS</strong></td><td>First-Year Writing Seminar — your Methods of the Written Voice.</td></tr>
+    <tr><td><strong>ECON-UH / MATH-UH / SOCSC-UH</strong></td><td>Course code prefixes: Economics, Mathematics, and Social Science courses respectively. Your major draws from all three (e.g., SOCSC-UH 1111 Markets, MATH-UH 1013 Calculus, SOCSC-UH 3220 Econometrics).</td></tr>
+    <tr><td><strong>Field Colloquia</strong></td><td>A Gen Ed requirement satisfied by two specific J-Term courses — not the same as the separate "Colloquia" requirement.</td></tr>
+    <tr><td><strong>FYWS</strong></td><td>First-Year Writing Seminar — your credited Gen Ed writing requirement, distinct from Methods of the Written Voice (which runs as your zero-credit AEP writing course).</td></tr>
     <tr><td><strong>The Gazelle</strong></td><td>The independent student news publication of NYUAD.</td></tr>
+    <tr><td><strong>General Education (Gen Ed)</strong></td><td>NYUAD's 26-credit set of requirements outside the major — Physical Education, Quantitative Reasoning, Experimental Inquiry, Islamic Studies, FYWS, Colloquia, Field Colloquia, and the four Core Competencies. Sometimes informally called "Core."</td></tr>
+    <tr><td><strong>GEPS</strong></td><td>Global Economic, Political, and Social Development in Historical Perspective — one of two courses (with Introduction to Macroeconomics) that satisfy the sophomore-spring-away prerequisite and likely your SPEH requirement.</td></tr>
     <tr><td><strong>Global Education</strong></td><td>The office managing study away, J-Term travel, and global programs.</td></tr>
     <tr><td><strong>Handshake</strong></td><td>The jobs/internships platform used for on-campus roles and employer postings (name may evolve — ask Career Development for the current one).</td></tr>
-    <tr><td><strong>J-Term</strong></td><td>January Term — one intensive ~3-week course between semesters, sometimes with travel.</td></tr>
+    <tr><td><strong>J-Term</strong></td><td>January Term — one intensive ~3-week course between semesters, sometimes with travel. Two of your three must be Field Colloquia.</td></tr>
     <tr><td><strong>Marhaba</strong></td><td>"Welcome" in Arabic — the name of first-year orientation.</td></tr>
     <tr><td><strong>NetID</strong></td><td>Your NYU-wide login identity (letters + numbers). On every form forever.</td></tr>
     <tr><td><strong>RA</strong></td><td>Resident Assistant — upperclassman support figure in housing. (In research contexts: Research Assistant. Context disambiguates.)</td></tr>
     <tr><td><strong>Saadiyat</strong></td><td>The island campus and cultural district ("Saadiyat" = "island of happiness").</td></tr>
     <tr><td><strong>SIG</strong></td><td>Student Interest Group — official name for student clubs/organizations.</td></tr>
-    <tr><td><strong>Study away</strong></td><td>A semester at another NYU global site (your Florence + New York semesters).</td></tr>
+    <tr><td><strong>SPET / SPEH</strong></td><td>Social, Political, and Economic Theory / History — two required Social Science Foundations courses in the Economics major, alongside Statistics and Markets.</td></tr>
+    <tr><td><strong>Study away</strong></td><td>A semester at another NYU global site, allowed only in sophomore spring, junior fall, or junior spring (your Florence + New York semesters). A second away semester requires a cumulative GPA ≥ 3.5.</td></tr>
     <tr><td><strong>Wasserman</strong></td><td>NYU New York's career center (relevant during your junior fall).</td></tr>
     <tr><td><strong>Wellness Exchange</strong></td><td>NYU's 24/7 mental-health hotline and app.</td></tr>
     <tr><td><strong>Karak</strong></td><td>Sweet spiced tea, the unofficial beverage of the UAE. 1–2 AED of national infrastructure.</td></tr>
@@ -56,17 +61,28 @@ window.APP_SECTIONS["glossary"] = {
 <details>
   <summary>I'm skipping math in my first semester — does that hurt my Economics major or graduation?</summary>
   <p>No, provided one deadline holds: <strong>Calculus completed by the end of Year 1</strong> (spring is the
-  plan, summer is the firewall). Semester one itself needs no math — Markets is an intro course. The math chain
-  (Calculus → intermediate theory → econometrics) is timed against your study-away semesters, not against the
-  first semester. Full analysis and the updated Plans A/B/C: First Semester section.</p>
+  plan, an NYUAD Abu Dhabi summer offering is the firewall — not an outside transfer course, since Calculus
+  must be completed in Abu Dhabi). Semester one itself needs no math — Markets is an intro course. The math
+  chain (Calculus → Intermediate Micro/Macro + Data Analysis + Multivariable Calculus → Econometrics) is timed
+  against the official study-away prerequisite chain, not against the first semester. Full analysis and the
+  updated Plans A/B/C: First Semester section.</p>
+</details>
+
+<details>
+  <summary>Is Multivariable Calculus actually required?</summary>
+  <p>Yes — under the official Economics pathway it is a required major course for everyone, not an optional
+  "mathematical track" add-on. It must be completed in Abu Dhabi and finished before junior-year study away
+  (it is also a stated prerequisite for advanced electives and for Intermediate Microeconomics specifically at
+  some study-away sites). See the Four-Year Plan's official course list.</p>
 </details>
 
 <details>
   <summary>Can I really study away twice as an Economics major?</summary>
-  <p>The plan in this app is built for exactly that (Florence Y2 spring, New York Y3 fall), and it is a
-  well-trodden path — but it requires the sequencing discipline in the Four-Year Plan: theory courses
-  positioned around the away semesters, courses pre-approved in writing, capstone groundwork protected in
-  Y3 spring. Confirm the whole shape with your adviser in Year 1.</p>
+  <p>Yes — the official pathway explicitly allows sophomore spring, junior fall, and junior spring as away-eligible
+  semesters, and your plan (Florence, then New York) uses two of the three. The catch: your <strong>second</strong>
+  away semester requires a cumulative GPA of at least 3.5, and each semester has its own cumulative prerequisite
+  list (Four-Year Plan and Study Away sections have the exact courses). Track your GPA from Year 1 so this is
+  confirmed, not assumed, by the time you apply for New York.</p>
 </details>
 
 <details>
@@ -86,11 +102,13 @@ window.APP_SECTIONS["glossary"] = {
 </details>
 
 <details>
-  <summary>What is "Bloomerpool"?</summary>
-  <p>Unknown to this guide — it appeared in your own plan notes as a possible name for the junior-fall site
-  alongside New York, and it does not match any commonly listed NYU global site. It is this app's live example
-  of rumor hygiene: an unverified name gets flagged, not repeated as fact. Ask Global Education; update your
-  plan with whatever the official answer is.</p>
+  <summary>Why is Florence not on the recommended list for my finance concentration?</summary>
+  <p>Because sophomore spring (when Florence happens in your plan) is before the prerequisites for
+  concentration-level electives are complete — you are not yet eligible for the 300-level courses a finance
+  concentration draws on. Florence's official recommendation is for the "Applied Economics and Economic Policy"
+  concentration, which fits an exploration-focused sophomore semester regardless of your own concentration.
+  Your concentration's actual anchor semester is New York, junior fall, which <em>is</em> on the recommended
+  list. See Study Away's concentration-site table.</p>
 </details>
 
 <details>

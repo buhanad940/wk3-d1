@@ -13,6 +13,13 @@ window.APP_SECTIONS["gpa-tools"] = {
   scale — confirm current official grading policy with the Registrar.
 </p>
 
+<div class="callout danger">
+  <strong>Your specific gate: a second study-away semester requires a cumulative GPA of at least 3.5.</strong>
+  Your plan uses two away semesters (Florence, then New York) — New York, the second one, is gated on this
+  number at the point you apply (roughly end of Y2 spring / summer). Use this tracker every semester from
+  Year 1 onward so a dip shows up with time to recover, not during the application window itself.
+</div>
+
 <div class="callout info">
   <strong>Points scale used:</strong> A = 4.0, A− = 3.667, B+ = 3.333, B = 3.0, B− = 2.667, C+ = 2.333,
   C = 2.0, C− = 1.667, D+ = 1.333, D = 1.0, F = 0. Pass/Fail courses are excluded from GPA (mark them P to

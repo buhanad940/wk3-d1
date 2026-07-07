@@ -72,8 +72,8 @@ window.APP_SECTIONS["support"] = {
         travel courses. Your Florence and New York timelines (Study Away section) are executed through them.</li>
     <li>Go to their info sessions in year one even though your study away is a year off — deadlines are set by
         their calendar, not yours.</li>
-    <li>They are also the authoritative source for the official site list — including resolving your
-        "Bloomerpool" question.</li>
+    <li>They are also the authoritative source for confirming your prerequisite completion and GPA gate before
+        each away application — do not rely on self-tracking alone for the final sign-off.</li>
   </ul>
 </div>
 

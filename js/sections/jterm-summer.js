@@ -9,9 +9,16 @@ window.APP_SECTIONS["jterm-summer"] = {
 <h2>J-Terms &amp; Summers — The Hidden Third of Your Degree</h2>
 <p class="section-lede">
   Between fall and spring sits NYUAD's January Term; between years sit three summers. Together they are roughly
-  a third of your available time, and they are where Calculus Plan C, research experience, internships, and the
-  Rhodes anchor story actually live. This section plans all of them.
+  a third of your available time, and they are where a required Gen Ed category, research experience,
+  internships, and the Rhodes anchor story actually live. This section plans all of them.
 </p>
+
+<div class="callout warn">
+  <strong>Two of your three J-Terms have a real requirement attached.</strong> Your General Education
+  requirements include <strong>Field Colloquia — two J-Term courses</strong> specifically designated as such
+  (see Core Curriculum section). Plan two of your three J-Terms around this category; your third is free for
+  anything else.
+</div>
 
 <h3>How J-Term works (the essentials)</h3>
 <div class="card">
@@ -37,22 +44,24 @@ window.APP_SECTIONS["jterm-summer"] = {
   <tbody>
     <tr>
       <td><strong>Year 1</strong></td>
-      <td>A Core-category course that genuinely excites you — ideally with a travel component, since your
-          semesters already have fixed duties. First J-Term = range and recovery.</td>
-      <td><em>Plan C variant:</em> if Calculus missed both fall and spring options, ask whether any math offering
-          exists in J-Term (rare — verify, do not assume).</td>
+      <td>Your first <strong>Field Colloquia</strong> course — ideally one that genuinely excites you, possibly
+          with a travel component. Knocking one of the two out early removes it from later, busier years.</td>
+      <td><em>If Calculus was missed in both fall and spring:</em> J-Term math offerings are rare and, per the
+          Abu-Dhabi-only rule, would need to be an NYUAD Abu Dhabi offering — verify with the Registrar, do not
+          assume one exists.</td>
     </tr>
     <tr>
       <td><strong>Year 2</strong></td>
       <td>Course adjacent to your emerging economics interests (development, environment, policy, data) —
-          by now you know your capstone-ish direction and can feed it.</td>
+          by now you know your capstone-ish direction and can feed it. Use this one for the second Field
+          Colloquia if it fits, or save that for Year 3.</td>
       <td>An Abu Dhabi-based J-Term if you want January for research assistance or internship applications
           (the quiet campus is excellent for deep work).</td>
     </tr>
     <tr>
       <td><strong>Year 3</strong></td>
-      <td>Light-touch: you return from New York in December and Rhodes season starts in spring. A course in
-          Abu Dhabi keeps January calm while you hold referee conversations and draft materials.</td>
+      <td>Your second <strong>Field Colloquia</strong> course if not yet completed — you return from New York
+          in December and Rhodes season starts in spring, so a course in Abu Dhabi keeps January calm.</td>
       <td>Skip-pattern (if policy allows): use January purely for capstone preparation reading and application
           work — ask your adviser whether that is permitted in your requirement structure.</td>
     </tr>
@@ -64,12 +73,13 @@ window.APP_SECTIONS["jterm-summer"] = {
 <div class="card">
   <h4>Summer 1 (after Year 1): Skills + optional course</h4>
   <ul>
-    <li><strong>Your stated option — summer Calculus or Multivariable:</strong> viable if (a) an approved
-        offering exists (NYU summer sessions, another university with pre-approval, or an NYUAD option),
-        (b) prerequisites line up (Multivariable requires completed Calculus), and (c) credit transfer is
-        approved <em>in writing before enrolling</em>. The Advising section has the exact question script.</li>
-    <li>Pair with something human-scale: a part-time research assistantship, a structured volunteering project
-        at home, or a data-skills sprint (spreadsheet mastery → R or Stata basics before econometrics).</li>
+    <li><strong>Correction to earlier plans:</strong> Calculus, Multivariable Calculus, Data Analysis, and
+        Econometrics <strong>must be completed in Abu Dhabi</strong> — no outside-university transfer credit,
+        even in summer. If Calculus needs a summer backup, it must be an <strong>NYUAD-administered Abu Dhabi
+        summer offering</strong>, if one exists — verify with the Registrar before counting on it. Multivariable
+        Calculus is a required major course (not optional), typically taken in Year 2 rather than summer 1.</li>
+    <li>Pair the summer with something human-scale: a part-time research assistantship, a structured volunteering
+        project at home, or a data-skills sprint (spreadsheet mastery → R or Stata basics before econometrics).</li>
     <li>Recovery counts. Ten weeks of guilt-free family time plus one meaningful project beats a frantic
         prestige summer at this stage.</li>
   </ul>
@@ -93,7 +103,7 @@ window.APP_SECTIONS["jterm-summer"] = {
 <h3>Summer course pre-flight checklist</h3>
 <div class="card">
   <label class="check"><input type="checkbox" data-ck="js-1"> Offering confirmed to exist for that specific summer (not "usually exists").</label>
-  <label class="check"><input type="checkbox" data-ck="js-2"> Written pre-approval for credit transfer obtained (form filed, reply saved).</label>
+  <label class="check"><input type="checkbox" data-ck="js-2"> For Calculus/Multivariable/Data Analysis/Econometrics specifically: confirmed it is an NYUAD Abu Dhabi offering, not an outside transfer (these four must be completed in Abu Dhabi).</label>
   <label class="check"><input type="checkbox" data-ck="js-3"> Prerequisite chain verified (esp. Calculus → Multivariable).</label>
   <label class="check"><input type="checkbox" data-ck="js-4"> Cost + financial aid coverage confirmed (summer aid differs from semester aid).</label>
   <label class="check"><input type="checkbox" data-ck="js-5"> Housing/visa implications checked if the course is in-person somewhere.</label>

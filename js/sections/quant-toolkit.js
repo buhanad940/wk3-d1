@@ -54,9 +54,9 @@ window.APP_SECTIONS["quant-toolkit"] = {
     <li><strong>During Calculus:</strong> the error log + weekly mixed sweep (Study Habits) + standing ARC slot.
         If Plans B/C delay the course, keep algebra warm with light weekly practice — math skills decay
         measurably in a gap year… or gap semester.</li>
-    <li><strong>Multivariable decision:</strong> take it if graduate school is plausible (the Advising section
-        has the exact question). The jump is real but smaller than rumor claims — it is Calculus with more
-        dimensions, not a different sport.</li>
+    <li><strong>Multivariable Calculus is required, not optional</strong> under the official Economics pathway —
+        and it must be completed in Abu Dhabi before junior-year study away. The jump from Calculus is real but
+        smaller than rumor claims — it is Calculus with more dimensions, not a different sport.</li>
     <li><strong>Econometrics is where the streams merge:</strong> statistics + calculus + software. Students who
         arrive with all three strands warm call it the best course of the major; students missing one call it
         the hardest. The ladder above exists to make you the first kind.</li>

@@ -6,57 +6,129 @@ window.APP_SECTIONS["four-year"] = {
   title: "Four-Year Plan",
   icon: "🗺️",
   html: `
-<h2>Four-Year Plan — Economics + Finance Concentration, Two Study-Aways, Rhodes Track <span class="badge confirm">verify with adviser</span></h2>
+<h2>Four-Year Plan — Economics + Finance Concentration, Two Study-Aways, Rhodes Track <span class="badge core">official pathway</span></h2>
 <p class="section-lede">
-  A full semester-by-semester map from AEP to graduation. It fits your fixed points — Economics major with a
-  <strong>finance concentration</strong>, Florence in sophomore spring, New York in junior fall, Rhodes
-  application in senior fall — and shows where Calculus Plans B/C and summer courses slot in. Course names are
-  representative; exact requirements come from the official Economics program page and your adviser.
+  This plan now incorporates the actual NYUAD Economics study-away pathway you provided — exact prerequisite
+  courses per away semester, the courses that must stay in Abu Dhabi, and the GPA gate on a second away
+  semester. Where something is still program-specific detail (exact section times, elective lists), it is
+  flagged for your adviser; everything else below reflects the official rules as given.
 </p>
 
-<h3>The finance concentration — how it plugs into this plan</h3>
-<div class="callout warn">
-  <strong>Confirm the mechanism first.</strong> "Concentration in finance" can be delivered several ways
-  depending on current NYUAD policy: a formal concentration/track inside the Economics major, a minor or
-  cross-listed program, or a deliberate cluster of finance electives on your transcript plus finance-focused
-  capstone work. All three end in the same place — an economics graduate with demonstrable finance depth —
-  but the paperwork differs. The Advising section now has the exact questions; ask them in your first-year
-  advising meetings so the requirement math is settled before sophomore registration.
+<h3>The official study-away pathway, in one table</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Away semester</th><th>Must be completed BEFORE it (cumulative)</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>Sophomore spring</strong> (your Florence semester)</td>
+      <td>Markets · Statistics for the Social and Behavioral Sciences · Calculus with Applications to Economics ·
+          <strong>either</strong> GEPS (Global Economic, Political, and Social Development in Historical
+          Perspective) <strong>or</strong> Introduction to Macroeconomics</td>
+      <td>The earliest away option. You will <strong>not yet</strong> be eligible for advanced (300-level)
+          economics electives at the site — see the eligibility note below.</td>
+    </tr>
+    <tr>
+      <td><strong>Junior fall</strong> (your New York semester)</td>
+      <td>Everything above, <strong>plus</strong>: Intermediate Microeconomics · Intermediate Macroeconomics ·
+          Data Analysis: Economics · Multivariable Calculus</td>
+      <td>This is also the threshold for 300-level electives abroad. <strong>Data Analysis and Multivariable
+          Calculus must themselves be completed in Abu Dhabi</strong> (see the AD-only rule below) — so by
+          junior fall you are going abroad only for electives, not for these requirements.</td>
+    </tr>
+    <tr>
+      <td><strong>Junior spring</strong> (not your plan, shown for completeness)</td>
+      <td>Everything above, <strong>plus</strong>: Economics of Imperfect Markets · Econometrics</td>
+      <td>Econometrics must also be completed in Abu Dhabi — so junior spring away is likewise elective-only
+          for economics coursework.</td>
+    </tr>
+  </tbody>
+</table>
 </div>
-<div class="card">
-  <h4>💹 The finance layer, year by year</h4>
-  <ul>
-    <li><strong>Year 1:</strong> nothing changes — Markets, Calculus, and statistics ARE the finance foundation.
-        Optional: join a finance/investment SIG to start the vocabulary early (see Leadership section).</li>
-    <li><strong>Year 2 (Abu Dhabi fall):</strong> take the foundational finance course NYUAD offers (corporate
-        finance / foundations of financial markets — whatever the current catalog names it) once intermediate
-        micro and statistics are underway. This is also when Summer 2 finance internship applications open.</li>
-    <li><strong>Year 3 fall (New York) — the concentration's anchor semester:</strong> New York has one of the
-        deepest finance course catalogs anywhere (including Stern cross-registration options where NYUAD
-        students are permitted — verify access and credit rules early). Target 1–2 finance courses here:
-        corporate finance, valuation, capital markets, or financial econometrics. Pre-approve them for
-        concentration/major credit in writing, like every study-away course.</li>
-    <li><strong>Year 3 spring–Year 4:</strong> one more finance elective in Abu Dhabi if required, and — the
-        high-leverage move — point the <strong>capstone</strong> at a finance question (asset pricing, banking,
-        sovereign wealth, Gulf capital markets). A finance capstone makes the concentration visible in every
-        interview and application.</li>
-    <li><strong>Threaded throughout:</strong> the Data &amp; Quant Toolkit ladder doubles as finance preparation —
-        spreadsheets → statistics → econometrics is exactly the technical stack finance recruiting tests.</li>
-  </ul>
-  <p><strong>Rhodes note:</strong> a finance concentration and a Rhodes narrative are fully compatible — frame it
-  as understanding how capital flows shape development, markets, and policy (which is also honest). What weakens
-  a Rhodes file is not finance; it is depth in nothing. The concentration adds depth.</p>
+
+<div class="callout danger">
+  <strong>The GPA gate — this applies directly to you.</strong> A <strong>second</strong> study-away semester
+  requires a <strong>cumulative GPA of at least 3.5</strong> at the point of application. Your plan uses two
+  away semesters (Florence, then New York), so New York is gated on this. Track your GPA every semester in the
+  GPA &amp; Grade Tracker section — if a semester dips, you have time to recover before the New York application
+  checkpoint, but only if you are watching it from Year 1, not discovering it in Year 2.
 </div>
 
 <div class="callout warn">
-  <strong>How to read this plan.</strong> NYUAD degrees combine: (1) the <strong>major</strong> (Economics:
-  intro courses, statistics/econometrics, intermediate micro and macro theory, electives, and a senior
-  <strong>capstone</strong>), (2) the <strong>Core Curriculum</strong> (courses across NYUAD's Core categories),
-  (3) the <strong>First-Year Writing Seminar</strong>, and (4) <strong>January Terms (J-Terms)</strong> and free
-  electives. Exact counts, categories, and math requirements (Calculus vs. Multivariable, which statistics course)
-  must be confirmed against the current bulletin — programs update their requirements. Your adviser signs off on
-  the real version of this plan.
+  <strong>The Abu-Dhabi-only rule.</strong> <strong>Calculus, Multivariable Calculus, Data Analysis: Economics
+  (ECON-UH 2020), and Econometrics (SOCSC-UH 3220) must be completed in Abu Dhabi</strong> — not transferred in
+  from elsewhere and not taken at a study-away site. This replaces any earlier idea of taking Calculus via an
+  outside summer program: your Plan B/C backups (First Semester section) must be an NYUAD-administered
+  offering, not a transfer course, for this specific set of four courses.
 </div>
+
+<div class="callout info">
+  <strong>The strong recommendation, and why it is not just pedagogical.</strong> NYUAD strongly recommends
+  taking <strong>all required Economics major courses in Abu Dhabi</strong> and using study away purely for
+  <strong>electives</strong> (inside or outside Economics). Two concrete reasons: (1) prerequisites for required
+  courses sometimes differ by site (e.g., Multivariable Calculus is a prerequisite for Intermediate
+  Microeconomics specifically at NYU London), and (2) required-course seats at major sites are limited and can
+  fill. This plan follows that recommendation — every required course below is scheduled in Abu Dhabi;
+  Florence and New York carry electives.
+</div>
+
+<h3>Your finance concentration — matched against the real site recommendations</h3>
+<div class="card">
+  <p>Concentration-recommended sites (as given): <strong>Quantitative Economic Analysis</strong> → NYU New York.
+  <strong>Finance and Market Studies</strong> → NYU London, New York, Shanghai, Tel Aviv.
+  <strong>Applied Economics and Economic Policy</strong> → NYU Accra, Florence, Paris, Washington DC.</p>
+  <ul>
+    <li>Your finance concentration is very likely NYUAD's <strong>"Finance and Market Studies"</strong> track —
+        confirm the exact name with your adviser. <strong>New York is on its recommended list</strong>, which
+        lines up perfectly with your junior-fall plan.</li>
+    <li><strong>Florence is officially recommended for the "Applied Economics and Economic Policy" concentration,
+        not finance</strong> — but that is not a conflict for you: sophomore spring is before you are even
+        eligible for concentration-level (300+) electives, so Florence's role in your plan is Gen Ed / exploration
+        electives regardless of concentration, exactly as recommended above.</li>
+    <li><strong>The unlock course for finance electives abroad:</strong> Introduction to Accounting and
+        Foundations of Financial Markets (and sometimes Corporate Finance) are prerequisites for most finance
+        electives at study-away sites. <strong>Take these in Abu Dhabi before New York</strong> — this is the
+        single most important piece of prep for your concentration semester.</li>
+    <li><strong>Capstone:</strong> point your two-course capstone sequence (Capstone Seminar + Capstone Project)
+        at a finance question — this is what makes the concentration visible on paper, on top of the electives.</li>
+  </ul>
+  <p><strong>Rhodes note:</strong> a finance concentration and a Rhodes narrative are fully compatible — frame it
+  as understanding how capital flows shape development, markets, and policy (which is also honest).</p>
+</div>
+
+<div class="callout warn">
+  <strong>How the degree is structured (official numbers).</strong> <strong>General Education: 26 credits</strong>
+  (Physical Education ×2, Quantitative Reasoning, Experimental Inquiry, Islamic Studies, First-Year Writing
+  Seminar, Colloquia, Field Colloquia ×2 J-Terms, and four Core Competency areas — see the Core Curriculum
+  section). <strong>Major Requirements: 72 credits</strong> (the Economics course list below). <strong>The major
+  with a concentration requires a minimum of 80 credits</strong> — the extra credits beyond the 72-credit core
+  list come from concentration-specific electives; ask your adviser for the itemized 80-credit breakdown and how
+  it totals against the full degree (Gen Ed + major + free electives).
+</div>
+
+<h3>The required Economics course list (as given)</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Course</th><th>Title</th><th>Where</th></tr></thead>
+  <tbody>
+    <tr><td>SOCSC-UH 1010</td><td>Statistics for the Social and Behavioral Sciences</td><td>Abu Dhabi (before any away semester)</td></tr>
+    <tr><td>SOCSC-UH 1111</td><td>Markets</td><td>Abu Dhabi (before any away semester)</td></tr>
+    <tr><td>—</td><td>One Social, Political, and Economic Theory (SPET) course</td><td>Abu Dhabi</td></tr>
+    <tr><td>—</td><td>One Social, Political, and Economic History (SPEH) course (GEPS is a common choice)</td><td>Abu Dhabi</td></tr>
+    <tr><td>ECON-UH 2010</td><td>Intermediate Microeconomics</td><td>Abu Dhabi (before junior fall/spring away)</td></tr>
+    <tr><td>ECON-UH 2020</td><td>Data Analysis: Economics</td><td><strong>Abu Dhabi only</strong></td></tr>
+    <tr><td>ECON-UH 2030</td><td>Intermediate Macroeconomics <span style="font-size:0.85em">(prereq: GEPS/SOCSC-UH 1011 or Intro Macro/ECON-UH 1112)</span></td><td>Abu Dhabi (before junior fall/spring away)</td></tr>
+    <tr><td>ECON-UH 3010</td><td>Economics of Imperfect Markets</td><td>Abu Dhabi (before junior spring away)</td></tr>
+    <tr><td>ECON-UH 4000</td><td>Economic Policy (or ECON-UH 3030 Economic Growth)</td><td>Abu Dhabi, senior year</td></tr>
+    <tr><td>MATH-UH 1013</td><td>Calculus with Applications to Economics</td><td><strong>Abu Dhabi only</strong>, before any away semester</td></tr>
+    <tr><td>MATH-UH 1021</td><td>Multivariable Calculus with Applications to Economics</td><td><strong>Abu Dhabi only</strong>, before junior fall/spring away</td></tr>
+    <tr><td>SOCSC-UH 3220</td><td>Econometrics</td><td><strong>Abu Dhabi only</strong>, before junior spring away</td></tr>
+    <tr><td>ECON-UH 4020 / 4099</td><td>Capstone Seminar / Capstone Project</td><td>Abu Dhabi, senior year</td></tr>
+  </tbody>
+</table>
+</div>
+<p style="font-size:0.88rem;color:var(--ink-soft)">Multivariable Calculus is a <strong>required</strong> major
+course for every Economics student under this pathway — not an optional "mathematical track" add-on as earlier
+drafts of this plan assumed. It must be scheduled and completed in Abu Dhabi before junior year away.</p>
 
 <h3>Year 1 — Foundations</h3>
 
@@ -67,16 +139,16 @@ window.APP_SECTIONS["four-year"] = {
 
 <div class="semester">
   <h4>Fall, Year 1 — writing-heavy, math-free, ~12 credits</h4>
-  <p class="sem-note">Your updated intent: FYWS + Markets + one Core course (~12 credits), plus Methods of the
+  <p class="sem-note">Your updated intent: FYWS + Markets + one Gen Ed course (~12 credits), plus Methods of the
   Written Voice as a zero-credit AEP writing course, and no math this semester by choice. Fully compatible with
   the Economics major — the analysis, the credit-pacing math, and the one hard deadline are in the First
   Semester section.</p>
   <ul>
     <li><strong>First-Year Writing Seminar</strong> (credited; the official FYWS requirement — confirm which
         course carries the designation).</li>
-    <li><strong>Markets</strong> (credited; Economics intro — no math prerequisite; verify in the current catalog).</li>
-    <li><strong>One Core course</strong> (credited; the natural third course with math deferred — pick via the
-        Core Curriculum section's 10-minute test).</li>
+    <li><strong>Markets</strong> (SOCSC-UH 1111, credited; no math prerequisite).</li>
+    <li><strong>One Gen Ed course</strong> (credited — Islamic Studies or a Core Competency area are natural
+        picks; see Core Curriculum section).</li>
     <li><strong>Methods of the Written Voice</strong> — zero-credit AEP writing course alongside (real deadlines,
         no GPA exposure).</li>
     <li><em>Credit note:</em> ~12 credits is the gentle-start load; the missing ~4 come back via J-Terms or a
@@ -90,12 +162,10 @@ window.APP_SECTIONS["four-year"] = {
 <div class="semester">
   <h4>J-Term, Year 1 (January)</h4>
   <ul>
-    <li>A J-Term course — ideally something outside Economics that shows intellectual range (a Core category
-        fits well here). J-Terms sometimes include regional/international travel components; take one that
-        genuinely interests you.</li>
-    <li><em>Math on-ramp:</em> since Calculus now lands in spring, January is also the moment to warm up the
-        algebra (the Data &amp; Quant Toolkit's refresher list) — 30 minutes a day in J-Term makes spring
-        Calculus dramatically smoother.</li>
+    <li>Ideally a <strong>Field Colloquia</strong> course — two of your three J-Terms need to satisfy this Gen
+        Ed category, so it is efficient to knock one out in Year 1 (see Core Curriculum section).</li>
+    <li><em>Math on-ramp:</em> since Calculus lands in spring, January is also the moment to warm up the algebra
+        (the Data &amp; Quant Toolkit's refresher list) — 30 minutes a day makes spring Calculus smoother.</li>
   </ul>
 </div>
 
@@ -104,13 +174,13 @@ window.APP_SECTIONS["four-year"] = {
   <p class="sem-note">The mirror image of your writing-heavy fall: math and numbers move to the front. This is
   the semester that keeps the whole four-year machine on time.</p>
   <ul>
-    <li><strong>Calculus</strong> — now your Plan A slot. Priority registration, morning section, standing ARC
-        tutoring from week 1. <em>This course completing on time is the single hinge of the plan.</em></li>
-    <li><strong>Statistics for economists / introductory statistics</strong> (if your adviser confirms it pairs
-        well alongside Calculus — otherwise it shifts to Y2 fall).</li>
-    <li><strong>Second Economics course</strong> or a Core/reading course to balance the quantitative load.</li>
-    <li><em>Backup awareness:</em> if this semester's Calculus falls through for any reason, the summer route
-        (Plan B) activates immediately — see First Semester section.</li>
+    <li><strong>Calculus with Applications to Economics</strong> (MATH-UH 1013) — your Plan A slot, in Abu Dhabi.
+        Priority registration, morning section, standing ARC tutoring from week 1. <em>This course completing on
+        time is the single hinge of the plan.</em></li>
+    <li><strong>Statistics for the Social and Behavioral Sciences</strong> (SOCSC-UH 1010) — a hard prerequisite
+        for Florence, so pair it here if your adviser confirms it fits alongside Calculus.</li>
+    <li><strong>GEPS or Introduction to Macroeconomics</strong> — the fourth sophomore-spring-away prerequisite;
+        take whichever fits your Gen Ed plan (GEPS can also satisfy your SPEH requirement).</li>
   </ul>
   <p><strong>Rhodes moves:</strong> commit to 1–2 organizations; apply for a first-year summer opportunity
   (research assistant, internship, community project).</p>
@@ -120,14 +190,12 @@ window.APP_SECTIONS["four-year"] = {
   <h4>Summer after Year 1</h4>
   <ul>
     <li><strong>If spring Calculus succeeded:</strong> the summer is free for the good stuff — research
-        assistance, an internship/community project, first scripting language (Data &amp; Quant Toolkit), or
-        optionally <strong>Multivariable Calculus</strong> if an approved summer offering exists and the
-        mathematical track appeals.</li>
-    <li><strong>If spring Calculus did NOT happen (Plan B):</strong> summer <strong>Calculus</strong> becomes the
-        priority — an NYU summer offering or a pre-approved transfer course (run the J-Term &amp; Summers
-        pre-flight checklist). Everything else fits around it.</li>
-    <li>Course + one part-time project can combine; course + two projects cannot. Do not overload the first
-        summer.</li>
+        assistance, an internship/community project, or the first scripting language (Data &amp; Quant
+        Toolkit). Do not plan outside-transfer math credit here — Calculus/Multivariable/Data Analysis/
+        Econometrics must be NYUAD-Abu-Dhabi courses.</li>
+    <li><strong>If spring Calculus did NOT happen (Plan B):</strong> an NYUAD-administered Abu Dhabi summer
+        offering of Calculus becomes the priority, if one exists — verify with the Registrar (run the J-Term
+        &amp; Summers pre-flight checklist). Everything else fits around it.</li>
   </ul>
 </div>
 
@@ -135,15 +203,14 @@ window.APP_SECTIONS["four-year"] = {
 
 <div class="semester">
   <h4>Fall, Year 2 (in Abu Dhabi)</h4>
-  <p class="sem-note">Front-load requirements that are hard to take abroad, because spring is Florence.</p>
+  <p class="sem-note">Front-load requirements that must be done in Abu Dhabi anyway, since spring is Florence.</p>
   <ul>
-    <li><strong>Intermediate Microeconomics</strong> (or the NYUAD equivalent gateway theory course).</li>
-    <li><strong>Econometrics / statistics sequence course</strong> as required.</li>
-    <li><strong>Multivariable Calculus</strong> <em>if</em> you choose the more mathematical track (recommended if
-        graduate school in economics is on your radar — ask your adviser whether the major/track requires it).</li>
-    <li><strong>Foundational finance course</strong> (corporate finance / financial markets — current catalog
-        name varies) — the concentration's first dedicated course, or a Core course here and finance in spring,
-        depending on offerings.</li>
+    <li><strong>Intermediate Microeconomics</strong> (ECON-UH 2010).</li>
+    <li><strong>Data Analysis: Economics</strong> (ECON-UH 2020) — Abu-Dhabi-only, and needed before junior fall.</li>
+    <li><strong>Introduction to Accounting</strong> and/or <strong>Foundations of Financial Markets</strong> —
+        the finance-concentration prerequisites you need before New York's finance electives unlock.</li>
+    <li><em>If it doesn't all fit:</em> Multivariable Calculus can shift to Y2 spring-adjacent scheduling or
+        Y3 spring instead — see it as flexible within Year 2–3, but it must land before junior-year away.</li>
   </ul>
   <p><strong>Rhodes moves:</strong> take a real leadership role in one organization; ask an economics professor
   about joining research; check the Rhodes UAE information session if offered.</p>
@@ -151,12 +218,13 @@ window.APP_SECTIONS["four-year"] = {
 
 <div class="semester away">
   <h4>Spring, Year 2 — STUDY AWAY: FLORENCE 🇮🇹</h4>
-  <p class="sem-note">NYU Florence, at Villa La Pietra. Plan courses BEFORE you go (see Study Away section).</p>
+  <p class="sem-note">NYU Florence, at Villa La Pietra. Because 300-level economics electives are not yet
+  unlocked (Intermediate Macro and Multivariable Calculus are still pending), this semester is properly a
+  Gen Ed / exploration semester — exactly as the official site recommendation suggests for this stage.</p>
   <ul>
-    <li>1 Economics course if offered in Florence that term (verify in the global course search) — otherwise
-        keep Economics for Abu Dhabi semesters.</li>
-    <li>2–3 Core / elective courses that only make sense in Italy (art history, Renaissance studies, Italian
-        language, Mediterranean politics or economics).</li>
+    <li>Gen Ed / Core Competency courses that only make sense in Italy (art history, Renaissance studies,
+        Italian language, Mediterranean history or politics).</li>
+    <li>A lower-level economics or finance course only if offered and pre-approved — do not count on it.</li>
     <li>Keep credits on pace — study away is not a light semester on paper.</li>
   </ul>
   <p><strong>Rhodes moves:</strong> study away IS a Rhodes story if you make it one — document a concrete
@@ -174,15 +242,28 @@ window.APP_SECTIONS["four-year"] = {
 
 <h3>Year 3 — Leadership + New York</h3>
 
+<div class="semester">
+  <h4>Before you go: the Year 2–3 checkpoint</h4>
+  <p class="sem-note">Confirm, in writing with your adviser, before applying for New York:</p>
+  <ul>
+    <li>✅ Markets, Statistics, Calculus, GEPS/Intro Macro (sophomore-spring tier) — done.</li>
+    <li>✅ Intermediate Microeconomics, Intermediate Macroeconomics, Data Analysis, Multivariable Calculus
+        (junior-fall tier) — done, all completed in Abu Dhabi.</li>
+    <li>✅ Introduction to Accounting / Foundations of Financial Markets — done, to unlock NY finance electives.</li>
+    <li>✅ <strong>Cumulative GPA ≥ 3.5</strong> — the gate on this, your second away semester.</li>
+  </ul>
+</div>
+
 <div class="semester away">
   <h4>Fall, Year 3 — STUDY AWAY: NEW YORK 🗽</h4>
-  <p class="sem-note">NYU's New York campus (Washington Square). See the Study Away section for the note about
-  the "Bloomerpool" name you mentioned — confirm the exact site name with Global Education.</p>
+  <p class="sem-note">NYU's New York campus (Washington Square) — an officially recommended site for the Finance
+  and Market Studies concentration. Because your required courses are already done, this semester is properly
+  electives: finance and otherwise.</p>
   <ul>
-    <li>1–2 <strong>finance courses</strong> from New York's deep catalog — valuation, capital markets, financial
-        econometrics, or Stern cross-registration if permitted (pre-approve everything for NYUAD
-        major/concentration credit BEFORE the semester — this is the #1 study-away paperwork mistake).</li>
-    <li><strong>Intermediate Macroeconomics</strong> here if approved and not yet taken, otherwise an economics elective.</li>
+    <li><strong>1–2 finance electives</strong> unlocked by your Abu Dhabi accounting/financial-markets prep —
+        valuation, capital markets, corporate finance, or similar (pre-approve every course in writing for
+        concentration credit before the semester — the #1 study-away paperwork mistake).</li>
+    <li>1 economics elective aligned with your capstone direction.</li>
     <li>1 course purely for growth (policy, philosophy, data science, journalism — Rhodes loves range).</li>
     <li>Attend economics research seminars — in New York you can also visit think tanks, the UN, and Fed events.</li>
   </ul>
@@ -192,18 +273,19 @@ window.APP_SECTIONS["four-year"] = {
 
 <div class="semester">
   <h4>J-Term, Year 3</h4>
-  <ul><li>J-Term course or return early to Abu Dhabi for capstone preparation reading and Rhodes referee
-  conversations.</li></ul>
+  <ul><li>Your second Field Colloquia course if not yet done, or a return to Abu Dhabi for capstone preparation
+  reading and Rhodes referee conversations.</li></ul>
 </div>
 
 <div class="semester">
   <h4>Spring, Year 3 (in Abu Dhabi)</h4>
   <ul>
-    <li><strong>Remaining intermediate theory course</strong> (micro or macro — whichever is left).</li>
-    <li><strong>Economics/finance elective</strong> aligned with your capstone direction (a finance-flavored
-        capstone makes the concentration visible — see the finance layer above).</li>
-    <li><strong>Core / degree requirements cleanup</strong> — run a degree audit with your adviser this semester.</li>
-    <li>Identify your <strong>capstone adviser</strong> and topic before summer.</li>
+    <li><strong>Economics of Imperfect Markets</strong> (ECON-UH 3010).</li>
+    <li><strong>Econometrics</strong> (SOCSC-UH 3220) — Abu-Dhabi-only.</li>
+    <li>Any remaining Gen Ed / Core Competency requirement — run a full degree audit with your adviser this
+        semester.</li>
+    <li>Identify your <strong>capstone adviser</strong> and topic before summer (a finance-flavored topic makes
+        the concentration visible — see the finance layer above).</li>
   </ul>
   <p><strong>Rhodes moves (critical semester):</strong> confirm eligibility for your Rhodes constituency, shortlist
   5–6 potential referees, and tell them your plan face-to-face before summer. Draft 1 of the personal statement.</p>
@@ -224,8 +306,9 @@ window.APP_SECTIONS["four-year"] = {
 <div class="semester">
   <h4>Fall, Year 4</h4>
   <ul>
-    <li><strong>Capstone seminar/project (part 1)</strong> — the two-semester senior research project in Economics.</li>
-    <li><strong>Economics elective</strong> + remaining requirements.</li>
+    <li><strong>Capstone Seminar</strong> (ECON-UH 4020) — part one of the two-course senior research sequence.</li>
+    <li><strong>Economic Policy</strong> (ECON-UH 4000) or <strong>Economic Growth</strong> (ECON-UH 3030) +
+        remaining requirements.</li>
     <li><strong>Rhodes:</strong> submit application; if shortlisted, interviews typically follow in late autumn.
         Your capstone research doubles as your best interview material.</li>
   </ul>
@@ -234,7 +317,7 @@ window.APP_SECTIONS["four-year"] = {
 <div class="semester">
   <h4>Spring, Year 4</h4>
   <ul>
-    <li><strong>Capstone (part 2)</strong> — finish and present.</li>
+    <li><strong>Capstone Project</strong> (ECON-UH 4099) — finish and present.</li>
     <li>Final requirements; graduation audit in the first month of the semester.</li>
     <li>Outcomes branch: Rhodes result → Oxford planning; otherwise activate the backup scholarship/graduate
         school offers you prepared in parallel (see Rhodes section — never apply to Rhodes alone).</li>
@@ -246,9 +329,9 @@ window.APP_SECTIONS["four-year"] = {
 <table>
   <thead><tr><th>Checkpoint</th><th>What must be true</th><th>If it is not</th></tr></thead>
   <tbody>
-    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + AEP writing course done; <strong>Calculus done</strong> (spring, or summer at the latest); 1–2 Economics courses done; statistics done or scheduled; credit total on the catch-up path your adviser mapped (the ~12-credit fall means at least one 16-credit semester or J-Term credits later).</td><td>Summer Calculus (Plan B) is the firewall. If even that fails, sit with your adviser immediately — Y2 fall theory and the Florence timing are now in play (Plan C in the First Semester section).</td></tr>
-    <tr><td>Before Florence (end of Y2 fall)</td><td>Intermediate micro done or scheduled; study-away courses pre-approved; on pace for ~half of Core.</td><td>Consider swapping which semester goes abroad — flexibility beats forcing a broken sequence.</td></tr>
-    <tr><td>Before New York (end of Y2 spring + summer)</td><td>Econometrics done; foundational finance course done; capstone-relevant interests identified; finance/major electives mapped to NY offerings and pre-approved.</td><td>Take an extra Economics course in Y3 spring; reduce NY electives-for-fun to one.</td></tr>
+    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + AEP writing course done; <strong>Calculus done</strong> (spring, or an Abu Dhabi summer offering at the latest); Markets done; GEPS/Intro Macro done or scheduled; Statistics done or scheduled; credit total on the catch-up path your adviser mapped.</td><td>An NYUAD Abu Dhabi summer Calculus offering (if one exists) is the firewall. If even that fails, sit with your adviser immediately — the Florence timing is now in play.</td></tr>
+    <tr><td>Before Florence (end of Y2 fall)</td><td>All four sophomore-spring-away prerequisites done (Markets, Statistics, Calculus, GEPS/Intro Macro).</td><td>Delay Florence to junior spring instead — do not go abroad missing a hard prerequisite.</td></tr>
+    <tr><td>Before New York (end of Y2 spring + Y2 summer)</td><td>Intermediate Micro, Intermediate Macro, Data Analysis, Multivariable Calculus all done in Abu Dhabi; accounting/financial-markets prep done; <strong>cumulative GPA ≥ 3.5</strong>.</td><td>If GPA or a prerequisite is short, postpone New York and use the semester in Abu Dhabi to fix it — a delayed away semester is recoverable; a denied application close to the deadline is not.</td></tr>
     <tr><td>Start of Year 4</td><td>Only capstone + a small number of requirements left; Rhodes application ready to submit.</td><td>Drop optional commitments in fall — capstone and application quality outrank everything.</td></tr>
   </tbody>
 </table>
@@ -257,7 +340,7 @@ window.APP_SECTIONS["four-year"] = {
 <div class="callout tip">
   <strong>The one rule that protects this whole plan:</strong> every semester, before registration, do a 30-minute
   degree-progress meeting with your adviser and update this plan. Two study-away semesters leave little slack —
-  small sequencing errors (a prerequisite missed before Florence, an unapproved NY course) are what break
+  small sequencing errors (a prerequisite missed before Florence, a GPA dip before New York) are what break
   four-year plans, and every one of them is preventable a semester in advance.
 </div>
 `

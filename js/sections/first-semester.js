@@ -112,25 +112,28 @@ window.APP_SECTIONS["first-semester"] = {
 
 <h3>No math in semester one: what it does to your Economics major &amp; graduation</h3>
 <div class="card">
-  <p><strong>The honest answer: on-time graduation survives this — with one hard deadline.</strong>
-  Here is the actual dependency chain your degree runs on:</p>
-  <p style="text-align:center"><strong>Calculus → intermediate economic theory (micro/macro) → econometrics →
-  electives &amp; capstone</strong></p>
+  <p><strong>The honest answer, now confirmed against the official pathway: on-time graduation survives this —
+  with one hard deadline.</strong> Here is the actual dependency chain your degree runs on:</p>
+  <p style="text-align:center"><strong>Calculus → Intermediate Micro/Macro + Data Analysis + Multivariable
+  Calculus → Econometrics → electives &amp; capstone</strong></p>
   <ul>
     <li>Nothing in <em>semester one</em> requires math: Markets is an intro course, and both writing courses are
         math-free. Your fall plan is fully legal for the major. ✅</li>
-    <li>The chain's real constraint is your <strong>study-away architecture</strong>: intermediate theory should be
-        done or underway before Florence (Y2 spring), and econometrics plus the foundational finance course before
-        New York (Y3 fall). Working backwards, that means:</li>
+    <li>The chain's real constraint is the official study-away pathway (Four-Year Plan section): <strong>Markets,
+        Statistics, Calculus, and GEPS/Intro Macro must all be done before Florence</strong> (sophomore spring),
+        and <strong>Intermediate Micro, Intermediate Macro, Data Analysis, and Multivariable Calculus must all be
+        done — in Abu Dhabi — before New York</strong> (junior fall). Working backwards, that means:</li>
     <li><strong>The hard deadline: Calculus must be completed by the end of Year 1</strong> — spring semester
-        (the clean path) or the summer after (the backup). Then Y2 fall proceeds exactly as the Four-Year Plan
-        shows, and graduation, both study-aways, the finance concentration, and the Rhodes timeline all stay
-        intact.</li>
-    <li>What you genuinely give up: the <em>option</em> of Multivariable Calculus in Y2 fall becomes tighter
-        (possible only via the summer route or by pushing it to Y3 spring), and your Y1 spring has less slack —
-        if Calculus goes badly there, the summer backup becomes mandatory rather than optional.</li>
+        (the clean path) or an NYUAD Abu Dhabi summer offering after (the backup; outside transfer credit does
+        not satisfy this course — see the Abu-Dhabi-only rule). Then Y2 fall proceeds exactly as the Four-Year
+        Plan shows, and graduation, both study-aways, the finance concentration, and the Rhodes timeline all
+        stay intact.</li>
+    <li>Multivariable Calculus is <strong>not optional</strong> under this pathway — it is a required major
+        course, and it must also be completed in Abu Dhabi before junior fall. If Calculus slips in Year 1, the
+        summer backup becomes mandatory (not preference), because Multivariable Calculus, Intermediate Micro,
+        Intermediate Macro, and Data Analysis all queue up behind it in Year 2.</li>
     <li>What does NOT happen: no delayed graduation, no lost study-away, no blocked major — <em>provided the
-        Year-1 deadline holds</em>. Miss it, and Y2 fall theory slips, which cascades into the Florence/New York
+        Year-1 deadline holds</em>. Miss it, and Y2 theory slips, which cascades into the Florence/New York
         sequencing. That is the one domino to guard.</li>
   </ul>
 </div>
@@ -139,7 +142,8 @@ window.APP_SECTIONS["first-semester"] = {
   <strong>Verify these three things with your adviser before locking the plan</strong> (questions ready in the
   Advising section): (1) that Markets truly has no math prerequisite/corequisite in the current catalog;
   (2) that Calculus is offered in spring with first-year seats (it normally is — confirm anyway);
-  (3) whether the statistics course can sit alongside Calculus in Y1 spring or should wait for Y2 fall.
+  (3) whether Statistics for the Social and Behavioral Sciences can sit alongside Calculus in Y1 spring or
+  should wait for Y2 fall — both are needed before Florence regardless, so the only question is which semester.
   The plan below assumes yes / yes / alongside — your adviser may re-shuffle the details without breaking
   the structure.
 </div>
@@ -161,8 +165,9 @@ window.APP_SECTIONS["first-semester"] = {
     <tr>
       <td><strong>Plan B</strong> (backup)</td>
       <td>Summer after Year 1</td>
-      <td>If spring Calculus fails to happen (full sections, schedule clash, or a rough semester): use the
-          pre-vetted summer route — an NYU summer offering, or a pre-approved course elsewhere transferred in.
+      <td>If spring Calculus fails to happen (full sections, schedule clash, or a rough semester): use an
+          <strong>NYUAD-administered Abu Dhabi summer offering</strong>, if one exists — Calculus must be
+          completed in Abu Dhabi, so an outside-university transfer course does not satisfy this requirement.
           Run the J-Term &amp; Summers pre-flight checklist BEFORE relying on this.</td>
       <td>Still keeps Y2 fall on schedule. Costs part of the summer and possibly money (check aid coverage);
           displaces the skills/research summer plans, so treat as insurance, not preference.</td>
@@ -180,13 +185,14 @@ window.APP_SECTIONS["first-semester"] = {
 </table>
 </div>
 
-<div class="callout warn">
-  <strong>Summer course reality check.</strong> You mentioned possibly taking <strong>Calculus or Multivariable
-  Calculus in the summer</strong>. This can work, but three things must be verified before you count on it:
-  (1) whether NYUAD/NYU actually offers it that summer and whether NYUAD students may enroll;
-  (2) whether the credits and the <em>prerequisite chain</em> transfer (Multivariable requires completed Calculus);
-  (3) cost and financial-aid coverage for summer study. Ask the exact questions listed in the Advising section
-  under "Summer courses."
+<div class="callout danger">
+  <strong>Summer course reality check — corrected.</strong> You mentioned possibly taking <strong>Calculus or
+  Multivariable Calculus in the summer</strong>. Both must be completed <strong>in Abu Dhabi</strong> per the
+  official pathway — an outside university's summer program will not satisfy either requirement, no matter how
+  good the pre-approval paperwork looks. Before counting on a summer option: (1) confirm an NYUAD Abu Dhabi
+  summer offering actually exists that year; (2) confirm the prerequisite chain (Multivariable requires
+  completed Calculus); (3) confirm cost and financial-aid coverage for summer study. Ask the exact questions
+  listed in the Advising section under "Summer courses."
 </div>
 
 <h3>Your preferred schedule: one morning class + one early-afternoon class</h3>

@@ -29,9 +29,10 @@ window.APP_SECTIONS["careers"] = {
     consulting firms — all recruit in the Gulf and love quantitative economists.</p>
     <p>Entry: structured internship pipelines with <strong>early deadlines (a year+ ahead)</strong>; case/interview
     prep via student groups; your New York fall is prime recruiting territory.</p>
-    <p><strong>Your finance concentration feeds this directly:</strong> the foundational course before recruiting
-    season, New York finance electives during it, and a finance capstone as interview material (see the
-    Four-Year Plan's finance layer).</p>
+    <p><strong>Your finance concentration feeds this directly:</strong> Introduction to Accounting and
+    Foundations of Financial Markets in Abu Dhabi before recruiting season, New York finance electives during
+    it (New York is an officially recommended site for the Finance and Market Studies concentration), and a
+    finance capstone as interview material (see the Four-Year Plan's finance layer).</p>
   </div>
   <div class="card">
     <h4>🎓 Research &amp; academia</h4>
@@ -68,7 +69,7 @@ window.APP_SECTIONS["careers"] = {
 <h3>CV construction — the NYUAD economist's stack</h3>
 <div class="card">
   <ol>
-    <li><strong>Education block:</strong> GPA (if strong), key coursework (econometrics, Multivariable if taken),
+    <li><strong>Education block:</strong> GPA (if strong), key coursework (econometrics, Multivariable Calculus),
         both study-away sites — global mobility reads as a feature, tell it that way.</li>
     <li><strong>Experience:</strong> 2–4 entries with <em>quantified outcomes</em> ("cleaned and analyzed 40k-row
         dataset; findings used in X" beats "assisted with research"). Your impact journal (Rhodes section) is the
