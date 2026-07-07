@@ -66,22 +66,25 @@ window.APP_SECTIONS["four-year"] = {
 </div>
 
 <div class="semester">
-  <h4>Fall, Year 1 — the writing-heavy, math-free semester</h4>
-  <p class="sem-note">Your updated intent: two writing courses + Markets, and no math this semester by choice.
-  Fully compatible with the Economics major — the analysis and the one hard deadline are in the First Semester
-  section.</p>
+  <h4>Fall, Year 1 — writing-heavy, math-free, ~12 credits</h4>
+  <p class="sem-note">Your updated intent: FYWS + Markets + one Core course (~12 credits), plus Methods of the
+  Written Voice as a zero-credit AEP writing course, and no math this semester by choice. Fully compatible with
+  the Economics major — the analysis, the credit-pacing math, and the one hard deadline are in the First
+  Semester section.</p>
   <ul>
-    <li><strong>First-Year Writing Seminar</strong> (the official FYWS requirement — confirm which course carries
-        the designation).</li>
-    <li><strong>Methods of the Written Voice</strong> (second writing course — confirm what it counts toward, and
-        that two writing courses in one semester is permitted).</li>
-    <li><strong>Markets</strong> (Economics intro — no math prerequisite; verify in the current catalog).</li>
-    <li><em>Optional 4th:</em> one Core course in a category you enjoy (keeps credit pace comfortable given two
-        study-away semesters).</li>
+    <li><strong>First-Year Writing Seminar</strong> (credited; the official FYWS requirement — confirm which
+        course carries the designation).</li>
+    <li><strong>Markets</strong> (credited; Economics intro — no math prerequisite; verify in the current catalog).</li>
+    <li><strong>One Core course</strong> (credited; the natural third course with math deferred — pick via the
+        Core Curriculum section's 10-minute test).</li>
+    <li><strong>Methods of the Written Voice</strong> — zero-credit AEP writing course alongside (real deadlines,
+        no GPA exposure).</li>
+    <li><em>Credit note:</em> ~12 credits is the gentle-start load; the missing ~4 come back via J-Terms or a
+        later 16-credit semester — adviser runs the exact arithmetic (question ready in Advising).</li>
   </ul>
   <p><strong>Rhodes moves:</strong> meet all professors in office hours; join 3–4 clubs to sample; start the
-  "impact journal" (see Rhodes section). A double-writing semester also means your feedback ledger fills twice
-  as fast — a quiet Rhodes asset.</p>
+  "impact journal" (see Rhodes section). A double-writing semester fills your feedback ledger twice as fast —
+  a quiet Rhodes asset.</p>
 </div>
 
 <div class="semester">
@@ -243,7 +246,7 @@ window.APP_SECTIONS["four-year"] = {
 <table>
   <thead><tr><th>Checkpoint</th><th>What must be true</th><th>If it is not</th></tr></thead>
   <tbody>
-    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + second writing course done; <strong>Calculus done</strong> (spring, or summer at the latest); 1–2 Economics courses done; statistics done or scheduled.</td><td>Summer Calculus (Plan B) is the firewall. If even that fails, sit with your adviser immediately — Y2 fall theory and the Florence timing are now in play (Plan C in the First Semester section).</td></tr>
+    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + AEP writing course done; <strong>Calculus done</strong> (spring, or summer at the latest); 1–2 Economics courses done; statistics done or scheduled; credit total on the catch-up path your adviser mapped (the ~12-credit fall means at least one 16-credit semester or J-Term credits later).</td><td>Summer Calculus (Plan B) is the firewall. If even that fails, sit with your adviser immediately — Y2 fall theory and the Florence timing are now in play (Plan C in the First Semester section).</td></tr>
     <tr><td>Before Florence (end of Y2 fall)</td><td>Intermediate micro done or scheduled; study-away courses pre-approved; on pace for ~half of Core.</td><td>Consider swapping which semester goes abroad — flexibility beats forcing a broken sequence.</td></tr>
     <tr><td>Before New York (end of Y2 spring + summer)</td><td>Econometrics done; foundational finance course done; capstone-relevant interests identified; finance/major electives mapped to NY offerings and pre-approved.</td><td>Take an extra Economics course in Y3 spring; reduce NY electives-for-fun to one.</td></tr>
     <tr><td>Start of Year 4</td><td>Only capstone + a small number of requirements left; Rhodes application ready to submit.</td><td>Drop optional commitments in fall — capstone and application quality outrank everything.</td></tr>

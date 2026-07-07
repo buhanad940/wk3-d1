@@ -21,7 +21,7 @@ localStorage — nothing leaves your machine.
 | **Home** | Plan-at-a-glance dashboard and quick-start moves |
 | **Arrival & First 30 Days** | Landing-day logistics, Marhaba orientation strategy, week-by-week first-month plan, unwritten rules |
 | **Packing & Tech Setup** | Pack-vs-buy tables, document checklists, tech loadout, pre-flight digital setup |
-| **First Semester Plan** | AEP (reading + FYWS prep), a writing-heavy math-free fall (FYWS + Methods of the Written Voice + Markets), the deferred-Calculus impact analysis with Plans A/B/C, and a morning + 1–3 PM schedule template |
+| **First Semester Plan** | AEP (reading + FYWS prep + zero-credit Methods of the Written Voice), a writing-heavy math-free ~12-credit fall (FYWS + Markets + Core), the credit-pacing math, the deferred-Calculus impact analysis with Plans A/B/C, and a morning + 1–3 PM schedule template |
 | **Schedule Builder** | Interactive weekly grid with automatic conflict detection and preference checks (morning + 1–3 PM, no late classes) |
 | **Four-Year Plan** | Semester-by-semester Economics plan with a finance-concentration layer, fitting both study-aways, J-Terms, summers, capstone, and the Rhodes timeline |
 | **Core Curriculum** | Strategy for choosing Core courses, saving culture slots for Florence, the 10-minute course evaluation method, double-counting questions |

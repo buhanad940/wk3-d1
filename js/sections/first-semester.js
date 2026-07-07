@@ -8,26 +8,42 @@ window.APP_SECTIONS["first-semester"] = {
   html: `
 <h2>First Semester Plan <span class="badge confirm">confirm all codes &amp; times in Albert</span></h2>
 <p class="section-lede">
-  Your first semester, updated to your latest plan: the <strong>First-Year Writing Seminar</strong>,
-  a <strong>second writing course</strong> (Methods of the Written Voice), and <strong>Markets</strong>
-  (Economics) — with <strong>no Calculus or any math course</strong>, by choice — preceded by the
-  <strong>Academic Enrichment Program (AEP)</strong> in the summer. This page covers the writing-heavy
-  semester, exactly what deferring math does to your Economics major and graduation timeline (short answer:
-  it works, with one hard deadline), and your preferred morning + early-afternoon schedule.
+  Your first semester, updated to your latest plan: the <strong>First-Year Writing Seminar</strong> and
+  <strong>Markets</strong> (Economics) as credited courses, plus <strong>Methods of the Written Voice</strong>
+  as the <strong>zero-credit second writing course inside your AEP</strong> — with <strong>no Calculus or any
+  math course</strong>, by choice, and a planned load of <strong>about 12 credits</strong>. This page covers
+  the writing-heavy semester, the credit math (12 credits has consequences worth knowing in advance), exactly
+  what deferring math does to your Economics major and graduation timeline (short answer: it works, with one
+  hard deadline), and your preferred morning + early-afternoon schedule.
 </p>
 
 <div class="callout info">
-  <strong>One naming question to settle at registration.</strong> You plan two writing courses: the official
-  <strong>FYWS</strong> (the degree requirement) and <strong>Methods of the Written Voice</strong> as the second
-  writing course. Confirm with your adviser which specific course satisfies the FYWS requirement and what the
-  second one counts as (Core category? elective?) — the requirement box only gets ticked by the officially
-  designated FYWS, whatever its title is that year. The Advising section has this question ready to copy.
+  <strong>How the pieces now fit.</strong> Your writing program has two layers:
+  the official <strong>FYWS</strong> (the credited degree requirement — confirm which course carries the
+  designation), and <strong>Methods of the Written Voice</strong> running as part of the
+  <strong>Academic Enrichment Program: zero credits</strong>, so it builds skill and costs GPA nothing.
+  Zero-credit does not mean zero work — treat its deadlines as real (they train the same muscle your credited
+  FYWS grades) — but it does mean your credited load stays light while your writing volume stays high.
+</div>
+
+<div class="callout warn">
+  <strong>The 12-credit question — settle it before registration.</strong> A ~12-credit semester
+  (typically three 4-credit courses: FYWS + Markets + one more, since the AEP writing course carries none)
+  is usually the <em>minimum</em> full-time load, and NYUAD's standard pace is higher (four courses ≈ 16
+  credits) because the degree's total credit requirement divides across eight semesters. Starting at 12 is a
+  legitimate, adjustment-friendly choice — many first-years do it — but with TWO study-away semesters ahead you
+  must know where the missing credits come back: J-Terms, one or two 16-credit semesters later, or summer
+  credit. Ask your adviser to run the exact arithmetic (the question is ready in the Advising section) and to
+  confirm 12 keeps you full-time for visa, housing, and financial-aid purposes. Also decide the third credited
+  course: with math deferred, a <strong>Core course</strong> is the natural pick.
 </div>
 
 <h3>Before classes: the Academic Enrichment Program (AEP)</h3>
 <div class="card">
-  <p>The AEP is a pre-first-year academic preparation program. Yours includes <strong>reading</strong> and
-  <strong>First-Year Writing Seminar (FYWS) preparation</strong>. Treat it as a genuine head start, not a formality:</p>
+  <p>The AEP is a pre-first-year academic preparation program. Yours includes <strong>reading</strong>,
+  <strong>First-Year Writing Seminar (FYWS) preparation</strong>, and — per your updated plan —
+  <strong>Methods of the Written Voice as a zero-credit AEP writing course</strong> that continues alongside
+  your fall semester. Treat all of it as a genuine head start, not a formality:</p>
   <ul>
     <li><strong>Reading component:</strong> practice active reading — annotate, summarize each reading in 3–4
         sentences, and write one question per text. This is exactly the skill FYWS grades you on.</li>
@@ -58,17 +74,19 @@ window.APP_SECTIONS["first-semester"] = {
     </ul>
   </div>
   <div class="card">
-    <h4>📝 Second writing course (Methods of the Written Voice) <span class="badge core">Writing</span></h4>
-    <p>Your deliberate double-down on writing in semester one — smart for a future economist and Rhodes
-       candidate, since writing is the skill that compounds longest (see Writing Lab).</p>
+    <h4>📝 Methods of the Written Voice — AEP writing course <span class="badge sample">zero credits</span></h4>
+    <p>Your second writing course, running inside the Academic Enrichment Program at zero credits — a deliberate
+       double-down on writing with no GPA exposure. Smart for a future economist and Rhodes candidate, since
+       writing is the skill that compounds longest (see Writing Lab).</p>
     <ul>
-      <li><strong>Mind the essay pile-up:</strong> two writing courses means two essay cycles running at once.
-          Backward-plan both syllabi in week one so drafts never collide (Writing Lab's deadline math).</li>
-      <li>Use the two courses as one training program: apply feedback from one to the next essay in the other —
-          double reps, one feedback ledger.</li>
-      <li>Check the rule: confirm two writing-intensive courses in one semester is permitted and advisable for
-          first-years — some programs steer against it. If steered, this course moves to spring and a Core
-          course takes its slot.</li>
+      <li><strong>Zero credits, real work:</strong> honor its deadlines like graded ones — it is the training
+          ground for the essays your credited FYWS grades.</li>
+      <li><strong>Mind the essay pile-up anyway:</strong> two essay cycles still run at once. Backward-plan both
+          syllabi in week one so drafts never collide (Writing Lab's deadline math).</li>
+      <li>Use the two as one training program: apply feedback from the AEP course to the next FYWS essay —
+          double reps, one feedback ledger, and the low-stakes course is where you take the risks.</li>
+      <li>Confirm the logistics: whether it appears on your transcript, its attendance rules, and how long the
+          AEP continues into the semester.</li>
     </ul>
   </div>
   <div class="card">
@@ -86,10 +104,10 @@ window.APP_SECTIONS["first-semester"] = {
 </div>
 
 <div class="callout info">
-  <strong>Course load note.</strong> Three courses plus first-semester adjustment is a deliberately sane load if your
-  program allows it; many first-years take four. Ask your adviser whether your credit plan (including study away
-  twice and possible summer/J-Term courses) works with three or needs four. The Advising section has the exact
-  questions to ask.
+  <strong>Course load note.</strong> Your planned shape: FYWS + Markets + one more credited course (a Core course
+  is the natural third, with math deferred) ≈ 12 credits, plus the zero-credit AEP writing course. That is a
+  deliberately gentle first semester — see the 12-credit callout above for the catch-up math, and use the
+  Advising section's questions to confirm it keeps you full-time and on pace.
 </div>
 
 <h3>No math in semester one: what it does to your Economics major &amp; graduation</h3>
@@ -180,9 +198,9 @@ official course search, and you build the actual schedule during registration.</
 <table>
   <thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr></thead>
   <tbody>
-    <tr><td><strong>~9:00–10:15</strong></td><td>First-Year Writing Seminar</td><td>—</td><td>First-Year Writing Seminar</td><td>—</td><td>Weekly review</td></tr>
-    <tr><td><strong>~10:30–12:00</strong></td><td>Drafting block (FYWS)</td><td>Markets reading</td><td>Drafting block (writing #2)</td><td>Markets reading</td><td>Drafting / revision block</td></tr>
-    <tr><td><strong>~13:00–14:15</strong></td><td>—</td><td>Methods of the Written Voice</td><td>—</td><td>Methods of the Written Voice</td><td>—</td></tr>
+    <tr><td><strong>~9:00–10:15</strong></td><td>First-Year Writing Seminar</td><td>Core course (3rd credited course)</td><td>First-Year Writing Seminar</td><td>Core course (3rd credited course)</td><td>Weekly review</td></tr>
+    <tr><td><strong>~10:30–12:00</strong></td><td>Drafting block (FYWS)</td><td>Markets reading</td><td>Drafting block (AEP writing)</td><td>Core reading</td><td>Drafting / revision block</td></tr>
+    <tr><td><strong>~13:00–14:15</strong></td><td>—</td><td>Methods of the Written Voice (AEP, 0 cr)</td><td>—</td><td>Methods of the Written Voice (AEP, 0 cr)</td><td>—</td></tr>
     <tr><td><strong>~14:30–15:45</strong></td><td>Markets</td><td>—</td><td>Markets</td><td>—</td><td>Office hours / Writing Center</td></tr>
     <tr><td><strong>Evening</strong></td><td colspan="5">Free by design — clubs, gym, dinner, light review only.</td></tr>
   </tbody>

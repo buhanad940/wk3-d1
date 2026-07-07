@@ -17,7 +17,7 @@ window.APP_SECTIONS["glossary"] = {
 <table>
   <thead><tr><th>Term</th><th>Meaning</th></tr></thead>
   <tbody>
-    <tr><td><strong>AEP</strong></td><td>Academic Enrichment Program — pre-first-year academic preparation (your reading + FYWS prep track).</td></tr>
+    <tr><td><strong>AEP</strong></td><td>Academic Enrichment Program — pre-first-year academic preparation (your reading + FYWS prep track, continuing into fall as the zero-credit Methods of the Written Voice writing course).</td></tr>
     <tr><td><strong>Albert</strong></td><td>NYU's student information system — registration, course search, grades. The only authoritative source for course times.</td></tr>
     <tr><td><strong>ARC</strong></td><td>Academic Resource Center — tutoring, academic coaching, study-skills workshops.</td></tr>
     <tr><td><strong>Capstone</strong></td><td>The senior-year research project every NYUAD student completes in their major.</td></tr>
@@ -44,11 +44,13 @@ window.APP_SECTIONS["glossary"] = {
 <h3>FAQ — asked every year, answered honestly</h3>
 
 <details open>
-  <summary>Is three courses in my first semester "behind"?</summary>
-  <p>No — it is a load choice with trade-offs. What matters is the four-year credit arithmetic (which your
-  adviser will run with you, especially given two study-aways). Some students take four including a Core;
-  your three are deliberately chosen heavy-hitters (FYWS + Calculus + Markets). Decide with the arithmetic,
-  not with peer anxiety.</p>
+  <summary>Is a 12-credit first semester "behind"?</summary>
+  <p>No — it is a load choice with trade-offs, and a common gentle-start pattern. What matters is the four-year
+  credit arithmetic: 12 now means the missing credits return later via J-Terms or a 16-credit semester, and
+  with two study-aways ahead that arithmetic should be run explicitly with your adviser (the exact question is
+  in the Advising section), along with confirming 12 keeps you full-time for visa/housing/aid purposes. Your
+  12 also understates the real workload — the zero-credit AEP writing course is real work by design. Decide
+  with the arithmetic, not with peer anxiety.</p>
 </details>
 
 <details>

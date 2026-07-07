@@ -40,9 +40,11 @@ window.APP_SECTIONS["advising"] = {
 <details open>
   <summary>📋 Course planning (first year)</summary>
   <ul>
-    <li>My fall plan is the First-Year Writing Seminar + a second writing course (Methods of the Written Voice) + Markets, with no math. Is that load and combination permitted and advisable — and should I add a fourth (Core) course given my two planned study-away semesters?</li>
-    <li>Which course officially satisfies the FYWS requirement, and what does the second writing course count toward (Core category, elective)?</li>
-    <li>Are two writing-intensive courses in one semester allowed for first-years, and would you advise it?</li>
+    <li>My fall plan is ~12 credits — FYWS + Markets + one Core course — plus Methods of the Written Voice as a zero-credit AEP writing course, and no math. Is that combination permitted and advisable?</li>
+    <li>Is 12 credits full-time for every purpose that matters (visa status, housing, financial aid, academic standing)?</li>
+    <li>Can we run the credit arithmetic to graduation: with a 12-credit first semester, two study-away semesters, and J-Terms, exactly where do the remaining credits come from, and which later semesters need to be 16?</li>
+    <li>Which course officially satisfies the FYWS requirement?</li>
+    <li>For the AEP writing course: does it appear on my transcript, how long does it run into the semester, and what are its attendance/completion rules?</li>
     <li>Does Markets have any math prerequisite or corequisite in the current catalog?</li>
     <li>I plan to take Calculus in the spring instead of the fall. Can you confirm spring sections will have first-year seats, and walk me through exactly what breaks (if anything) for my Economics sequence and graduation date if Calculus lands in spring vs. the following summer?</li>
     <li>Can introductory statistics sit alongside Calculus in my spring semester, or should it wait for Year 2 fall?</li>

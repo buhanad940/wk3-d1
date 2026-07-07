@@ -42,9 +42,9 @@ window.APP_SECTIONS["home"] = {
   </div>
   <div class="card">
     <h4>📚 First semester</h4>
-    <p>AEP (summer) → then a writing-heavy, math-free fall by choice:
-       <strong>First-Year Writing Seminar</strong>, <strong>Methods of the Written Voice</strong> (second
-       writing course), and <strong>Markets</strong> (Economics). No Calculus until spring.</p>
+    <p>AEP (reading + FYWS prep, continuing as <strong>Methods of the Written Voice, zero credits</strong>) →
+       a writing-heavy, math-free fall of ~12 credits: <strong>First-Year Writing Seminar</strong>,
+       <strong>Markets</strong>, and one Core course. No Calculus until spring.</p>
   </div>
   <div class="card">
     <h4>✈️ Study away</h4>
