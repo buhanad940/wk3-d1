@@ -52,9 +52,11 @@ window.APP_SECTIONS["glossary"] = {
 </details>
 
 <details>
-  <summary>What if I miss Calculus in the fall — am I off the Economics track?</summary>
-  <p>Not remotely. Plan B (spring) costs you one semester of sequencing slack; Plan C (summer) costs paperwork.
-  Both are common. The only actual mistake is not telling your adviser early. See First Semester → Plans A/B/C.</p>
+  <summary>I'm skipping math in my first semester — does that hurt my Economics major or graduation?</summary>
+  <p>No, provided one deadline holds: <strong>Calculus completed by the end of Year 1</strong> (spring is the
+  plan, summer is the firewall). Semester one itself needs no math — Markets is an intro course. The math chain
+  (Calculus → intermediate theory → econometrics) is timed against your study-away semesters, not against the
+  first semester. Full analysis and the updated Plans A/B/C: First Semester section.</p>
 </details>
 
 <details>

@@ -40,7 +40,12 @@ window.APP_SECTIONS["advising"] = {
 <details open>
   <summary>📋 Course planning (first year)</summary>
   <ul>
-    <li>Is my fall plan of Methods of the Written Voice + Calculus + Markets the right load, or should I add a fourth course given that I plan two study-away semesters?</li>
+    <li>My fall plan is the First-Year Writing Seminar + a second writing course (Methods of the Written Voice) + Markets, with no math. Is that load and combination permitted and advisable — and should I add a fourth (Core) course given my two planned study-away semesters?</li>
+    <li>Which course officially satisfies the FYWS requirement, and what does the second writing course count toward (Core category, elective)?</li>
+    <li>Are two writing-intensive courses in one semester allowed for first-years, and would you advise it?</li>
+    <li>Does Markets have any math prerequisite or corequisite in the current catalog?</li>
+    <li>I plan to take Calculus in the spring instead of the fall. Can you confirm spring sections will have first-year seats, and walk me through exactly what breaks (if anything) for my Economics sequence and graduation date if Calculus lands in spring vs. the following summer?</li>
+    <li>Can introductory statistics sit alongside Calculus in my spring semester, or should it wait for Year 2 fall?</li>
     <li>How many credits do I need per semester to graduate on time with my study-away plan?</li>
     <li>Which Core categories should I start with, and which Core courses pair well with an Economics major?</li>
     <li>When must I formally declare the Economics major, and what does declaring change?</li>

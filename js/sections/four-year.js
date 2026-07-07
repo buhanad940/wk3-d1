@@ -66,16 +66,22 @@ window.APP_SECTIONS["four-year"] = {
 </div>
 
 <div class="semester">
-  <h4>Fall, Year 1</h4>
-  <p class="sem-note">Your confirmed intent: FYWS + Calculus + Markets. Ask your adviser whether to add a fourth (Core) course.</p>
+  <h4>Fall, Year 1 — the writing-heavy, math-free semester</h4>
+  <p class="sem-note">Your updated intent: two writing courses + Markets, and no math this semester by choice.
+  Fully compatible with the Economics major — the analysis and the one hard deadline are in the First Semester
+  section.</p>
   <ul>
-    <li><strong>Methods of the Written Voice</strong> (First-Year Writing Seminar)</li>
-    <li><strong>Calculus</strong> — Plan A. <em>(If unavailable → Core/elective here, Calculus moves to spring: Plan B.)</em></li>
-    <li><strong>Markets</strong> (Economics intro)</li>
-    <li><em>Optional 4th:</em> one Core course in a category you enjoy (keeps credit pace comfortable given two study-away semesters).</li>
+    <li><strong>First-Year Writing Seminar</strong> (the official FYWS requirement — confirm which course carries
+        the designation).</li>
+    <li><strong>Methods of the Written Voice</strong> (second writing course — confirm what it counts toward, and
+        that two writing courses in one semester is permitted).</li>
+    <li><strong>Markets</strong> (Economics intro — no math prerequisite; verify in the current catalog).</li>
+    <li><em>Optional 4th:</em> one Core course in a category you enjoy (keeps credit pace comfortable given two
+        study-away semesters).</li>
   </ul>
   <p><strong>Rhodes moves:</strong> meet all professors in office hours; join 3–4 clubs to sample; start the
-  "impact journal" (see Rhodes section).</p>
+  "impact journal" (see Rhodes section). A double-writing semester also means your feedback ledger fills twice
+  as fast — a quiet Rhodes asset.</p>
 </div>
 
 <div class="semester">
@@ -84,19 +90,24 @@ window.APP_SECTIONS["four-year"] = {
     <li>A J-Term course — ideally something outside Economics that shows intellectual range (a Core category
         fits well here). J-Terms sometimes include regional/international travel components; take one that
         genuinely interests you.</li>
-    <li><em>Plan C variant:</em> if Calculus was missed in fall AND spring looks risky, ask whether a J-Term or
-        summer math option exists this year.</li>
+    <li><em>Math on-ramp:</em> since Calculus now lands in spring, January is also the moment to warm up the
+        algebra (the Data &amp; Quant Toolkit's refresher list) — 30 minutes a day in J-Term makes spring
+        Calculus dramatically smoother.</li>
   </ul>
 </div>
 
 <div class="semester">
-  <h4>Spring, Year 1</h4>
+  <h4>Spring, Year 1 — the quantitative semester (Calculus Plan A)</h4>
+  <p class="sem-note">The mirror image of your writing-heavy fall: math and numbers move to the front. This is
+  the semester that keeps the whole four-year machine on time.</p>
   <ul>
-    <li><strong>Statistics for economists / introductory statistics</strong> (whichever course the Economics
-        program requires — confirm the exact course).</li>
-    <li><strong>Second Economics course</strong> or first intermediate course if prerequisites are met.</li>
-    <li><strong>Core course</strong>.</li>
-    <li><em>Plan B slot:</em> <strong>Calculus</strong> goes here if it was not taken in fall.</li>
+    <li><strong>Calculus</strong> — now your Plan A slot. Priority registration, morning section, standing ARC
+        tutoring from week 1. <em>This course completing on time is the single hinge of the plan.</em></li>
+    <li><strong>Statistics for economists / introductory statistics</strong> (if your adviser confirms it pairs
+        well alongside Calculus — otherwise it shifts to Y2 fall).</li>
+    <li><strong>Second Economics course</strong> or a Core/reading course to balance the quantitative load.</li>
+    <li><em>Backup awareness:</em> if this semester's Calculus falls through for any reason, the summer route
+        (Plan B) activates immediately — see First Semester section.</li>
   </ul>
   <p><strong>Rhodes moves:</strong> commit to 1–2 organizations; apply for a first-year summer opportunity
   (research assistant, internship, community project).</p>
@@ -105,13 +116,15 @@ window.APP_SECTIONS["four-year"] = {
 <div class="semester">
   <h4>Summer after Year 1</h4>
   <ul>
-    <li><strong>Option 1 (your idea):</strong> summer course — <strong>Calculus</strong> (Plan C) or
-        <strong>Multivariable Calculus</strong> (only if Calculus is complete and the offering/permission exists —
-        verify per the Advising section).</li>
-    <li><strong>Option 2:</strong> research assistantship with an NYUAD economics professor (often more valuable
-        for Rhodes than a course).</li>
-    <li><strong>Option 3:</strong> internship or structured community project in the UAE or home country.</li>
-    <li>These can sometimes be combined (e.g., online course + part-time research) — do not overload.</li>
+    <li><strong>If spring Calculus succeeded:</strong> the summer is free for the good stuff — research
+        assistance, an internship/community project, first scripting language (Data &amp; Quant Toolkit), or
+        optionally <strong>Multivariable Calculus</strong> if an approved summer offering exists and the
+        mathematical track appeals.</li>
+    <li><strong>If spring Calculus did NOT happen (Plan B):</strong> summer <strong>Calculus</strong> becomes the
+        priority — an NYU summer offering or a pre-approved transfer course (run the J-Term &amp; Summers
+        pre-flight checklist). Everything else fits around it.</li>
+    <li>Course + one part-time project can combine; course + two projects cannot. Do not overload the first
+        summer.</li>
   </ul>
 </div>
 
@@ -230,7 +243,7 @@ window.APP_SECTIONS["four-year"] = {
 <table>
   <thead><tr><th>Checkpoint</th><th>What must be true</th><th>If it is not</th></tr></thead>
   <tbody>
-    <tr><td>End of Year 1</td><td>FYWS done; Calculus done (any plan A/B/C); 1–2 Economics courses done; statistics started or scheduled.</td><td>Use summer (Plan C) and rebalance Year 2 fall with adviser.</td></tr>
+    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + second writing course done; <strong>Calculus done</strong> (spring, or summer at the latest); 1–2 Economics courses done; statistics done or scheduled.</td><td>Summer Calculus (Plan B) is the firewall. If even that fails, sit with your adviser immediately — Y2 fall theory and the Florence timing are now in play (Plan C in the First Semester section).</td></tr>
     <tr><td>Before Florence (end of Y2 fall)</td><td>Intermediate micro done or scheduled; study-away courses pre-approved; on pace for ~half of Core.</td><td>Consider swapping which semester goes abroad — flexibility beats forcing a broken sequence.</td></tr>
     <tr><td>Before New York (end of Y2 spring + summer)</td><td>Econometrics done; foundational finance course done; capstone-relevant interests identified; finance/major electives mapped to NY offerings and pre-approved.</td><td>Take an extra Economics course in Y3 spring; reduce NY electives-for-fun to one.</td></tr>
     <tr><td>Start of Year 4</td><td>Only capstone + a small number of requirements left; Rhodes application ready to submit.</td><td>Drop optional commitments in fall — capstone and application quality outrank everything.</td></tr>

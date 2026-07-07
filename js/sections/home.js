@@ -42,9 +42,9 @@ window.APP_SECTIONS["home"] = {
   </div>
   <div class="card">
     <h4>📚 First semester</h4>
-    <p>AEP (summer, before classes) → First-Year Writing Seminar prep, then:
-       <strong>Methods of the Written Voice</strong>, <strong>Calculus</strong> (with a backup plan),
-       and <strong>Markets</strong> (Economics).</p>
+    <p>AEP (summer) → then a writing-heavy, math-free fall by choice:
+       <strong>First-Year Writing Seminar</strong>, <strong>Methods of the Written Voice</strong> (second
+       writing course), and <strong>Markets</strong> (Economics). No Calculus until spring.</p>
   </div>
   <div class="card">
     <h4>✈️ Study away</h4>
@@ -58,9 +58,9 @@ window.APP_SECTIONS["home"] = {
        The First Semester section shows how to build this in registration.</p>
   </div>
   <div class="card">
-    <h4>🧮 Math flexibility</h4>
-    <p>If Calculus does not fit in semester one: Plan B (spring) and Plan C (January Term / summer,
-       possibly Multivariable later) are fully worked out.</p>
+    <h4>🧮 Math timing</h4>
+    <p>Calculus deferred to Y1 spring (your Plan A), summer as backup. The hard deadline: <strong>Calculus done
+       by end of Year 1</strong> — hold that, and graduation, study away, finance, and Rhodes all stay on time.</p>
   </div>
 </div>
 

@@ -8,12 +8,21 @@ window.APP_SECTIONS["first-semester"] = {
   html: `
 <h2>First Semester Plan <span class="badge confirm">confirm all codes &amp; times in Albert</span></h2>
 <p class="section-lede">
-  Your first semester: <strong>Methods of the Written Voice</strong> (First-Year Writing Seminar),
-  <strong>Calculus</strong>, and <strong>Markets</strong> (Economics) — preceded by the
-  <strong>Academic Enrichment Program (AEP)</strong> in the summer. This page covers the plan,
-  the Calculus backup plans, summer-course options, and how to build your preferred
-  morning + early-afternoon schedule.
+  Your first semester, updated to your latest plan: the <strong>First-Year Writing Seminar</strong>,
+  a <strong>second writing course</strong> (Methods of the Written Voice), and <strong>Markets</strong>
+  (Economics) — with <strong>no Calculus or any math course</strong>, by choice — preceded by the
+  <strong>Academic Enrichment Program (AEP)</strong> in the summer. This page covers the writing-heavy
+  semester, exactly what deferring math does to your Economics major and graduation timeline (short answer:
+  it works, with one hard deadline), and your preferred morning + early-afternoon schedule.
 </p>
+
+<div class="callout info">
+  <strong>One naming question to settle at registration.</strong> You plan two writing courses: the official
+  <strong>FYWS</strong> (the degree requirement) and <strong>Methods of the Written Voice</strong> as the second
+  writing course. Confirm with your adviser which specific course satisfies the FYWS requirement and what the
+  second one counts as (Core category? elective?) — the requirement box only gets ticked by the officially
+  designated FYWS, whatever its title is that year. The Advising section has this question ready to copy.
+</div>
 
 <h3>Before classes: the Academic Enrichment Program (AEP)</h3>
 <div class="card">
@@ -49,13 +58,17 @@ window.APP_SECTIONS["first-semester"] = {
     </ul>
   </div>
   <div class="card">
-    <h4>🧮 Calculus <span class="badge core">Math</span></h4>
-    <p>The standard entry math course and the gateway to Economics requirements (and later Multivariable
-       Calculus if you take the more mathematical economics path).</p>
+    <h4>📝 Second writing course (Methods of the Written Voice) <span class="badge core">Writing</span></h4>
+    <p>Your deliberate double-down on writing in semester one — smart for a future economist and Rhodes
+       candidate, since writing is the skill that compounds longest (see Writing Lab).</p>
     <ul>
-      <li>Placement may be determined by a math placement process — do it carefully, not from memory.</li>
-      <li>Problem sets are the course. Start them the day they are released.</li>
-      <li>If you cannot take it in semester one, use Plan B or C below — it is a common and fixable situation.</li>
+      <li><strong>Mind the essay pile-up:</strong> two writing courses means two essay cycles running at once.
+          Backward-plan both syllabi in week one so drafts never collide (Writing Lab's deadline math).</li>
+      <li>Use the two courses as one training program: apply feedback from one to the next essay in the other —
+          double reps, one feedback ledger.</li>
+      <li>Check the rule: confirm two writing-intensive courses in one semester is permitted and advisable for
+          first-years — some programs steer against it. If steered, this course moves to spring and a Core
+          course takes its slot.</li>
     </ul>
   </div>
   <div class="card">
@@ -79,33 +92,71 @@ window.APP_SECTIONS["first-semester"] = {
   questions to ask.
 </div>
 
-<h3>Calculus: Plan A / Plan B / Plan C</h3>
+<h3>No math in semester one: what it does to your Economics major &amp; graduation</h3>
+<div class="card">
+  <p><strong>The honest answer: on-time graduation survives this — with one hard deadline.</strong>
+  Here is the actual dependency chain your degree runs on:</p>
+  <p style="text-align:center"><strong>Calculus → intermediate economic theory (micro/macro) → econometrics →
+  electives &amp; capstone</strong></p>
+  <ul>
+    <li>Nothing in <em>semester one</em> requires math: Markets is an intro course, and both writing courses are
+        math-free. Your fall plan is fully legal for the major. ✅</li>
+    <li>The chain's real constraint is your <strong>study-away architecture</strong>: intermediate theory should be
+        done or underway before Florence (Y2 spring), and econometrics plus the foundational finance course before
+        New York (Y3 fall). Working backwards, that means:</li>
+    <li><strong>The hard deadline: Calculus must be completed by the end of Year 1</strong> — spring semester
+        (the clean path) or the summer after (the backup). Then Y2 fall proceeds exactly as the Four-Year Plan
+        shows, and graduation, both study-aways, the finance concentration, and the Rhodes timeline all stay
+        intact.</li>
+    <li>What you genuinely give up: the <em>option</em> of Multivariable Calculus in Y2 fall becomes tighter
+        (possible only via the summer route or by pushing it to Y3 spring), and your Y1 spring has less slack —
+        if Calculus goes badly there, the summer backup becomes mandatory rather than optional.</li>
+    <li>What does NOT happen: no delayed graduation, no lost study-away, no blocked major — <em>provided the
+        Year-1 deadline holds</em>. Miss it, and Y2 fall theory slips, which cascades into the Florence/New York
+        sequencing. That is the one domino to guard.</li>
+  </ul>
+</div>
+
+<div class="callout warn">
+  <strong>Verify these three things with your adviser before locking the plan</strong> (questions ready in the
+  Advising section): (1) that Markets truly has no math prerequisite/corequisite in the current catalog;
+  (2) that Calculus is offered in spring with first-year seats (it normally is — confirm anyway);
+  (3) whether the statistics course can sit alongside Calculus in Y1 spring or should wait for Y2 fall.
+  The plan below assumes yes / yes / alongside — your adviser may re-shuffle the details without breaking
+  the structure.
+</div>
+
+<h3>Calculus timing: your updated Plan A / Plan B / Plan C</h3>
 <div class="table-wrap">
 <table>
   <thead><tr><th>Plan</th><th>When you take Calculus</th><th>What to do</th><th>Knock-on effects</th></tr></thead>
   <tbody>
     <tr>
-      <td><strong>Plan A</strong> (preferred)</td>
-      <td>Fall, semester 1</td>
-      <td>Register normally alongside Methods of the Written Voice and Markets.</td>
-      <td>None — you are on the cleanest path to intermediate economics and (optionally) Multivariable Calculus in year two.</td>
-    </tr>
-    <tr>
-      <td><strong>Plan B</strong></td>
+      <td><strong>Plan A</strong> (your new default)</td>
       <td>Spring, semester 2</td>
-      <td>If Calculus is full, placement pushes you elsewhere, or the section times clash: take another Core or
-          elective in fall, and register for Calculus in spring with priority.</td>
-      <td>Intermediate econ courses that need Calculus shift one semester later. Still comfortably compatible with
-          Florence in sophomore spring — confirm the sequence with your adviser.</td>
+      <td>Keep fall math-free as planned; register for Calculus in spring as a priority course, ideally in a
+          morning slot with your standing ARC tutoring booked from week 1.</td>
+      <td>Intermediate theory starts Y2 fall as scheduled — zero impact on graduation, study away, finance
+          concentration, or Rhodes timeline. Y1 spring becomes your quantitative semester; balance it with
+          lighter reading courses.</td>
     </tr>
     <tr>
-      <td><strong>Plan C</strong></td>
-      <td>January Term or Summer after year 1</td>
-      <td>Ask your adviser and the Registrar which of these are actually available and allowed for you:
-          (1) a J-Term or summer Calculus offering, (2) a summer course at another NYU campus or an approved
-          university, transferred in, (3) pre-approved online/transfer credit if NYUAD policy permits it.</td>
-      <td>Keeps year-two economics on schedule even if both fall and spring failed. Requires paperwork and
-          pre-approval — never take an outside course without written approval first.</td>
+      <td><strong>Plan B</strong> (backup)</td>
+      <td>Summer after Year 1</td>
+      <td>If spring Calculus fails to happen (full sections, schedule clash, or a rough semester): use the
+          pre-vetted summer route — an NYU summer offering, or a pre-approved course elsewhere transferred in.
+          Run the J-Term &amp; Summers pre-flight checklist BEFORE relying on this.</td>
+      <td>Still keeps Y2 fall on schedule. Costs part of the summer and possibly money (check aid coverage);
+          displaces the skills/research summer plans, so treat as insurance, not preference.</td>
+    </tr>
+    <tr>
+      <td><strong>Plan C</strong> (damage control)</td>
+      <td>Fall, Year 2</td>
+      <td>Only if both spring and summer failed. Take Calculus in Y2 fall and immediately re-plan with your
+          adviser: which theory course can shift, and whether Florence timing still works.</td>
+      <td>The one scenario with real trade-offs: intermediate theory compresses around the study-away semesters,
+          and one of them may need to move. Avoidable in almost all cases by acting early in Plans A/B —
+          this row exists so you know exactly what you are protecting against.</td>
     </tr>
   </tbody>
 </table>
@@ -129,8 +180,8 @@ official course search, and you build the actual schedule during registration.</
 <table>
   <thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr></thead>
   <tbody>
-    <tr><td><strong>~9:00–10:15</strong></td><td>Calculus</td><td>—</td><td>Calculus</td><td>—</td><td>Calculus recitation (if offered)</td></tr>
-    <tr><td><strong>~10:30–12:00</strong></td><td>Study block</td><td>Markets reading</td><td>Study block</td><td>Markets reading</td><td>Weekly review</td></tr>
+    <tr><td><strong>~9:00–10:15</strong></td><td>First-Year Writing Seminar</td><td>—</td><td>First-Year Writing Seminar</td><td>—</td><td>Weekly review</td></tr>
+    <tr><td><strong>~10:30–12:00</strong></td><td>Drafting block (FYWS)</td><td>Markets reading</td><td>Drafting block (writing #2)</td><td>Markets reading</td><td>Drafting / revision block</td></tr>
     <tr><td><strong>~13:00–14:15</strong></td><td>—</td><td>Methods of the Written Voice</td><td>—</td><td>Methods of the Written Voice</td><td>—</td></tr>
     <tr><td><strong>~14:30–15:45</strong></td><td>Markets</td><td>—</td><td>Markets</td><td>—</td><td>Office hours / Writing Center</td></tr>
     <tr><td><strong>Evening</strong></td><td colspan="5">Free by design — clubs, gym, dinner, light review only.</td></tr>
