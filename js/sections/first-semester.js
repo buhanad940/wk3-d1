@@ -6,249 +6,238 @@ window.APP_SECTIONS["first-semester"] = {
   title: "First Semester Plan",
   icon: "📚",
   html: `
-<h2>First Semester Plan <span class="badge confirm">confirm all codes &amp; times in Albert</span></h2>
+<h2>First Semester — Your Registered Fall 2026 Schedule <span class="badge core">enrolled</span></h2>
 <p class="section-lede">
-  Your first semester, updated to your latest plan: the <strong>First-Year Writing Seminar</strong> and
-  <strong>Markets</strong> (Economics) as credited courses, plus <strong>Methods of the Written Voice</strong>
-  as the <strong>zero-credit second writing course inside your AEP</strong> — with <strong>no Calculus or any
-  math course</strong>, by choice, and a planned load of <strong>about 12 credits</strong>. This page covers
-  the writing-heavy semester, the credit math (12 credits has consequences worth knowing in advance), exactly
-  what deferring math does to your Economics major and graduation timeline (short answer: it works, with one
-  hard deadline), and your preferred morning + early-afternoon schedule.
+  This section is now built from your <strong>actual Fall 2026 registration</strong> (Aug 31 – Dec 14, 2026):
+  Markets, Calculus with Applications to Economics, History and Globalization, and Methods of the Written
+  Voice I — with the <strong>First-Year Writing Seminar moved to spring</strong>. Big upgrade from the draft
+  plan: Calculus made it into the fall after all, which puts you ahead of your own hard deadline by a full
+  semester.
 </p>
 
-<div class="callout info">
-  <strong>How the pieces now fit.</strong> Your writing program has two layers:
-  the official <strong>FYWS</strong> (the credited degree requirement — confirm which course carries the
-  designation), and <strong>Methods of the Written Voice</strong> running as part of the
-  <strong>Academic Enrichment Program: zero credits</strong>, so it builds skill and costs GPA nothing.
-  Zero-credit does not mean zero work — treat its deadlines as real (they train the same muscle your credited
-  FYWS grades) — but it does mean your credited load stays light while your writing volume stays high.
+<h3>Your enrolled courses, exactly as registered</h3>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Course</th><th>Code / Section</th><th>Instructor</th><th>Meets</th><th>Room</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>Markets</strong> (4 cr)</td>
+      <td>SOCSC-UH 1111 · 004</td>
+      <td>Liu</td>
+      <td>Tue &amp; Thu 8:30–9:45 AM</td>
+      <td>Campus Center E048</td>
+    </tr>
+    <tr>
+      <td>Markets — recitation</td>
+      <td>SOCSC-UH 1111 · REC8</td>
+      <td>Jain</td>
+      <td>Thu 1:55–3:10 PM</td>
+      <td>Computational Research 018</td>
+    </tr>
+    <tr>
+      <td><strong>History and Globalization</strong> (4 cr)</td>
+      <td>HIST-UH 2010 · 001</td>
+      <td>Fuccaro</td>
+      <td>Mon &amp; Wed 9:55–11:10 AM</td>
+      <td>Campus Center E047</td>
+    </tr>
+    <tr>
+      <td><strong>Methods of the Written Voice I</strong> (0 cr — AEP)</td>
+      <td>WRIT-UH 1000 · 004</td>
+      <td>TBA</td>
+      <td>Tue 9:55–11:10 AM</td>
+      <td>Campus Center W007</td>
+    </tr>
+    <tr>
+      <td><strong>Calculus with Applications to Economics</strong> (4 cr)</td>
+      <td>MATH-UH 1013 · 001</td>
+      <td>Paparella</td>
+      <td>Mon &amp; Wed 11:20 AM–12:35 PM</td>
+      <td>West Administration 001</td>
+    </tr>
+    <tr>
+      <td>Calculus — recitation</td>
+      <td>MATH-UH 1013 · REC1</td>
+      <td>TBA</td>
+      <td>Fri 9:20–10:35 AM</td>
+      <td>Computational Research 007</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
-<div class="callout warn">
-  <strong>The 12-credit question — settle it before registration.</strong> A ~12-credit semester
-  (typically three 4-credit courses: FYWS + Markets + one more, since the AEP writing course carries none)
-  is usually the <em>minimum</em> full-time load, and NYUAD's standard pace is higher (four courses ≈ 16
-  credits) because the degree's total credit requirement divides across eight semesters. Starting at 12 is a
-  legitimate, adjustment-friendly choice — many first-years do it — but with TWO study-away semesters ahead you
-  must know where the missing credits come back: J-Terms, one or two 16-credit semesters later, or summer
-  credit. Ask your adviser to run the exact arithmetic (the question is ready in the Advising section) and to
-  confirm 12 keeps you full-time for visa, housing, and financial-aid purposes. Also decide the third credited
-  course: with math deferred, a <strong>Core course</strong> is the natural pick.
+<div class="callout tip">
+  <strong>This schedule is your preference, achieved.</strong> Every class sits in the morning except the
+  Thursday Markets recitation at 1:55–3:10 PM — squarely inside your ideal 1:00–3:00 PM afternoon window —
+  and nothing runs late. Mondays and Wednesdays end by 12:35 PM; Fridays by 10:35 AM. Open the
+  <strong>Schedule Builder</strong> section and hit "Load my registered Fall 2026 schedule" to see the week
+  visualized and verified against your preference rules.
+</div>
+
+<h3>What this schedule means for the plan</h3>
+<div class="card">
+  <ul>
+    <li><strong>Calculus in fall = the hard deadline beaten early.</strong> The old analysis worried about
+        completing Calculus by end of Year 1; you are now completing it in semester one, in Abu Dhabi, exactly
+        as the pathway requires. The whole downstream chain (Multivariable → Intermediate theory → Data
+        Analysis → Econometrics) gains a semester of slack.</li>
+    <li><strong>FYWS moves to spring</strong> (your update). That is a normal pattern — FYWS sections run both
+        semesters. Spring becomes: FYWS + Statistics + GEPS/Intro Macro, which completes all four Florence
+        prerequisites right on time.</li>
+    <li><strong>Two of the four Florence prerequisites finish this fall</strong>: Markets ✓ and Calculus ✓.
+        Statistics and GEPS/Intro Macro remain for spring — both scheduled there in the Four-Year Plan.</li>
+    <li><strong>History and Globalization (HIST-UH 2010) is a smart wildcard</strong> — a history course with
+        direct economics relevance. <span class="badge confirm">ask adviser</span> what it counts toward:
+        the SPEH requirement (Social, Political, and Economic History), a Core Competency (Cultural
+        Exploration and Analysis), or elective credit. If it satisfies SPEH, you have quietly knocked out a
+        major requirement in semester one.</li>
+    <li><strong>Credit load: 12 credits</strong> (Markets 4 + History and Globalization 4 + Calculus 4) plus
+        the zero-credit AEP writing course — exactly the gentle-start load you planned. The catch-up math from
+        the Advising section still applies: know where the missing ~4 credits return (J-Terms or a later
+        16-credit semester).</li>
+    <li><strong>Methods of the Written Voice I</strong> carries the roman numeral "I" — ask whether a "II"
+        continues in spring alongside FYWS, and confirm how the AEP sequence ends.</li>
+  </ul>
 </div>
 
 <h3>Before classes: the Academic Enrichment Program (AEP)</h3>
 <div class="card">
   <p>The AEP is a pre-first-year academic preparation program. Yours includes <strong>reading</strong>,
-  <strong>First-Year Writing Seminar (FYWS) preparation</strong>, and — per your updated plan —
-  <strong>Methods of the Written Voice as a zero-credit AEP writing course</strong> that continues alongside
-  your fall semester. Treat all of it as a genuine head start, not a formality:</p>
+  <strong>FYWS preparation</strong>, and <strong>Methods of the Written Voice I</strong> continuing as your
+  zero-credit writing course through the fall. Treat all of it as a genuine head start, not a formality:</p>
   <ul>
     <li><strong>Reading component:</strong> practice active reading — annotate, summarize each reading in 3–4
-        sentences, and write one question per text. This is exactly the skill FYWS grades you on.</li>
+        sentences, and write one question per text. This is exactly the skill your spring FYWS grades you on,
+        and History and Globalization will demand it from week one.</li>
     <li><strong>Writing prep:</strong> learn the difference between summary and argument early. FYWS at NYUAD is
         argument-driven: every essay needs a debatable claim, evidence, and counterargument handling.</li>
-    <li><strong>Use AEP instructors as your first "professor relationships."</strong> Ask them how they would
-        approach Methods of the Written Voice. Their advice transfers directly.</li>
-    <li><strong>Build the routine now:</strong> AEP is the perfect low-stakes environment to test the daily routine
-        in the Study Habits section before grades are on the line.</li>
+    <li><strong>Zero credits, real work:</strong> honor MWV deadlines like graded ones — it is the no-GPA-risk
+        training ground for the credited FYWS in spring. Take your writing risks there.</li>
+    <li><strong>Use AEP instructors as your first "professor relationships."</strong> Their feedback file is
+        what you will reread in week one of spring FYWS.</li>
   </ul>
-  <div class="callout tip"><strong>AEP → FYWS bridge.</strong> Keep every piece of AEP writing feedback in one
-  document. In week one of Methods of the Written Voice, reread it — you will start the graded course already
-  knowing your personal weak spots (thesis clarity? paragraph structure? citation?).</div>
+  <div class="callout tip"><strong>AEP → FYWS bridge, now with a semester of runway.</strong> Keep every piece
+  of AEP and MWV feedback in one document across the whole fall. By spring FYWS you will start the graded
+  course knowing your personal weak spots — most classmates discover theirs in their first graded essay.</div>
 </div>
 
-<h3>Your three first-semester courses</h3>
+<h3>Course-by-course strategy</h3>
 <div class="card-grid">
   <div class="card">
-    <h4>✍️ Methods of the Written Voice <span class="badge core">FYWS</span></h4>
-    <p>Your First-Year Writing Seminar. Small, discussion-based, writing-intensive. Expect several essays with
-       mandatory drafts and revisions.</p>
+    <h4>📈 Markets — Prof. Liu <span class="badge core">Econ</span></h4>
+    <p>Your first economics course and the audition for the major. TTh 8:30 AM means economics starts your day
+       four days a week (recitation Thursday afternoon with Jain).</p>
     <ul>
-      <li>Drafts matter more than finals — professors reward visible revision.</li>
-      <li>Go to the professor's office hours with a draft at least once per essay.</li>
-      <li>Use the Writing Center (see Support section) <em>before</em> deadlines, not after grades.</li>
-      <li>For Rhodes purposes: this course trains the clear, persuasive prose your personal statement
-          will need in year four. Take it seriously.</li>
+      <li>Learn the graphing logic cold — supply/demand shifts, surplus, elasticity. Everything later builds on it.</li>
+      <li>The recitation is where problem-set technique gets fixed: arrive with attempted problems, not blank pages.</li>
+      <li>Office hours with Prof. Liu by week three — economics faculty you meet now are potential capstone
+          advisers and Rhodes referees. Log impressions in the Professors tool.</li>
+      <li>Connect concepts to the Gulf economy in essays — professors notice students who apply ideas locally.</li>
     </ul>
   </div>
   <div class="card">
-    <h4>📝 Methods of the Written Voice — AEP writing course <span class="badge sample">zero credits</span></h4>
-    <p>Your second writing course, running inside the Academic Enrichment Program at zero credits — a deliberate
-       double-down on writing with no GPA exposure. Smart for a future economist and Rhodes candidate, since
-       writing is the skill that compounds longest (see Writing Lab).</p>
+    <h4>🧮 Calculus — Prof. Paparella <span class="badge core">Math · AD-only ✓</span></h4>
+    <p>MATH-UH 1013, the economics-flavored Calculus — the gateway course of your entire major, being completed
+       exactly where the pathway demands (Abu Dhabi) and earlier than your plan required.</p>
     <ul>
-      <li><strong>Zero credits, real work:</strong> honor its deadlines like graded ones — it is the training
-          ground for the essays your credited FYWS grades.</li>
-      <li><strong>Mind the essay pile-up anyway:</strong> two essay cycles still run at once. Backward-plan both
-          syllabi in week one so drafts never collide (Writing Lab's deadline math).</li>
-      <li>Use the two as one training program: apply feedback from the AEP course to the next FYWS essay —
-          double reps, one feedback ledger, and the low-stakes course is where you take the risks.</li>
-      <li>Confirm the logistics: whether it appears on your transcript, its attendance rules, and how long the
-          AEP continues into the semester.</li>
+      <li>Problem sets are the course. Start them the day they release; the error log (Study Habits) starts
+          with problem set 1.</li>
+      <li>Friday recitation at 9:20 AM anchors your week-end review — treat it as non-negotiable even though
+          Friday is otherwise free.</li>
+      <li>Standing ARC tutoring slot from week 3, while you are doing well — that is how A-students use tutoring.</li>
+      <li>An A here sets up Multivariable (Y2) and signals quantitative strength for everything after.</li>
     </ul>
   </div>
   <div class="card">
-    <h4>📈 Markets <span class="badge core">Economics</span></h4>
-    <p>Your first Economics course — the discipline you will major in, so treat it as an audition for the major
-       and for future recommendation letters.</p>
+    <h4>🌍 History and Globalization — Prof. Fuccaro <span class="badge confirm">confirm what it counts toward</span></h4>
+    <p>HIST-UH 2010 — global economic and political history, the perfect intellectual companion to Markets and
+       a strong Rhodes-narrative course.</p>
     <ul>
-      <li>Learn the graphing logic cold (supply/demand shifts, surplus, elasticity) — everything later builds on it.</li>
-      <li>Connect ideas to the Gulf/UAE economy in essays and discussions; professors notice students who
-          apply concepts locally.</li>
-      <li>Introduce yourself to the professor in week one and visit office hours by week three. Economics
-          faculty you meet now are potential capstone mentors and Rhodes referees.</li>
+      <li>Reading-heavy: apply the AEP annotation method from day one, and backward-plan essays (Writing Lab).</li>
+      <li>Gold for essays that connect history to economics — the exact cross-disciplinary thinking selectors
+          and capstone advisers reward.</li>
+      <li>Ask your adviser: SPEH requirement, Core Competency, or elective? The answer changes your Gen Ed
+          arithmetic meaningfully.</li>
+      <li>Prof. Fuccaro's office hours count toward the week-three rule too — a humanities referee balances an
+          economist's file.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h4>✍️ Methods of the Written Voice I <span class="badge sample">0 credits · AEP</span></h4>
+    <p>WRIT-UH 1000, Tuesday mornings — your writing gym with no GPA exposure, feeding directly into spring FYWS.</p>
+    <ul>
+      <li>Every essay here is a free rep for the credited FYWS — experiment with structure and voice now.</li>
+      <li>Keep the feedback ledger religiously; it is your spring cheat code.</li>
+      <li>Confirm the logistics: transcript notation, completion rules, and whether MWV II follows in spring.</li>
     </ul>
   </div>
 </div>
 
-<div class="callout info">
-  <strong>Course load note.</strong> Your planned shape: FYWS + Markets + one more credited course (a Core course
-  is the natural third, with math deferred) ≈ 12 credits, plus the zero-credit AEP writing course. That is a
-  deliberately gentle first semester — see the 12-credit callout above for the catch-up math, and use the
-  Advising section's questions to confirm it keeps you full-time and on pace.
-</div>
-
-<h3>No math in semester one: what it does to your Economics major &amp; graduation</h3>
-<div class="card">
-  <p><strong>The honest answer, now confirmed against the official pathway: on-time graduation survives this —
-  with one hard deadline.</strong> Here is the actual dependency chain your degree runs on:</p>
-  <p style="text-align:center"><strong>Calculus → Intermediate Micro/Macro + Data Analysis + Multivariable
-  Calculus → Econometrics → electives &amp; capstone</strong></p>
-  <ul>
-    <li>Nothing in <em>semester one</em> requires math: Markets is an intro course, and both writing courses are
-        math-free. Your fall plan is fully legal for the major. ✅</li>
-    <li>The chain's real constraint is the official study-away pathway (Four-Year Plan section): <strong>Markets,
-        Statistics, Calculus, and GEPS/Intro Macro must all be done before Florence</strong> (sophomore spring),
-        and <strong>Intermediate Micro, Intermediate Macro, Data Analysis, and Multivariable Calculus must all be
-        done — in Abu Dhabi — before New York</strong> (junior fall). Working backwards, that means:</li>
-    <li><strong>The hard deadline: Calculus must be completed by the end of Year 1</strong> — spring semester
-        (the clean path) or an NYUAD Abu Dhabi summer offering after (the backup; outside transfer credit does
-        not satisfy this course — see the Abu-Dhabi-only rule). Then Y2 fall proceeds exactly as the Four-Year
-        Plan shows, and graduation, both study-aways, the finance concentration, and the Rhodes timeline all
-        stay intact.</li>
-    <li>Multivariable Calculus is <strong>not optional</strong> under this pathway — it is a required major
-        course, and it must also be completed in Abu Dhabi before junior fall. If Calculus slips in Year 1, the
-        summer backup becomes mandatory (not preference), because Multivariable Calculus, Intermediate Micro,
-        Intermediate Macro, and Data Analysis all queue up behind it in Year 2.</li>
-    <li>What does NOT happen: no delayed graduation, no lost study-away, no blocked major — <em>provided the
-        Year-1 deadline holds</em>. Miss it, and Y2 theory slips, which cascades into the Florence/New York
-        sequencing. That is the one domino to guard.</li>
-  </ul>
-</div>
-
-<div class="callout warn">
-  <strong>Verify these three things with your adviser before locking the plan</strong> (questions ready in the
-  Advising section): (1) that Markets truly has no math prerequisite/corequisite in the current catalog;
-  (2) that Calculus is offered in spring with first-year seats (it normally is — confirm anyway);
-  (3) whether Statistics for the Social and Behavioral Sciences can sit alongside Calculus in Y1 spring or
-  should wait for Y2 fall — both are needed before Florence regardless, so the only question is which semester.
-  The plan below assumes yes / yes / alongside — your adviser may re-shuffle the details without breaking
-  the structure.
-</div>
-
-<h3>Calculus timing: your updated Plan A / Plan B / Plan C</h3>
-<div class="table-wrap">
-<table>
-  <thead><tr><th>Plan</th><th>When you take Calculus</th><th>What to do</th><th>Knock-on effects</th></tr></thead>
-  <tbody>
-    <tr>
-      <td><strong>Plan A</strong> (your new default)</td>
-      <td>Spring, semester 2</td>
-      <td>Keep fall math-free as planned; register for Calculus in spring as a priority course, ideally in a
-          morning slot with your standing ARC tutoring booked from week 1.</td>
-      <td>Intermediate theory starts Y2 fall as scheduled — zero impact on graduation, study away, finance
-          concentration, or Rhodes timeline. Y1 spring becomes your quantitative semester; balance it with
-          lighter reading courses.</td>
-    </tr>
-    <tr>
-      <td><strong>Plan B</strong> (backup)</td>
-      <td>Summer after Year 1</td>
-      <td>If spring Calculus fails to happen (full sections, schedule clash, or a rough semester): use an
-          <strong>NYUAD-administered Abu Dhabi summer offering</strong>, if one exists — Calculus must be
-          completed in Abu Dhabi, so an outside-university transfer course does not satisfy this requirement.
-          Run the J-Term &amp; Summers pre-flight checklist BEFORE relying on this.</td>
-      <td>Still keeps Y2 fall on schedule. Costs part of the summer and possibly money (check aid coverage);
-          displaces the skills/research summer plans, so treat as insurance, not preference.</td>
-    </tr>
-    <tr>
-      <td><strong>Plan C</strong> (damage control)</td>
-      <td>Fall, Year 2</td>
-      <td>Only if both spring and summer failed. Take Calculus in Y2 fall and immediately re-plan with your
-          adviser: which theory course can shift, and whether Florence timing still works.</td>
-      <td>The one scenario with real trade-offs: intermediate theory compresses around the study-away semesters,
-          and one of them may need to move. Avoidable in almost all cases by acting early in Plans A/B —
-          this row exists so you know exactly what you are protecting against.</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<div class="callout danger">
-  <strong>Summer course reality check — corrected.</strong> You mentioned possibly taking <strong>Calculus or
-  Multivariable Calculus in the summer</strong>. Both must be completed <strong>in Abu Dhabi</strong> per the
-  official pathway — an outside university's summer program will not satisfy either requirement, no matter how
-  good the pre-approval paperwork looks. Before counting on a summer option: (1) confirm an NYUAD Abu Dhabi
-  summer offering actually exists that year; (2) confirm the prerequisite chain (Multivariable requires
-  completed Calculus); (3) confirm cost and financial-aid coverage for summer study. Ask the exact questions
-  listed in the Advising section under "Summer courses."
-</div>
-
-<h3>Your preferred schedule: one morning class + one early-afternoon class</h3>
-<p>You want one class in the morning and one in the afternoon around <strong>1:00–3:00 PM</strong>, nothing late.
-Here is a realistic template. <strong>These times are illustrative</strong> — real section times appear only in the
-official course search, and you build the actual schedule during registration.</p>
-
+<h3>Your actual week at a glance</h3>
 <div class="table-wrap">
 <table>
   <thead><tr><th></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr></thead>
   <tbody>
-    <tr><td><strong>~9:00–10:15</strong></td><td>First-Year Writing Seminar</td><td>Core course (3rd credited course)</td><td>First-Year Writing Seminar</td><td>Core course (3rd credited course)</td><td>Weekly review</td></tr>
-    <tr><td><strong>~10:30–12:00</strong></td><td>Drafting block (FYWS)</td><td>Markets reading</td><td>Drafting block (AEP writing)</td><td>Core reading</td><td>Drafting / revision block</td></tr>
-    <tr><td><strong>~13:00–14:15</strong></td><td>—</td><td>Methods of the Written Voice (AEP, 0 cr)</td><td>—</td><td>Methods of the Written Voice (AEP, 0 cr)</td><td>—</td></tr>
-    <tr><td><strong>~14:30–15:45</strong></td><td>Markets</td><td>—</td><td>Markets</td><td>—</td><td>Office hours / Writing Center</td></tr>
-    <tr><td><strong>Evening</strong></td><td colspan="5">Free by design — clubs, gym, dinner, light review only.</td></tr>
+    <tr><td><strong>8:30–9:45</strong></td><td>—</td><td>Markets (Liu)</td><td>—</td><td>Markets (Liu)</td><td>Calc recitation 9:20–10:35</td></tr>
+    <tr><td><strong>9:55–11:10</strong></td><td>History &amp; Globalization</td><td>Methods of the Written Voice I</td><td>History &amp; Globalization</td><td>—</td><td>—</td></tr>
+    <tr><td><strong>11:20–12:35</strong></td><td>Calculus (Paparella)</td><td>—</td><td>Calculus (Paparella)</td><td>—</td><td>—</td></tr>
+    <tr><td><strong>Lunch</strong></td><td colspan="5">Free every day by 12:35 at the latest — protect the social lunch habit.</td></tr>
+    <tr><td><strong>1:55–3:10</strong></td><td>—</td><td>—</td><td>—</td><td>Markets recitation (Jain)</td><td>—</td></tr>
+    <tr><td><strong>Afternoons</strong></td><td colspan="5">Deep-work blocks + office hours + SIGs — the Study Habits daily template maps directly onto this shape.</td></tr>
   </tbody>
 </table>
 </div>
 
-<h4>How to actually get this schedule at registration</h4>
-<ol>
-  <li><strong>Before registration opens:</strong> in the course search, list every section of each course with its
-      meeting pattern. Star the sections that fit "morning" or "13:00–15:00-ish."</li>
-  <li><strong>Build two full backup schedules</strong>, because your first-choice sections may fill. Backup schedules
-      should still respect "no late classes" — sacrifice the 1–3 PM ideal before you sacrifice that.</li>
-  <li><strong>Register the moment your enrollment window opens.</strong> Popular time slots (late morning, early
-      afternoon) fill first.</li>
-  <li><strong>If a wanted section is full:</strong> join the waitlist if available, email the professor politely
-      (template in Checklists &amp; Templates), and attend the first class — spots often open in week one.</li>
-  <li><strong>Recitations/labs:</strong> Calculus may have a required recitation with separate times. Slot it into
-      a morning to protect your afternoon rule.</li>
-</ol>
-
 <div class="callout info">
-  <strong>Why exact times cannot be promised here.</strong> NYUAD publishes meeting patterns per semester and they
-  genuinely change (professor availability, room allocation, enrollment). Any app or upperclassman who tells you
-  "Markets is always at 2 PM" is guessing. Use this page's method, and confirm times in Albert during registration.
+  <strong>The load-bearing gaps.</strong> Mon/Wed 12:35 onward and all of Tue/Thu after 11:10 (except Thursday's
+  recitation) are your deep-work real estate. The classic first-year failure is treating these as free time;
+  the Study Habits section's "Deep block 1 = same-day review" rule turns them into your GPA engine. Friday
+  after 10:35 is the weekly review slot — the timing could not be better designed.
+</div>
+
+<h3>Spring 2027 — what comes next</h3>
+<div class="card">
+  <ul>
+    <li><strong>First-Year Writing Seminar</strong> (the credited FYWS requirement — confirm section options
+        early; writing-heavy spring balances your quantitative fall).</li>
+    <li><strong>Statistics for the Social and Behavioral Sciences</strong> (SOCSC-UH 1010) — Florence
+        prerequisite #3.</li>
+    <li><strong>GEPS or Introduction to Macroeconomics</strong> — Florence prerequisite #4 (GEPS may also
+        cover SPEH if History and Globalization does not — ask which combination is smartest).</li>
+    <li>That trio = 12 credits; discuss adding a fourth course (PE, Core Competency, or MWV II if it exists)
+        to start the credit catch-up.</li>
+    <li>Register the minute your window opens — FYWS and Statistics sections in your preferred morning/early-PM
+        pattern fill fast.</li>
+  </ul>
+</div>
+
+<div class="callout warn">
+  <strong>If Calculus ever goes sideways this fall</strong> (illness, a failing trajectory by midterm): the
+  recovery routes are spring re-take or an NYUAD Abu Dhabi summer offering — never an outside transfer course
+  (the AD-only rule). But the real plan is simpler: error log from week 1, ARC slot from week 3, office hours
+  with Prof. Paparella early. Calculus fails are usually algebra fails wearing a disguise — and they are
+  preventable in September, not November.
 </div>
 
 <h3>First-semester success metrics (Rhodes lens)</h3>
 <ul>
-  <li><strong>Grades:</strong> Rhodes is holistic, but a strong GPA is the entry ticket. Target A-range in all three
-      courses; if any course drops to B-range by midterm, activate academic support that week (see Support section).</li>
-  <li><strong>Relationships:</strong> by December you should be known by name to all three professors and your adviser.</li>
-  <li><strong>One commitment, not five:</strong> join several student groups in September, but by November keep the
-      one or two where you can eventually lead. Depth beats breadth for Rhodes.</li>
-  <li><strong>Writing file:</strong> save every graded essay with comments. Your future scholarship applications
-      recycle and refine these ideas.</li>
+  <li><strong>Grades:</strong> target A-range in all three credited courses; any course at B-range by midterm
+      triggers support that week (see Support section). Your GPA tracker's 3.5 away-gate line starts moving
+      with these very grades.</li>
+  <li><strong>Relationships:</strong> by December, Liu, Fuccaro, Paparella, and your MWV instructor should all
+      know your name from office hours — that is four potential referees from semester one alone.</li>
+  <li><strong>One commitment, not five:</strong> sample 3–6 SIGs in September; by November keep the one or two
+      where you could eventually lead.</li>
+  <li><strong>Writing file:</strong> every MWV essay with feedback, saved — the spring FYWS advantage and the
+      Rhodes personal statement both grow from it.</li>
 </ul>
 
 <div class="callout anecdote">
-  Common upperclassman advice about first semester: the biggest first-year mistake is not hard courses — it is
-  unstructured afternoons. Students with a 9 AM and a 2 PM class and a written plan for the gap consistently
-  out-perform students with "free" days. Your preferred schedule is already the right shape; the Study Habits
-  section turns the gaps into the engine.
+  Upperclassman wisdom that maps perfectly onto your schedule: the students who thrive are not the ones with
+  the fewest morning classes — they are the ones whose mornings have a spine. Four days a week you are in a
+  classroom by 9:55 at the latest; by the time most of campus is at brunch, half your academic day is banked.
+  Guard the afternoons for deep work and people, sleep like it is a course requirement, and this becomes the
+  semester the rest of the plan stands on.
 </div>
 `
 };

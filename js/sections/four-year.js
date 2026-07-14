@@ -138,49 +138,48 @@ drafts of this plan assumed. It must be scheduled and completed in Abu Dhabi bef
 </div>
 
 <div class="semester">
-  <h4>Fall, Year 1 — writing-heavy, math-free, ~12 credits</h4>
-  <p class="sem-note">Your updated intent: FYWS + Markets + one Gen Ed course (~12 credits), plus Methods of the
-  Written Voice as a zero-credit AEP writing course, and no math this semester by choice. Fully compatible with
-  the Economics major — the analysis, the credit-pacing math, and the one hard deadline are in the First
-  Semester section.</p>
+  <h4>Fall, Year 1 — AS REGISTERED (Aug 31 – Dec 14, 2026) ✅</h4>
+  <p class="sem-note">Your actual enrollment — 12 credits + the zero-credit AEP writing course. Calculus made
+  it into the fall, beating your own end-of-Year-1 deadline by a semester. Full schedule with times, rooms,
+  and instructors: First Semester section.</p>
   <ul>
-    <li><strong>First-Year Writing Seminar</strong> (credited; the official FYWS requirement — confirm which
-        course carries the designation).</li>
-    <li><strong>Markets</strong> (SOCSC-UH 1111, credited; no math prerequisite).</li>
-    <li><strong>One Gen Ed course</strong> (credited — Islamic Studies or a Core Competency area are natural
-        picks; see Core Curriculum section).</li>
-    <li><strong>Methods of the Written Voice</strong> — zero-credit AEP writing course alongside (real deadlines,
-        no GPA exposure).</li>
-    <li><em>Credit note:</em> ~12 credits is the gentle-start load; the missing ~4 come back via J-Terms or a
+    <li><strong>Markets</strong> (SOCSC-UH 1111, Liu) — Florence prerequisite #1 ✓ this semester.</li>
+    <li><strong>Calculus with Applications to Economics</strong> (MATH-UH 1013, Paparella) — Florence
+        prerequisite #2 ✓, completed in Abu Dhabi as the AD-only rule requires.</li>
+    <li><strong>History and Globalization</strong> (HIST-UH 2010, Fuccaro) — confirm with your adviser whether
+        it satisfies SPEH, a Core Competency, or elective credit.</li>
+    <li><strong>Methods of the Written Voice I</strong> (WRIT-UH 1000, 0 cr) — the AEP writing course; FYWS
+        itself moves to spring.</li>
+    <li><em>Credit note:</em> 12 credits is the gentle-start load; the missing ~4 come back via J-Terms or a
         later 16-credit semester — adviser runs the exact arithmetic (question ready in Advising).</li>
   </ul>
-  <p><strong>Rhodes moves:</strong> meet all professors in office hours; join 3–4 clubs to sample; start the
-  "impact journal" (see Rhodes section). A double-writing semester fills your feedback ledger twice as fast —
-  a quiet Rhodes asset.</p>
+  <p><strong>Rhodes moves:</strong> office hours with Liu, Fuccaro, Paparella, and the MWV instructor by week 3;
+  join 3–6 clubs to sample; start the "impact journal" (see Rhodes section).</p>
 </div>
 
 <div class="semester">
-  <h4>J-Term, Year 1 (January)</h4>
+  <h4>J-Term, Year 1 (January 2027)</h4>
   <ul>
     <li>Ideally a <strong>Field Colloquia</strong> course — two of your three J-Terms need to satisfy this Gen
         Ed category, so it is efficient to knock one out in Year 1 (see Core Curriculum section).</li>
-    <li><em>Math on-ramp:</em> since Calculus lands in spring, January is also the moment to warm up the algebra
-        (the Data &amp; Quant Toolkit's refresher list) — 30 minutes a day makes spring Calculus smoother.</li>
+    <li><em>Writing on-ramp:</em> since FYWS lands in spring, January is the moment to reread your full
+        MWV/AEP feedback ledger — you enter the graded writing course already knowing your weak spots.</li>
   </ul>
 </div>
 
 <div class="semester">
-  <h4>Spring, Year 1 — the quantitative semester (Calculus Plan A)</h4>
-  <p class="sem-note">The mirror image of your writing-heavy fall: math and numbers move to the front. This is
-  the semester that keeps the whole four-year machine on time.</p>
+  <h4>Spring, Year 1 (2027) — writing + the last two Florence prerequisites</h4>
+  <p class="sem-note">With Markets and Calculus already banked in fall, spring completes the Florence
+  prerequisite set and the writing requirement.</p>
   <ul>
-    <li><strong>Calculus with Applications to Economics</strong> (MATH-UH 1013) — your Plan A slot, in Abu Dhabi.
-        Priority registration, morning section, standing ARC tutoring from week 1. <em>This course completing on
-        time is the single hinge of the plan.</em></li>
-    <li><strong>Statistics for the Social and Behavioral Sciences</strong> (SOCSC-UH 1010) — a hard prerequisite
-        for Florence, so pair it here if your adviser confirms it fits alongside Calculus.</li>
-    <li><strong>GEPS or Introduction to Macroeconomics</strong> — the fourth sophomore-spring-away prerequisite;
-        take whichever fits your Gen Ed plan (GEPS can also satisfy your SPEH requirement).</li>
+    <li><strong>First-Year Writing Seminar</strong> — the credited FYWS requirement, now in its second-semester
+        slot (register the minute your window opens; morning sections fill fast).</li>
+    <li><strong>Statistics for the Social and Behavioral Sciences</strong> (SOCSC-UH 1010) — Florence
+        prerequisite #3.</li>
+    <li><strong>GEPS or Introduction to Macroeconomics</strong> — Florence prerequisite #4 (GEPS may also cover
+        SPEH; coordinate with whatever History and Globalization turns out to count for).</li>
+    <li><em>Optional 4th course</em> (PE, a Core Competency, or MWV II if it exists) to start the credit
+        catch-up from the 12-credit fall.</li>
   </ul>
   <p><strong>Rhodes moves:</strong> commit to 1–2 organizations; apply for a first-year summer opportunity
   (research assistant, internship, community project).</p>
@@ -189,13 +188,11 @@ drafts of this plan assumed. It must be scheduled and completed in Abu Dhabi bef
 <div class="semester">
   <h4>Summer after Year 1</h4>
   <ul>
-    <li><strong>If spring Calculus succeeded:</strong> the summer is free for the good stuff — research
+    <li>With Calculus already done in fall, this summer is fully free for the good stuff — research
         assistance, an internship/community project, or the first scripting language (Data &amp; Quant
-        Toolkit). Do not plan outside-transfer math credit here — Calculus/Multivariable/Data Analysis/
-        Econometrics must be NYUAD-Abu-Dhabi courses.</li>
-    <li><strong>If spring Calculus did NOT happen (Plan B):</strong> an NYUAD-administered Abu Dhabi summer
-        offering of Calculus becomes the priority, if one exists — verify with the Registrar (run the J-Term
-        &amp; Summers pre-flight checklist). Everything else fits around it.</li>
+        Toolkit). No math make-up needed.</li>
+    <li>Reminder unchanged: never plan outside-transfer credit for Calculus/Multivariable/Data Analysis/
+        Econometrics — those four are NYUAD-Abu-Dhabi courses only.</li>
   </ul>
 </div>
 
@@ -329,7 +326,7 @@ drafts of this plan assumed. It must be scheduled and completed in Abu Dhabi bef
 <table>
   <thead><tr><th>Checkpoint</th><th>What must be true</th><th>If it is not</th></tr></thead>
   <tbody>
-    <tr><td>End of Year 1 <strong>(the hard deadline)</strong></td><td>FYWS + AEP writing course done; <strong>Calculus done</strong> (spring, or an Abu Dhabi summer offering at the latest); Markets done; GEPS/Intro Macro done or scheduled; Statistics done or scheduled; credit total on the catch-up path your adviser mapped.</td><td>An NYUAD Abu Dhabi summer Calculus offering (if one exists) is the firewall. If even that fails, sit with your adviser immediately — the Florence timing is now in play.</td></tr>
+    <tr><td>End of Year 1 <strong>(deadline now front-loaded)</strong></td><td><strong>Calculus done in FALL ✓ (as registered)</strong>; Markets done in fall ✓; FYWS + Statistics + GEPS/Intro Macro done in spring; AEP writing course completed; credit total on the catch-up path your adviser mapped (the 12-credit fall means at least one 16-credit semester or J-Term credits later).</td><td>If a spring course slips (FYWS/Statistics/GEPS), it must be recovered before Florence — sit with your adviser immediately; the Florence application checkpoint is early Y2 fall.</td></tr>
     <tr><td>Before Florence (end of Y2 fall)</td><td>All four sophomore-spring-away prerequisites done (Markets, Statistics, Calculus, GEPS/Intro Macro).</td><td>Delay Florence to junior spring instead — do not go abroad missing a hard prerequisite.</td></tr>
     <tr><td>Before New York (end of Y2 spring + Y2 summer)</td><td>Intermediate Micro, Intermediate Macro, Data Analysis, Multivariable Calculus all done in Abu Dhabi; accounting/financial-markets prep done; <strong>cumulative GPA ≥ 3.5</strong>.</td><td>If GPA or a prerequisite is short, postpone New York and use the semester in Abu Dhabi to fix it — a delayed away semester is recoverable; a denied application close to the deadline is not.</td></tr>
     <tr><td>Start of Year 4</td><td>Only capstone + a small number of requirements left; Rhodes application ready to submit.</td><td>Drop optional commitments in fall — capstone and application quality outrank everything.</td></tr>

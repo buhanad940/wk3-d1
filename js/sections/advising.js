@@ -38,37 +38,36 @@ window.APP_SECTIONS["advising"] = {
 <h3>Question banks — copy what you need</h3>
 
 <details open>
-  <summary>📋 Course planning (first year)</summary>
+  <summary>📋 Course planning (first year — now registered)</summary>
   <ul>
-    <li>My fall plan is ~12 credits — FYWS + Markets + one Core course — plus Methods of the Written Voice as a zero-credit AEP writing course, and no math. Is that combination permitted and advisable?</li>
+    <li>My registered fall is Markets + Calculus + History and Globalization (12 credits) plus Methods of the
+        Written Voice I at zero credits, with FYWS in spring. Any concerns you'd flag with this combination?</li>
+    <li><strong>What does History and Globalization (HIST-UH 2010) count toward</strong> — the SPEH requirement,
+        a Core Competency (Cultural Exploration and Analysis?), or elective credit?</li>
     <li>Is 12 credits full-time for every purpose that matters (visa status, housing, financial aid, academic standing)?</li>
     <li>Can we run the credit arithmetic to graduation: with a 12-credit first semester, two study-away semesters, and J-Terms, exactly where do the remaining credits come from, and which later semesters need to be 16?</li>
-    <li>Which course officially satisfies the FYWS requirement?</li>
-    <li>For the AEP writing course: does it appear on my transcript, how long does it run into the semester, and what are its attendance/completion rules?</li>
-    <li>Does Markets have any math prerequisite or corequisite in the current catalog?</li>
-    <li>I plan to take Calculus in the spring instead of the fall. Can you confirm spring sections will have first-year seats, and walk me through exactly what breaks (if anything) for my Economics sequence and graduation date if Calculus lands in spring vs. the following summer?</li>
-    <li>Can introductory statistics sit alongside Calculus in my spring semester, or should it wait for Year 2 fall?</li>
-    <li>How many credits do I need per semester to graduate on time with my study-away plan?</li>
-    <li>Which Core categories should I start with, and which Core courses pair well with an Economics major?</li>
+    <li>For spring: which FYWS sections should I target, and how early do the morning/early-afternoon ones fill?</li>
+    <li>Can FYWS + Statistics + GEPS (or Intro Macro) sit together in my spring, and should I add a fourth course?</li>
+    <li>Is there a "Methods of the Written Voice II," and does my AEP writing course appear on my transcript?
+        What are its completion rules?</li>
     <li>When must I formally declare the Economics major, and what does declaring change?</li>
-    <li>What is the smartest use of my first J-Term?</li>
-    <li>If a course I need is full, what is the official process (waitlist, permission numbers, week-one adds)?</li>
+    <li>What is the smartest use of my first J-Term (Field Colloquia)?</li>
+    <li>If a spring course I need is full, what is the official process (waitlist, permission numbers, week-one adds)?</li>
   </ul>
 </details>
 
 <details>
-  <summary>🧮 Calculus &amp; Multivariable (Plans A/B/C)</summary>
+  <summary>🧮 Math sequence (Calculus ✓ fall — what's next)</summary>
   <ul>
-    <li>How does math placement work, and could it change which Calculus course I start in?</li>
-    <li>If I cannot take Calculus in the fall, what exactly moves in my Economics sequence, and by how much?</li>
-    <li>Is taking Calculus in the spring (Plan B) fully compatible with Florence in sophomore spring?</li>
-    <li>Can you confirm: Calculus, Multivariable Calculus, Data Analysis (ECON-UH 2020), and Econometrics
+    <li>With Calculus (MATH-UH 1013, Paparella) completing this fall, when exactly should Multivariable
+        Calculus land — Y2 fall alongside Intermediate Micro and Data Analysis, or split differently?</li>
+    <li>Can you confirm: Multivariable Calculus, Data Analysis (ECON-UH 2020), and Econometrics
         (SOCSC-UH 3220) must all be completed in Abu Dhabi — no exceptions for outside transfer credit, even
         in summer?</li>
-    <li>When in my sequence should I plan Multivariable Calculus, given it must land before junior-year study
-        away and be completed in Abu Dhabi?</li>
-    <li>Statistics for the Social and Behavioral Sciences is required before Florence — can it sit alongside
-        Calculus in Y1 spring, or should it move to Y2 fall?</li>
+    <li>Does my Y2 fall plan (Intermediate Micro + Data Analysis + Multivariable + finance prep) overload, and
+        if so which piece moves?</li>
+    <li>If Calculus goes badly this fall (I don't expect it to): what are the exact recovery routes and their
+        deadlines relative to the Florence application?</li>
   </ul>
 </details>
 

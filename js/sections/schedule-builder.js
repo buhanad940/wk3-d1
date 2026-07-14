@@ -6,13 +6,20 @@ window.APP_SECTIONS["schedule-builder"] = {
   title: "Schedule Builder",
   icon: "🗓️",
   html: `
-<h2>Weekly Schedule Builder <span class="badge confirm">real times come from Albert</span></h2>
+<h2>Weekly Schedule Builder <span class="badge core">Fall 2026 loaded from your registration</span></h2>
 <p class="section-lede">
-  Sketch candidate schedules before registration and test them against your preference: one class in the
-  morning, one in the early afternoon (ideally 1:00–3:00 PM), nothing late. Add each course's meeting pattern
-  as listed in the official course search; the builder flags conflicts and preference violations. Saved in this
-  browser only.
+  Sketch schedules and test them against your preference: one class in the morning, one in the early afternoon
+  (ideally 1:00–3:00 PM), nothing late. Your actual registered Fall 2026 classes can be loaded with one click
+  below; for future semesters, add candidate sections from the official course search. Saved in this browser only.
 </p>
+
+<div class="card">
+  <h4>⚡ Your real Fall 2026 registration</h4>
+  <p style="font-size:0.9rem;color:var(--ink-soft)">Loads all six registered meeting patterns — Markets (Liu),
+  Markets recitation (Jain), History and Globalization (Fuccaro), Methods of the Written Voice I, Calculus
+  (Paparella), and Calculus recitation — exactly as enrolled. Replaces whatever is currently in the grid.</p>
+  <p><button class="btn" id="s-load-real">Load my registered Fall 2026 schedule</button></p>
+</div>
 
 <div class="card">
   <h4>Add a class block</h4>

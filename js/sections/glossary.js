@@ -25,7 +25,7 @@ window.APP_SECTIONS["glossary"] = {
     <tr><td><strong>D2</strong></td><td>The main dining hall (from "Dining 2" in campus building shorthand). Where campus actually socializes.</td></tr>
     <tr><td><strong>ECON-UH / MATH-UH / SOCSC-UH</strong></td><td>Course code prefixes: Economics, Mathematics, and Social Science courses respectively. Your major draws from all three (e.g., SOCSC-UH 1111 Markets, MATH-UH 1013 Calculus, SOCSC-UH 3220 Econometrics).</td></tr>
     <tr><td><strong>Field Colloquia</strong></td><td>A Gen Ed requirement satisfied by two specific J-Term courses — not the same as the separate "Colloquia" requirement.</td></tr>
-    <tr><td><strong>FYWS</strong></td><td>First-Year Writing Seminar — your credited Gen Ed writing requirement, distinct from Methods of the Written Voice (which runs as your zero-credit AEP writing course).</td></tr>
+    <tr><td><strong>FYWS</strong></td><td>First-Year Writing Seminar — your credited Gen Ed writing requirement, taken in <strong>spring</strong> (second semester) in your plan. Distinct from Methods of the Written Voice I (your zero-credit fall AEP writing course).</td></tr>
     <tr><td><strong>The Gazelle</strong></td><td>The independent student news publication of NYUAD.</td></tr>
     <tr><td><strong>General Education (Gen Ed)</strong></td><td>NYUAD's 26-credit set of requirements outside the major — Physical Education, Quantitative Reasoning, Experimental Inquiry, Islamic Studies, FYWS, Colloquia, Field Colloquia, and the four Core Competencies. Sometimes informally called "Core."</td></tr>
     <tr><td><strong>GEPS</strong></td><td>Global Economic, Political, and Social Development in Historical Perspective — one of two courses (with Introduction to Macroeconomics) that satisfy the sophomore-spring-away prerequisite and likely your SPEH requirement.</td></tr>
@@ -59,13 +59,12 @@ window.APP_SECTIONS["glossary"] = {
 </details>
 
 <details>
-  <summary>I'm skipping math in my first semester — does that hurt my Economics major or graduation?</summary>
-  <p>No, provided one deadline holds: <strong>Calculus completed by the end of Year 1</strong> (spring is the
-  plan, an NYUAD Abu Dhabi summer offering is the firewall — not an outside transfer course, since Calculus
-  must be completed in Abu Dhabi). Semester one itself needs no math — Markets is an intro course. The math
-  chain (Calculus → Intermediate Micro/Macro + Data Analysis + Multivariable Calculus → Econometrics) is timed
-  against the official study-away prerequisite chain, not against the first semester. Full analysis and the
-  updated Plans A/B/C: First Semester section.</p>
+  <summary>Where does my registered fall schedule leave the math timeline?</summary>
+  <p>Ahead of it. Your Fall 2026 registration includes <strong>Calculus with Applications to Economics</strong>
+  (MATH-UH 1013) in Abu Dhabi — so the old "Calculus by end of Year 1" hard deadline is satisfied in semester
+  one, and the chain (Calculus → Intermediate Micro/Macro + Data Analysis + Multivariable Calculus →
+  Econometrics) gains a semester of slack. The remaining AD-only courses to schedule are Multivariable
+  Calculus and Data Analysis (Year 2) and Econometrics (Year 3 spring). Full schedule: First Semester section.</p>
 </details>
 
 <details>

@@ -42,10 +42,10 @@ window.APP_SECTIONS["home"] = {
        grades, leadership, service, research, and references all planned by semester.</p>
   </div>
   <div class="card">
-    <h4>📚 First semester</h4>
-    <p>AEP (reading + FYWS prep, continuing as <strong>Methods of the Written Voice, zero credits</strong>) →
-       a writing-heavy, math-free fall of ~12 credits: <strong>First-Year Writing Seminar</strong>,
-       <strong>Markets</strong>, and one Core course. No Calculus until spring.</p>
+    <h4>📚 First semester — registered ✅</h4>
+    <p>Fall 2026 as enrolled: <strong>Markets</strong> (Liu), <strong>Calculus</strong> (Paparella),
+       <strong>History and Globalization</strong> (Fuccaro) = 12 credits, plus <strong>Methods of the Written
+       Voice I</strong> (0 cr, AEP). <strong>FYWS moves to spring.</strong> Full schedule in First Semester.</p>
   </div>
   <div class="card">
     <h4>✈️ Study away</h4>
@@ -60,10 +60,10 @@ window.APP_SECTIONS["home"] = {
        The First Semester section shows how to build this in registration.</p>
   </div>
   <div class="card">
-    <h4>🧮 Math timing</h4>
-    <p>Calculus deferred to Y1 spring (your Plan A), an Abu Dhabi summer offering as backup — Calculus,
-       Multivariable Calculus, Data Analysis, and Econometrics must all be completed <strong>in Abu Dhabi</strong>,
-       never transferred in. The hard deadline: <strong>Calculus done by end of Year 1.</strong></p>
+    <h4>🧮 Math timing — ahead of schedule</h4>
+    <p><strong>Calculus is in your fall registration</strong> (MATH-UH 1013, in Abu Dhabi as required) — the
+       end-of-Year-1 deadline is beaten by a semester. Remaining AD-only courses: Multivariable Calculus (Y2),
+       Data Analysis (Y2), Econometrics (Y3 spring).</p>
   </div>
 </div>
 

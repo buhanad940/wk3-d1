@@ -458,6 +458,27 @@
       }
     });
 
+    // Real Fall 2026 registration (times as enrolled; minutes from midnight)
+    var REAL_FALL_2026 = [
+      { name: "Markets (Liu)",                    days: [1, 3], start: 510, end: 585, kind: "Class" },            // TTh 8:30–9:45
+      { name: "History & Globalization (Fuccaro)", days: [0, 2], start: 595, end: 670, kind: "Class" },           // MW 9:55–11:10
+      { name: "Methods of the Written Voice I (0 cr)", days: [1], start: 595, end: 670, kind: "Class" },          // T 9:55–11:10
+      { name: "Calculus (Paparella)",             days: [0, 2], start: 680, end: 755, kind: "Class" },            // MW 11:20–12:35
+      { name: "Calculus recitation",              days: [4], start: 560, end: 635, kind: "Recitation/Lab" },      // F 9:20–10:35
+      { name: "Markets recitation (Jain)",        days: [3], start: 835, end: 910, kind: "Recitation/Lab" }       // Th 1:55–3:10
+    ];
+    var loadRealBtn = document.getElementById("s-load-real");
+    if (loadRealBtn) {
+      loadRealBtn.addEventListener("click", function () {
+        if (sched.length && !confirm("Replace the current grid with your registered Fall 2026 schedule?")) return;
+        sched = REAL_FALL_2026.map(function (b, i) {
+          return { name: b.name, days: b.days.slice(), start: b.start, end: b.end, kind: b.kind };
+        });
+        saveJSON(LS_SCHED, sched);
+        renderSched();
+      });
+    }
+
     renderSched();
   }
 

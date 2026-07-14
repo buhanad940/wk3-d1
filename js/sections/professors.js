@@ -23,6 +23,23 @@ window.APP_SECTIONS["professors"] = {
   learn. Keep your notes factual, first-hand where possible, and never publish them.
 </div>
 
+<div class="card">
+  <h4>🎯 Your actual Fall 2026 instructors — start here</h4>
+  <p>From your registration, these are the people to build relationships with this semester (facts from your
+  enrollment; form your own views and log them in the tool below):</p>
+  <ul>
+    <li><strong>Prof. Liu</strong> — Markets (SOCSC-UH 1111), TTh mornings. Your first economics faculty
+        relationship; office hours by week 3.</li>
+    <li><strong>Jain</strong> — Markets recitation, Thursday afternoons. Recitation leaders see your actual
+        problem-solving up close — a underrated ally for exam preparation.</li>
+    <li><strong>Prof. Fuccaro</strong> — History and Globalization (HIST-UH 2010), MW mornings. A humanities
+        referee balances an economist's file; read their faculty page for research interests.</li>
+    <li><strong>Prof. Paparella</strong> — Calculus (MATH-UH 1013), MW late mornings. The professor of your
+        most consequential course this semester — early office-hours visits here pay the highest dividends.</li>
+    <li><strong>MWV instructor (TBA)</strong> — your writing coach for the year; their feedback feeds spring FYWS.</li>
+  </ul>
+</div>
+
 <h3>How to research a professor properly (legitimate sources)</h3>
 <ol>
   <li><strong>The current course search (Albert):</strong> the only reliable answer to "who teaches this section,
