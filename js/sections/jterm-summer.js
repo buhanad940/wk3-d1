@@ -46,9 +46,8 @@ window.APP_SECTIONS["jterm-summer"] = {
       <td><strong>Year 1</strong></td>
       <td>Your first <strong>Field Colloquia</strong> course — ideally one that genuinely excites you, possibly
           with a travel component. Knocking one of the two out early removes it from later, busier years.</td>
-      <td><em>If Calculus was missed in both fall and spring:</em> J-Term math offerings are rare and, per the
-          Abu-Dhabi-only rule, would need to be an NYUAD Abu Dhabi offering — verify with the Registrar, do not
-          assume one exists.</td>
+      <td><em>Alternative:</em> if electives are your only open slot, use January for research assistance or
+          planning your internship applications.</td>
     </tr>
     <tr>
       <td><strong>Year 2</strong></td>
@@ -113,8 +112,8 @@ window.APP_SECTIONS["jterm-summer"] = {
 <div class="callout tip">
   <strong>The comparison your adviser will walk you through (be ready for it):</strong> a summer course buys
   schedule flexibility; a research summer buys skills, references, and narrative. For a Rhodes-track economist,
-  research generally wins <em>unless</em> the course unblocks your major sequence — which is exactly what
-  Calculus Plan C is for. Decide by sequence-need, not by resume aesthetics.
+  research generally wins <em>unless</em> the course unblocks your major sequence — a case you avoid by getting
+  ahead in Abu Dhabi. Decide by sequence-need and Rhodes narrative, not resume aesthetics.
 </div>
 
 <div class="callout anecdote">

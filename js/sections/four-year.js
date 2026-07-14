@@ -56,9 +56,9 @@ window.APP_SECTIONS["four-year"] = {
 <div class="callout warn">
   <strong>The Abu-Dhabi-only rule.</strong> <strong>Calculus, Multivariable Calculus, Data Analysis: Economics
   (ECON-UH 2020), and Econometrics (SOCSC-UH 3220) must be completed in Abu Dhabi</strong> — not transferred in
-  from elsewhere and not taken at a study-away site. This replaces any earlier idea of taking Calculus via an
-  outside summer program: your Plan B/C backups (First Semester section) must be an NYUAD-administered
-  offering, not a transfer course, for this specific set of four courses.
+  from elsewhere and not taken at a study-away site. Your Calculus is already enrolled for fall 2026 in Abu Dhabi
+  (Paparella); the remaining three (Multivariable, Data Analysis, Econometrics) must also be completed here,
+  with no outside transfer credit permitted.
 </div>
 
 <div class="callout info">

@@ -50,8 +50,8 @@ window.APP_SECTIONS["rhodes"] = {
       constituency (citizenship/residency/age rules). Introduce yourself to NYUAD's fellowship advisers so they
       know your name three years early.</li>
   <li><span class="tl-when">Summer</span> First real experience: research assistant, internship, or community
-      project — or the Plan C summer course if Calculus needs it (you can often do a course and a part-time
-      project; do not do a course and two projects).</li>
+      project. Pair it with data-skills building (coding basics from the Data &amp; Quant Toolkit). One substantial
+      commitment; avoid overloading.</li>
 </ul>
 
 <h4>Year 2 — Depth</h4>

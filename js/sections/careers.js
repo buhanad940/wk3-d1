@@ -56,7 +56,7 @@ window.APP_SECTIONS["careers"] = {
   <thead><tr><th>When</th><th>Career move</th><th>Notes for your plan</th></tr></thead>
   <tbody>
     <tr><td>Y1 fall</td><td>None required. Learn, join, explore.</td><td>Resist finance-club urgency culture; first-years do not need internships, they need GPAs and curiosity.</td></tr>
-    <tr><td>Y1 spring</td><td>CV reviewed at Career Development; Handshake alerts set; apply for modest summer roles/research.</td><td>Summer 1 = skills + possibly your Plan C course (see J-Term &amp; Summers).</td></tr>
+    <tr><td>Y1 spring</td><td>CV reviewed at Career Development; Handshake alerts set; apply for modest summer roles/research.</td><td>Summer 1 = skills (data/coding) + research assistant or internship role.</td></tr>
     <tr><td>Y2 fall</td><td>Attend employer events to calibrate; apply for structured Summer 2 internships (many open now); research assistantship conversations.</td><td>Heavy season: this overlaps study-away applications — calendar both in week 1.</td></tr>
     <tr><td>Y2 spring (Florence)</td><td>Interviews for summer roles happen remotely — plan quiet rooms and time zones.</td><td>Summer 2 is the anchor experience for both Rhodes and career.</td></tr>
     <tr><td>Y3 fall (New York)</td><td>THE recruiting semester: NY career fairs, on-campus recruiting, networking at full density. Junior-summer internship applications (many due Sept–Nov).</td><td>Wasserman + NYUAD Career Development both; treat coffee-chat networking as a weekly class.</td></tr>

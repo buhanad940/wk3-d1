@@ -21,7 +21,7 @@ window.APP_SECTIONS["travel"] = {
     <tr><td><strong>Fall / spring short breaks</strong></td><td>A few days — too short for most home trips.</td><td>Regional instead: Oman, northern emirates, or a campus-quiet staycation (empty campus is a legitimately great break).</td></tr>
     <tr><td><strong>Winter break</strong></td><td>Between fall finals and J-Term — the main home window for many students.</td><td>Book when the academic calendar publishes (spring before!). December Gulf fares double for procrastinators.</td></tr>
     <tr><td><strong>J-Term travel</strong></td><td>If your course travels, logistics are handled with the course; your job is documents on time.</td><td>Check visa needs for the course destination the day you are placed.</td></tr>
-    <tr><td><strong>Summer</strong></td><td>The long home stretch — unless it is your research/internship/Plan C course summer (J-Term &amp; Summers section).</td><td>Book by March. If summer plans are uncertain, book flexible fares — change fees beat new tickets.</td></tr>
+    <tr><td><strong>Summer</strong></td><td>The long home stretch — unless it is your research/internship summer (Research &amp; Capstone section).</td><td>Book by March. If summer plans are uncertain, book flexible fares — change fees beat new tickets.</td></tr>
     <tr><td><strong>Study-away relocations</strong></td><td>AUH → Florence (Y2 spring), AUH/home → New York (Y3 fall).</td><td>Treat as moves, not trips: baggage math (ship vs. carry), arrival before host-site orientation, and the visa timeline drives everything (Study Away section).</td></tr>
   </tbody>
 </table>

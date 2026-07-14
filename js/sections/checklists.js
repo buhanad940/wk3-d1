@@ -17,7 +17,7 @@ window.APP_SECTIONS["checklists"] = {
 <div class="card">
   <label class="check"><input type="checkbox" data-ck="pre-1"> Passport valid well beyond the semester; UAE student visa process started per NYUAD instructions.</label>
   <label class="check"><input type="checkbox" data-ck="pre-2"> AEP materials read; reading-annotation habit started (see First Semester section).</label>
-  <label class="check"><input type="checkbox" data-ck="pre-3"> Math placement steps (if any) completed carefully — they affect Calculus Plan A.</label>
+  <label class="check"><input type="checkbox" data-ck="pre-3"> Math placement steps (if any) completed carefully — they affect course placement and sequencing.</label>
   <label class="check"><input type="checkbox" data-ck="pre-4"> Housing forms, immunization/health forms, and insurance enrollment submitted.</label>
   <label class="check"><input type="checkbox" data-ck="pre-5"> Flights booked; arrival window matches official move-in instructions.</label>
   <label class="check"><input type="checkbox" data-ck="pre-6"> One light layer packed for air-conditioned classrooms; modest-dress basics for city outings; sunscreen.</label>
