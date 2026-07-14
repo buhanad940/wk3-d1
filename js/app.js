@@ -12,17 +12,14 @@
   var sections = window.APP_SECTIONS || {};
   var order = window.APP_ORDER || [];
 
-  /* ---------- Dark mode toggle ---------- */
+  /* ---------- Theme toggle (dark is the default identity) ---------- */
 
   var themeBtn = document.getElementById("theme-toggle");
   if (themeBtn) {
     var root = document.documentElement;
-    var systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)");
 
     function effectiveTheme() {
-      var explicit = root.getAttribute("data-theme");
-      if (explicit === "dark" || explicit === "light") return explicit;
-      return systemDark && systemDark.matches ? "dark" : "light";
+      return root.getAttribute("data-theme") === "light" ? "light" : "dark";
     }
 
     function paintIcon() {
@@ -36,16 +33,20 @@
       paintIcon();
     });
 
-    if (systemDark && systemDark.addEventListener) {
-      systemDark.addEventListener("change", function () {
-        if (!root.getAttribute("data-theme")) paintIcon();
-      });
-    }
-
     paintIcon();
   }
 
-  /* ---------- Render sections + nav ---------- */
+  /* ---------- Render sections + grouped nav ---------- */
+
+  var NAV_GROUPS = [
+    { label: "Start Here", ids: ["home", "arrival", "packing", "first-semester", "schedule-builder"] },
+    { label: "Academics", ids: ["four-year", "core-curriculum", "jterm-summer", "professors", "advising"] },
+    { label: "Go Global", ids: ["study-away", "travel", "languages"] },
+    { label: "Ambition", ids: ["rhodes", "research-capstone", "careers", "leadership", "writing-lab", "quant-toolkit"] },
+    { label: "Campus & City", ids: ["campus-life", "abu-dhabi", "community", "money"] },
+    { label: "Wellbeing", ids: ["support", "wellbeing", "safety", "habits"] },
+    { label: "Toolkit", ids: ["gpa-tools", "checklists", "glossary"] }
+  ];
 
   var main = document.getElementById("main-content");
   var nav = document.getElementById("sidenav");
@@ -53,18 +54,37 @@
   order.forEach(function (id) {
     var s = sections[id];
     if (!s) return;
-
     var sec = document.createElement("section");
     sec.className = "app-section";
     sec.id = "section-" + id;
     sec.innerHTML = s.html;
     main.appendChild(sec);
+  });
 
-    var btn = document.createElement("button");
-    btn.innerHTML = '<span class="nav-icon">' + s.icon + "</span><span>" + s.title + "</span>";
-    btn.dataset.target = id;
-    btn.addEventListener("click", function () { show(id); });
-    nav.appendChild(btn);
+  var grouped = {};
+  NAV_GROUPS.forEach(function (g) {
+    g.ids.forEach(function (id) { grouped[id] = true; });
+  });
+  var leftovers = order.filter(function (id) { return !grouped[id]; });
+  var navPlan = NAV_GROUPS.slice();
+  if (leftovers.length) navPlan.push({ label: "More", ids: leftovers });
+
+  navPlan.forEach(function (g) {
+    var hasAny = g.ids.some(function (id) { return sections[id]; });
+    if (!hasAny) return;
+    var label = document.createElement("div");
+    label.className = "nav-group-label";
+    label.textContent = g.label;
+    nav.appendChild(label);
+    g.ids.forEach(function (id) {
+      var s = sections[id];
+      if (!s) return;
+      var btn = document.createElement("button");
+      btn.innerHTML = '<span class="nav-icon">' + s.icon + "</span><span>" + s.title + "</span>";
+      btn.dataset.target = id;
+      btn.addEventListener("click", function () { show(id); });
+      nav.appendChild(btn);
+    });
   });
 
   function show(id) {
@@ -79,6 +99,7 @@
       try { history.replaceState(null, "", "#" + id); } catch (e) { /* file:// quirks */ }
     }
     window.scrollTo({ top: 0 });
+    try { window.dispatchEvent(new CustomEvent("sectionshown", { detail: { id: id } })); } catch (e) { /* old browsers */ }
   }
 
   var initial = location.hash.replace("#", "");
@@ -557,22 +578,37 @@
     renderGrades();
   }
 
-  /* ---------- Search ---------- */
+  /* ---------- Command palette (search + jump, Ctrl/Cmd+K) ---------- */
 
   var searchBox = document.getElementById("global-search");
   var resultsEl = document.getElementById("search-results");
+  var paletteOverlay = document.getElementById("palette-overlay");
+  var paletteTrigger = document.getElementById("palette-trigger");
 
   function textOf(id) {
     var sec = document.getElementById("section-" + id);
     return sec ? sec.textContent : "";
   }
 
+  function showAllSections() {
+    resultsEl.innerHTML = order.map(function (id) {
+      return '<div class="hit" data-go="' + id + '">' +
+        '<div class="hit-section">' + sections[id].icon + " " + sections[id].title + "</div></div>";
+    }).join("");
+    resultsEl.classList.remove("hidden");
+  }
+
   function runSearch(q) {
     q = q.trim().toLowerCase();
-    if (q.length < 2) { resultsEl.classList.add("hidden"); return; }
+    if (q.length < 2) { showAllSections(); return; }
 
-    var hits = [];
+    var titleHits = [], contentHits = [];
     order.forEach(function (id) {
+      var title = sections[id].title.toLowerCase();
+      if (title.indexOf(q) >= 0) {
+        titleHits.push({ id: id, snippet: "Jump to section" });
+        return;
+      }
       var text = textOf(id);
       var lower = text.toLowerCase();
       var pos = lower.indexOf(q);
@@ -580,39 +616,207 @@
         var start = Math.max(0, pos - 60);
         var snippet = (start > 0 ? "…" : "") +
           text.slice(start, pos + q.length + 90).replace(/\s+/g, " ").trim() + "…";
-        hits.push({ id: id, title: sections[id].title, snippet: snippet });
+        contentHits.push({ id: id, snippet: snippet });
       }
     });
 
+    var hits = titleHits.concat(contentHits);
     if (!hits.length) {
       resultsEl.innerHTML = '<div class="empty">No matches for "' + q.replace(/</g, "&lt;") + '".</div>';
     } else {
       resultsEl.innerHTML = hits.map(function (h) {
         return '<div class="hit" data-go="' + h.id + '">' +
-          '<div class="hit-section">' + sections[h.id].icon + " " + h.title + "</div>" +
+          '<div class="hit-section">' + sections[h.id].icon + " " + sections[h.id].title + "</div>" +
           '<div>' + h.snippet.replace(/</g, "&lt;") + "</div></div>";
       }).join("");
     }
     resultsEl.classList.remove("hidden");
   }
 
-  if (searchBox) {
-    searchBox.addEventListener("input", function () { runSearch(searchBox.value); });
-    searchBox.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") { resultsEl.classList.add("hidden"); searchBox.blur(); }
+  function openPalette() {
+    paletteOverlay.classList.add("open");
+    searchBox.value = "";
+    showAllSections();
+    setTimeout(function () { searchBox.focus(); }, 30);
+  }
+  function closePalette() {
+    paletteOverlay.classList.remove("open");
+    resultsEl.classList.add("hidden");
+    searchBox.value = "";
+  }
+
+  if (searchBox && paletteOverlay) {
+    paletteTrigger.addEventListener("click", openPalette);
+
+    document.addEventListener("keydown", function (e) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === "k" || e.key === "K")) {
+        e.preventDefault();
+        if (paletteOverlay.classList.contains("open")) closePalette(); else openPalette();
+      } else if (e.key === "Escape" && paletteOverlay.classList.contains("open")) {
+        closePalette();
+      }
     });
+
+    paletteOverlay.addEventListener("click", function (e) {
+      if (e.target === paletteOverlay) closePalette();
+    });
+
+    searchBox.addEventListener("input", function () { runSearch(searchBox.value); });
+
+    searchBox.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        var first = resultsEl.querySelector(".hit");
+        if (first) { show(first.dataset.go); closePalette(); }
+      }
+    });
+
     resultsEl.addEventListener("click", function (e) {
       var hit = e.target.closest(".hit");
-      if (hit) {
-        show(hit.dataset.go);
-        resultsEl.classList.add("hidden");
-        searchBox.value = "";
-      }
+      if (hit) { show(hit.dataset.go); closePalette(); }
     });
-    document.addEventListener("click", function (e) {
-      if (!resultsEl.contains(e.target) && e.target !== searchBox) {
-        resultsEl.classList.add("hidden");
-      }
+  }
+
+  /* ---------- Scroll progress + back to top ---------- */
+
+  var progressBar = document.getElementById("scroll-progress");
+  var backTop = document.getElementById("back-top");
+
+  function onScroll() {
+    var doc = document.documentElement;
+    var max = doc.scrollHeight - doc.clientHeight;
+    var pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+    if (progressBar) progressBar.style.width = pct + "%";
+    if (backTop) backTop.classList.toggle("show", doc.scrollTop > 500);
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  if (backTop) {
+    backTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* ---------- Reveal-on-scroll animations ---------- */
+
+  if ("IntersectionObserver" in window &&
+      !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+    var revealables = document.querySelectorAll(
+      ".app-section .card, .app-section .callout, .app-section .table-wrap, " +
+      ".app-section .semester, .app-section details, .app-section .timeline > li"
+    );
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("rv-in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.06, rootMargin: "0px 0px -30px 0px" });
+
+    Array.prototype.forEach.call(revealables, function (el) {
+      el.classList.add("rv");
+      io.observe(el);
+    });
+
+    // Fallback sweep: instantly reveal anything already inside the viewport
+    // (covers first paint and section switches, where IO timing can lag).
+    function revealInView() {
+      var vh = window.innerHeight || 800;
+      Array.prototype.forEach.call(revealables, function (el) {
+        if (el.classList.contains("rv-in")) return;
+        var r = el.getBoundingClientRect();
+        if (r.height > 0 && r.top < vh + 40) el.classList.add("rv-in");
+      });
+    }
+    requestAnimationFrame(revealInView);
+    window.addEventListener("sectionshown", function () { requestAnimationFrame(revealInView); });
+    window.addEventListener("load", revealInView);
+  }
+
+  /* ---------- Per-card checklist progress bars ---------- */
+
+  var ckCards = [];
+  Array.prototype.forEach.call(document.querySelectorAll(".app-section .card"), function (card) {
+    var boxes = card.querySelectorAll("input[data-ck]");
+    if (boxes.length >= 3) {
+      var wrap = document.createElement("div");
+      wrap.className = "ck-progress";
+      wrap.innerHTML = '<div class="ckp-bar"><div class="ckp-fill"></div></div><span class="ckp-label"></span>';
+      card.insertBefore(wrap, card.querySelector("label.check"));
+      ckCards.push({ card: card, boxes: boxes, fill: wrap.querySelector(".ckp-fill"), label: wrap.querySelector(".ckp-label") });
+    }
+  });
+
+  function updateCkBars() {
+    ckCards.forEach(function (c) {
+      var done = 0;
+      Array.prototype.forEach.call(c.boxes, function (b) { if (b.checked) done++; });
+      var pct = Math.round((done / c.boxes.length) * 100);
+      c.fill.style.width = pct + "%";
+      c.label.textContent = done + "/" + c.boxes.length;
+    });
+  }
+  document.addEventListener("change", function (e) {
+    if (e.target && e.target.dataset && e.target.dataset.ck !== undefined) updateCkBars();
+  });
+  updateCkBars();
+
+  /* ---------- Live dashboard stats on Home ---------- */
+
+  var homeSec = document.getElementById("section-home");
+  if (homeSec) {
+    var strip = document.createElement("div");
+    strip.className = "stats-strip";
+    var lede = homeSec.querySelector(".section-lede");
+    if (lede && lede.nextSibling) homeSec.insertBefore(strip, lede.nextSibling);
+    else homeSec.appendChild(strip);
+
+    function stat(value, label, sub, cls) {
+      return '<div class="stat-tile ' + (cls || "") + '">' +
+        '<div class="st-value">' + value + '</div>' +
+        '<div class="st-label">' + label + '</div>' +
+        (sub ? '<div class="st-sub">' + sub + '</div>' : "") + '</div>';
+    }
+
+    function renderStats() {
+      var allBoxes = document.querySelectorAll("input[data-ck]");
+      var done = 0;
+      Array.prototype.forEach.call(allBoxes, function (b) { if (b.checked) done++; });
+      var pct = allBoxes.length ? Math.round((done / allBoxes.length) * 100) : 0;
+
+      var grades = loadJSON("nyuad-compass-grades", []);
+      var pts = 0, cr = 0;
+      var GP = { "A": 4.0, "A-": 3.667, "B+": 3.333, "B": 3.0, "B-": 2.667, "C+": 2.333, "C": 2.0, "C-": 1.667, "D+": 1.333, "D": 1.0, "F": 0 };
+      grades.forEach(function (g) {
+        if (GP.hasOwnProperty(g.grade)) { pts += GP[g.grade] * g.credits; cr += g.credits; }
+      });
+      var gpa = cr ? (pts / cr) : null;
+      var gpaCls = gpa === null ? "" : (gpa >= 3.5 ? "gate-ok" : "gate-low");
+      var gpaSub = gpa === null ? "log grades in the tracker" : (gpa >= 3.5 ? "✓ above the 3.5 away-gate" : "below the 3.5 away-gate");
+
+      var profs = loadJSON(LS_PROFS, []) || [];
+      var realProfs = profs.filter(function (p) { return !p.sample; }).length;
+
+      var sched = loadJSON("nyuad-compass-sched", []) || [];
+
+      var marhaba = new Date("2026-08-24T00:00:00");
+      var days = Math.max(0, Math.ceil((marhaba - new Date()) / 86400000));
+
+      strip.innerHTML =
+        stat(pct + "%", "Checklists done", done + " of " + allBoxes.length + " items") +
+        stat(gpa === null ? "—" : gpa.toFixed(2), "Cumulative GPA", gpaSub, gpaCls) +
+        stat(realProfs, "Professors researched", "in your comparison tool") +
+        stat(sched.length, "Schedule blocks", "in the week builder") +
+        stat(days, "Days to Marhaba", "est. late-Aug arrival");
+    }
+
+    renderStats();
+    window.addEventListener("sectionshown", function (e) {
+      if (e.detail && e.detail.id === "home") renderStats();
+    });
+    document.addEventListener("change", function (e) {
+      if (e.target && e.target.dataset && e.target.dataset.ck !== undefined) renderStats();
     });
   }
 })();

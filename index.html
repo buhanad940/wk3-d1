@@ -18,16 +18,27 @@
 </head>
 <body>
 
+<div class="bg-aurora" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+</div>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
 <header class="topbar">
   <div class="brand">
     <span class="brand-mark">🧭</span>
     <div>
       <h1>NYUAD Compass</h1>
-      <p class="tagline">Your unofficial guide to New York University Abu Dhabi — Economics · Rhodes Track · Study Away</p>
+      <p class="tagline">New York University Abu Dhabi — Economics · Finance · Rhodes Track · Study Away</p>
     </div>
   </div>
   <div class="topbar-right">
-    <input type="search" id="global-search" placeholder="Search the guide… (e.g. Calculus, Florence, advising)" aria-label="Search the guide">
+    <button type="button" class="palette-trigger" id="palette-trigger" aria-label="Search the guide">
+      <span>🔍</span><span class="trigger-text">Search or jump to a section…</span>
+      <span class="kbd-hint">Ctrl K</span>
+    </button>
     <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
   </div>
 </header>
@@ -48,7 +59,19 @@
   Verify everything important with <em>students.nyuad.nyu.edu</em>, your adviser, and official NYUAD offices.</p>
 </footer>
 
-<div id="search-results" class="search-results hidden" aria-live="polite"></div>
+<div class="palette-overlay" id="palette-overlay" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="palette">
+    <input type="search" id="global-search" placeholder="Search everything… Calculus, Florence, Rhodes, GPA gate…" aria-label="Search the guide" autocomplete="off">
+    <div id="search-results" class="search-results hidden" aria-live="polite"></div>
+    <div class="palette-foot">
+      <span><kbd>↵</kbd> open top result</span>
+      <span><kbd>Esc</kbd> close</span>
+      <span><kbd>Ctrl</kbd>+<kbd>K</kbd> toggle</span>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="back-top" id="back-top" aria-label="Back to top">↑</button>
 
 <script src="js/sections/home.js"></script>
 <script src="js/sections/arrival.js"></script>
