@@ -22,8 +22,8 @@ window.APP_SECTIONS["core-curriculum"] = {
     <tr><td><strong>Physical Education</strong></td><td>Two distinct courses — pick two you will actually enjoy; see Campus Life for the athletics/fitness options.</td></tr>
     <tr><td><strong>Quantitative Reasoning</strong></td><td>One course — for an Economics major, confirm with your adviser whether Calculus or Statistics can satisfy this, or whether it needs a separate course.</td></tr>
     <tr><td><strong>Experimental Inquiry</strong></td><td>One lab/empirical-methods course — a natural-science flavored requirement; pick one that pairs well with your quantitative interests if possible.</td></tr>
-    <tr><td><strong>Islamic Studies</strong></td><td>One course — a strong candidate for your math-free Year 1 fall semester.</td></tr>
-    <tr><td><strong>First-Year Writing Seminar</strong></td><td>Already covered by your credited FYWS course (see First Semester section).</td></tr>
+    <tr><td><strong>Islamic Studies</strong></td><td>One course — a good Gen Ed slot for a Year 1 spring or Year 2 semester once your registered fall (Markets, Calculus, History and Globalization) is underway.</td></tr>
+    <tr><td><strong>First-Year Writing Seminar</strong></td><td>Your credited FYWS course, taken in Year 1 <strong>spring</strong> (see First Semester section).</td></tr>
     <tr><td><strong>Colloquia</strong></td><td>Discussion-seminar courses distinct from Field Colloquia below — confirm how many are required and when they are typically taken.</td></tr>
     <tr><td><strong>Field Colloquia</strong></td><td><strong>Two J-Term courses</strong> specifically designated as Field Colloquia — plan two of your three J-Terms around this category (see J-Term &amp; Summers section).</td></tr>
     <tr><td><strong>Core Competencies</strong> (one course in each)</td><td>Arts, Design, and Technology · Cultural Exploration and Analysis · Data and Discovery · Structures of Thought and Society — four courses total, one per area.</td></tr>
@@ -75,13 +75,13 @@ window.APP_SECTIONS["core-curriculum"] = {
 <table>
   <thead><tr><th>Semester</th><th>Gen Ed slot</th><th>Why then</th></tr></thead>
   <tbody>
-    <tr><td>Y1 fall</td><td>Islamic Studies (or another math-free Gen Ed course)</td><td>Pairs naturally with your writing-heavy, math-free fall.</td></tr>
-    <tr><td>Y1 spring</td><td>Physical Education #1</td><td>Light addition alongside your quantitative Calculus/Statistics semester.</td></tr>
+    <tr><td>Y1 fall <span class="badge core">registered</span></td><td>History and Globalization (HIST-UH 2010)</td><td>Already in your enrolled fall — confirm with your adviser whether it satisfies a Core Competency (Cultural Exploration and Analysis) or SPEH.</td></tr>
+    <tr><td>Y1 spring</td><td>Physical Education #1</td><td>Light addition alongside your Statistics + GEPS/Macro + FYWS spring.</td></tr>
     <tr><td>Y1 J-Term</td><td>Field Colloquia #1</td><td>Knocks out one of the two required Field Colloquia early.</td></tr>
     <tr><td>Y2 fall</td><td>Data and Discovery</td><td>Compounds with Data Analysis and your finance-prep courses that same year.</td></tr>
     <tr><td>Y2 spring (Florence)</td><td>Cultural Exploration and Analysis / Arts, Design, and Technology</td><td>The Florence dividend — take what only makes sense there.</td></tr>
     <tr><td>Y3 J-Term</td><td>Field Colloquia #2</td><td>Completes the Field Colloquia requirement.</td></tr>
-    <tr><td>Y3 spring</td><td>Structures of Thought and Society / Physical Education #2</td><td>Post-New-York, pre-capstone: the right moment for range.</td></tr>
+    <tr><td>Y3 spring</td><td>Structures of Thought and Society / Islamic Studies / Physical Education #2</td><td>Post-New-York, pre-capstone, back in Abu Dhabi: the right moment for range and for any Gen Ed best taken here (Islamic Studies).</td></tr>
     <tr><td>Y4</td><td>Colloquia / any remainder (confirm via degree audit)</td><td>Senior year should carry at most one leftover requirement.</td></tr>
   </tbody>
 </table>
