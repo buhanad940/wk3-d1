@@ -139,17 +139,65 @@ drafts of this plan assumed. It must be scheduled and completed in Abu Dhabi bef
 
 <div class="semester">
   <h4>Fall, Year 1 — AS REGISTERED (Aug 31 – Dec 14, 2026) ✅</h4>
-  <p class="sem-note">Your actual enrollment — 12 credits + the zero-credit AEP writing course. Calculus made
-  it into the fall, beating your own end-of-Year-1 deadline by a semester. Full schedule with times, rooms,
-  and instructors: First Semester section.</p>
+  <p class="sem-note">Your actual enrollment, exactly as it appears in Albert — 12 credits + the zero-credit AEP
+  writing course, all in-person in Abu Dhabi. Calculus made it into the fall, beating your own end-of-Year-1
+  deadline by a semester.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Course (section)</th><th>Instructor</th><th>Mode &amp; location</th><th>Days</th><th>Time</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Markets</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">SOCSC-UH 1111 · 004 (4 cr) · Seminar</span></td>
+        <td>Liu</td>
+        <td>In-person · Campus Center E048 · Abu Dhabi</td>
+        <td>TTh</td>
+        <td>8:30–9:45 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Markets recitation</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">SOCSC-UH 1111 · REC8</span></td>
+        <td>Jain</td>
+        <td>In-person · Computational Research Room 018 · Abu Dhabi</td>
+        <td>Th</td>
+        <td>1:55–3:10 PM</td>
+      </tr>
+      <tr>
+        <td><strong>History and Globalization</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">HIST-UH 2010 · 001 (4 cr) · Seminar</span></td>
+        <td>Fuccaro</td>
+        <td>In-person · Campus Center E047 · Abu Dhabi</td>
+        <td>MW</td>
+        <td>9:55–11:10 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Methods of the Written Voice I</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">WRIT-UH 1000 · 004 (0 cr) · Seminar</span></td>
+        <td>TBA</td>
+        <td>In-person · Campus Center W007 · Abu Dhabi</td>
+        <td>Tue</td>
+        <td>9:55–11:10 AM</td>
+      </tr>
+      <tr>
+        <td><strong>Calculus with Applications to Economics</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">MATH-UH 1013 · 001 (4 cr) · Lecture</span></td>
+        <td>Paparella</td>
+        <td>In-person · West Administration Room 001 · Abu Dhabi</td>
+        <td>MW</td>
+        <td>11:20 AM–12:35 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Calculus recitation</strong><br><span style="font-size:0.85em;color:var(--ink-soft)">MATH-UH 1013 · REC1</span></td>
+        <td>TBA</td>
+        <td>In-person · Computational Research Room 007 · Abu Dhabi</td>
+        <td>Fri</td>
+        <td>9:20–10:35 AM</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
   <ul>
-    <li><strong>Markets</strong> (SOCSC-UH 1111, Liu) — Florence prerequisite #1 ✓ this semester.</li>
-    <li><strong>Calculus with Applications to Economics</strong> (MATH-UH 1013, Paparella) — Florence
-        prerequisite #2 ✓, completed in Abu Dhabi as the AD-only rule requires.</li>
-    <li><strong>History and Globalization</strong> (HIST-UH 2010, Fuccaro) — confirm with your adviser whether
-        it satisfies SPEH, a Core Competency, or elective credit.</li>
-    <li><strong>Methods of the Written Voice I</strong> (WRIT-UH 1000, 0 cr) — the AEP writing course; FYWS
-        itself moves to spring.</li>
+    <li><strong>Markets</strong> (Liu) — Florence prerequisite #1 ✓ this semester; recitation with Jain on Thursday afternoon.</li>
+    <li><strong>Calculus with Applications to Economics</strong> (Paparella) — Florence prerequisite #2 ✓,
+        completed in Abu Dhabi as the AD-only rule requires; recitation Friday morning.</li>
+    <li><strong>History and Globalization</strong> (Fuccaro) — confirm with your adviser whether it satisfies
+        SPEH, a Core Competency, or elective credit.</li>
+    <li><strong>Methods of the Written Voice I</strong> (0 cr) — the AEP writing course; FYWS itself moves to spring.</li>
     <li><em>Credit note:</em> 12 credits is the gentle-start load; the missing ~4 come back via J-Terms or a
         later 16-credit semester — adviser runs the exact arithmetic (question ready in Advising).</li>
   </ul>
