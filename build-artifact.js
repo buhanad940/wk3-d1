@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const ROOT = '/home/user/wk3-d1';
+// The script lives at the repo root, so derive ROOT from its own location.
+// This keeps the build working no matter what the current directory is
+// (e.g. when invoked from a Stop hook).
+const ROOT = __dirname;
 
 const css = fs.readFileSync(path.join(ROOT, 'css/styles.css'), 'utf8');
 const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
