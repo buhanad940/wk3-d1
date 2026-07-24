@@ -110,8 +110,8 @@ app's disclaimer says.</p>
       <li><strong>First Abu Dhabi Bank (FAB)</strong>, <strong>Emirates NBD</strong>, <strong>ADCB</strong>,
           <strong>ADIB</strong> (graduate programmes; economist and analyst roles).</li>
       <li><strong>ADNOC</strong> (the ADNOC Graduate Programme; economics, strategy, trading),
-          <strong>G42</strong> (AI/tech strategy), <strong>Emirates / Etihad / Dubai Holding</strong> (corporate
-          strategy).</li>
+          <strong>G42</strong> (AI/tech strategy — has its own dedicated G42 Playbook section),
+          <strong>Emirates / Etihad / Dubai Holding</strong> (corporate strategy).</li>
       <li><strong>Entry titles:</strong> Graduate Analyst, Economist, Strategy Analyst, Corporate Development Analyst.</li>
       <li><strong>They screen on:</strong> GPA, internship track record, commercial awareness, quantitative skill.</li>
     </ul>
