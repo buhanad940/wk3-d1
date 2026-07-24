@@ -8,14 +8,15 @@ window.APP_SECTIONS["home"] = {
   html: `
 <h2>Welcome to NYUAD Compass</h2>
 <p class="section-lede">
-  A big, practical, everything-in-one-place guide built around <strong>your</strong> plan:
-  Economics major at New York University Abu Dhabi, aimed at one <strong>main goal</strong> —
-  landing the highest-paying, fastest-to-senior role you can at a top Abu Dhabi / Dubai institution
-  (a sovereign wealth fund like ADIA or Mubadala, a ministry or the Prime Minister's Office, the Central
-  Bank, a top bank, or elite consulting) <strong>straight out of your bachelor's, no master's or PhD first</strong>.
-  The Rhodes Scholarship is your <strong>side</strong> goal (kept in full, and it shares almost every step
-  with the main one). Plus the AEP before your first year, study away in Florence and New York, and a schedule
-  that keeps your afternoons early and your evenings free.
+  A big, practical, everything-in-one-place guide built around <strong>your</strong> plan, written for you as a
+  <strong>UAE national</strong> studying Economics at New York University Abu Dhabi — so it skips the
+  international-student arrival/landing logistics and leans into your home-ground advantages. It is aimed at one
+  <strong>main goal</strong>: landing the highest-paying, fastest-to-senior role you can at a top Abu Dhabi /
+  Dubai institution (a sovereign wealth fund like ADIA or Mubadala, a ministry or the Prime Minister's Office,
+  the Central Bank, a top bank, or elite consulting) <strong>straight out of your bachelor's, no master's or PhD
+  first</strong> — using the national fast-track and Emiratization programs that are open to you. The Rhodes
+  Scholarship is your <strong>side</strong> goal (kept in full, and it shares almost every step with the main
+  one). Plus study away in Florence and New York, and a schedule that keeps your afternoons early and evenings free.
 </p>
 
 <div class="callout warn">
@@ -84,10 +85,12 @@ window.APP_SECTIONS["home"] = {
 <table>
   <thead><tr><th>Section</th><th>What you will find</th></tr></thead>
   <tbody>
-    <tr><td><strong>Arrival &amp; First 30 Days</strong></td><td>Landing-day logistics, how to play Marhaba orientation, a week-by-week first-month plan, and the unwritten rules.</td></tr>
     <tr><td><strong>Packing &amp; Tech Setup</strong></td><td>What to pack vs. buy in Abu Dhabi, the documents list, and the digital setup to finish before you fly.</td></tr>
     <tr><td><strong>Career Mission</strong> <span class="badge core">main goal</span></td><td>The plan for a senior-track, top-pay role in Abu Dhabi/Dubai straight from your bachelor's: target employers (ADIA, Mubadala, ministries, PMO, Central Bank, banks, MBB), job titles, the fast-track leadership/graduate programs, and what to do each year.</td></tr>
     <tr><td><strong>Mubadala Playbook</strong> <span class="badge core">UAE national</span></td><td>A step-by-step route into your top target, Mubadala: the roles that fit your major, the Emirati development-programme and internship paths, a year-by-year plan, interview prep, networking, and a saveable readiness checklist.</td></tr>
+    <tr><td><strong>ADIA Playbook</strong> <span class="badge core">UAE national</span></td><td>The route into the Abu Dhabi Investment Authority: asset-class analyst roles, the national development programme, the quant/CFA edge, a year-by-year plan, interview prep, and a readiness checklist.</td></tr>
+    <tr><td><strong>PMO &amp; Gov Leadership</strong> <span class="badge core">fastest to senior</span></td><td>Your fastest route to a senior <em>government</em> role: the UAE Government Leaders Programme, National Experts Programme, the PMO, policy roles, and how to build the public-impact record they select on.</td></tr>
+    <tr><td><strong>Ministries &amp; Central Bank</strong> <span class="badge core">UAE national</span></td><td>Economist and policy roles at the Ministry of Finance, Ministry of Economy, Central Bank, and emirate economic departments — with the national graduate routes and a readiness checklist.</td></tr>
     <tr><td><strong>First Semester</strong></td><td>Your registered Fall 2026 schedule, AEP prep, course-by-course strategy, and a morning + 1–3 PM schedule template.</td></tr>
     <tr><td><strong>Schedule Builder</strong></td><td>An interactive weekly grid: sketch candidate sections and get automatic checks against your morning + 1–3 PM, no-late-classes preference.</td></tr>
     <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan built on the official study-away prerequisite chains, the Abu-Dhabi-only course rule, the 3.5 GPA gate, and the Rhodes timeline.</td></tr>
@@ -113,7 +116,7 @@ window.APP_SECTIONS["home"] = {
     <tr><td><strong>Safety &amp; Emergencies</strong></td><td>Emergency numbers, the health decision tree, UAE-specific safety (heat, sea, desert, roads), and looking out for each other.</td></tr>
     <tr><td><strong>Study Habits</strong></td><td>Daily routines built around your morning + early-afternoon schedule, study systems, and exam strategy.</td></tr>
     <tr><td><strong>GPA &amp; Grade Tracker</strong></td><td>A cumulative GPA calculator across all eight semesters, plus a target calculator for the grades you still need.</td></tr>
-    <tr><td><strong>Checklists &amp; Templates</strong></td><td>Pre-arrival, weekly, registration, and advising checklists (they save automatically), plus email templates.</td></tr>
+    <tr><td><strong>Checklists &amp; Templates</strong></td><td>Pre-semester setup, weekly, registration, and advising checklists (they save automatically), plus email templates.</td></tr>
     <tr><td><strong>Glossary &amp; FAQ</strong></td><td>The NYUAD acronym decoder ring and honest answers to the questions first-years are embarrassed to ask.</td></tr>
   </tbody>
 </table>
@@ -125,7 +128,7 @@ window.APP_SECTIONS["home"] = {
   <label class="check"><input type="checkbox" data-ck="home-move-2"> Read the <strong>Rhodes Roadmap</strong> "Year 1" list — the side goal, and it shares almost every step with the career mission.</label>
   <label class="check"><input type="checkbox" data-ck="home-move-3"> Copy the adviser questions you need from the <strong>Advising</strong> section into a note for your first meeting.</label>
   <label class="check"><input type="checkbox" data-ck="home-move-4"> Add your first professor research entries in the <strong>Professors</strong> comparison tool.</label>
-  <label class="check"><input type="checkbox" data-ck="home-move-5"> Work through the <strong>Pre-Arrival Checklist</strong> in Checklists &amp; Templates.</label>
+  <label class="check"><input type="checkbox" data-ck="home-move-5"> Read the <strong>Mubadala</strong> and <strong>PMO &amp; Gov Leadership</strong> playbooks and start their readiness checklists.</label>
 </div>
 
 <div class="callout anecdote">

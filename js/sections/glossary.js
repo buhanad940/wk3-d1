@@ -130,8 +130,8 @@ window.APP_SECTIONS["glossary"] = {
 
 <details>
   <summary>I'm struggling and everyone else seems fine. Now what?</summary>
-  <p>"Everyone else seems fine" is the most reliably false observation on any campus — see Arrival's unwritten
-  rules. The playbook: (1) tell one human (RA, friend, adviser); (2) book the relevant support the same day
+  <p>"Everyone else seems fine" is the most reliably false observation on any campus — nearly everyone is
+  performing confidence they do not feel. The playbook: (1) tell one human (RA, friend, adviser); (2) book the relevant support the same day
   (ARC for academics, counseling via Health &amp; Wellness or the 24/7 Wellness Exchange for the rest);
   (3) reduce one commitment, not zero and not all. Struggling early and acting is the strong move; the record
   shows scholarship winners are heavy support-service users, not people who never needed help.</p>

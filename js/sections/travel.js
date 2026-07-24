@@ -6,11 +6,16 @@ window.APP_SECTIONS["travel"] = {
   title: "Travel & Breaks",
   icon: "🧳",
   html: `
-<h2>Travel, Breaks &amp; Flights Home</h2>
+<h2>Travel, Breaks &amp; Study-Away Moves</h2>
+<div class="callout info">
+  <strong>UAE-national note:</strong> Abu Dhabi <em>is</em> home, so ignore the "flights home across time zones"
+  framing — your travel logistics are really about the two <strong>study-away relocations</strong> (Florence,
+  New York), J-Term trips, and regional travel. Those are what this section is for you.
+</div>
 <p class="section-lede">
-  Four years at NYUAD means a personal logistics operation: flights home across time zones, semester breaks,
-  two study-away relocations, J-Term movements, and the regional trips from the Abu Dhabi section. Run it like
-  a system and it stays cheap and calm; run it ad hoc and it eats money and exam-week focus.
+  The parts that apply to you: the two study-away relocations (Florence sophomore spring, New York junior fall),
+  J-Term movements, and regional trips. Run them like a system and they stay cheap and calm; run them ad hoc and
+  they eat money and exam-week focus.
 </p>
 
 <h3>The academic-year travel map</h3>
@@ -54,9 +59,8 @@ window.APP_SECTIONS["travel"] = {
         nightly; both sides get rhythm instead of guilt.</li>
     <li>Note the calling-app restrictions flagged in Packing &amp; Tech — sort the family's setup during your
         first week, not during your first homesick evening.</li>
-    <li>Jet lag protocol for every return: land, force local schedule, morning sunlight, no naps over 30
-        minutes. Semester-start jet lag stealing week one is a self-inflicted handicap (see Arrival's day-one
-        advice).</li>
+    <li>Jet lag protocol for every return from a long trip: force local schedule, morning sunlight, no naps over
+        30 minutes. Semester-start jet lag stealing week one is a self-inflicted handicap.</li>
     <li>Care packages clear customs erratically — tell family to keep contents ordinary and declared
         (food rules are strict; the Abu Dhabi section's medication warning applies to mailed items too).</li>
   </ul>

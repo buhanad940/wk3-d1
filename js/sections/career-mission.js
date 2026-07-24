@@ -63,7 +63,8 @@ app's disclaimer says.</p>
     <ul>
       <li><strong>ADIA</strong> (Abu Dhabi Investment Authority), <strong>Mubadala</strong>, <strong>ADQ</strong>,
           <strong>Emirates Investment Authority</strong>, <strong>Investment Corporation of Dubai (ICD)</strong>,
-          <strong>Masdar</strong> (Mubadala-owned, renewables).</li>
+          <strong>Masdar</strong> (Mubadala-owned, renewables). <strong>→ Mubadala and ADIA each have their own
+          dedicated playbook section.</strong></li>
       <li><strong>Entry titles:</strong> Investment Analyst, Research Analyst, Strategy Analyst, Economist.</li>
       <li><strong>Fast-track in:</strong> the <em>Mubadala</em> graduate / development programme and the
           <em>ADIA</em> graduate track (confirm current names). These are the crown-jewel graduate jobs in Abu
@@ -84,7 +85,8 @@ app's disclaimer says.</p>
       <li><strong>Entry titles:</strong> Economist, Economic/Policy Analyst, Economic Researcher, Strategy &amp;
           Policy Associate.</li>
       <li><strong>Fast-track in:</strong> the national leadership programs below — the deliberate route to senior
-          public-sector responsibility young.</li>
+          public-sector responsibility young. <strong>→ See the PMO &amp; Gov Leadership and Ministries &amp;
+          Central Bank playbook sections.</strong></li>
       <li><strong>They screen on:</strong> economics fundamentals, policy writing, Arabic (a serious edge here),
           and demonstrated public-mindedness.</li>
     </ul>

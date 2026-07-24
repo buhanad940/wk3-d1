@@ -6,11 +6,16 @@ window.APP_SECTIONS["packing"] = {
   title: "Packing & Tech Setup",
   icon: "🎒",
   html: `
-<h2>Packing &amp; Tech Setup — Arrive Ready, Not Overloaded</h2>
+<h2>Packing &amp; Tech Setup — Move-In Ready</h2>
+<div class="callout info">
+  <strong>You're a UAE national — this isn't an international move.</strong> No flights, visas, or shipping
+  boxes across the world. Treat this section as a light <em>move-in kit</em> for campus housing (if you live on
+  Saadiyat) or a commuter setup (if you stay at home) — plus the digital/account setup everyone needs. Skip the
+  international-relocation parts; keep the ID/account and tech-setup parts.
+</div>
 <p class="section-lede">
-  The two most common packing outcomes: half a suitcase of things Abu Dhabi sells cheaper, and a missing
-  document that costs a week of queues. This section prevents both, and gets your digital life set up before
-  wheels-up.
+  The essentials that actually matter on day one: your Emirates ID and university documents sorted, your NYU
+  accounts and 2FA working, and a sensible kit for a Saadiyat campus. No overpacking, no wheels-up checklist.
 </p>
 
 <h3>Documents — the never-in-checked-luggage list</h3>

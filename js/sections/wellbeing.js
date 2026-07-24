@@ -67,8 +67,8 @@ window.APP_SECTIONS["wellbeing"] = {
         rebalance toward the commitments that produced the alive entries.</li>
     <li><strong>The comparison trap is the local hazard:</strong> a small campus of accomplished people is a
         machine for feeling behind. Antidotes: measure against your own last semester (the GPA tracker shows
-        trajectory for exactly this reason), and remember everyone is performing confidence (Arrival's
-        unwritten rules).</li>
+        trajectory for exactly this reason), and remember everyone is performing confidence they do not
+        fully feel.</li>
     <li><strong>Keep one thing you are gloriously mediocre at</strong> — the no-stakes hobby (pickup football,
         bad guitar, cooking experiments) is load-bearing mental architecture for high-achievers.</li>
     <li><strong>Faith and reflection:</strong> whatever your tradition or practice, campus supports it (prayer

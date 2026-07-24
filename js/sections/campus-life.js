@@ -13,6 +13,14 @@ window.APP_SECTIONS["campus-life"] = {
   weather, transport, traditions, and the small details that make the first months smoother.
 </p>
 
+<div class="callout tip">
+  <strong>Your choice as a national: live on campus or commute from home.</strong> Many Emirati students weigh
+  family proximity against the on-campus experience. A strong middle path: live in campus housing (or stay
+  often) at least the first year — the network, late-night study groups, club life, and spontaneous access to
+  professors are where a huge share of the career-mission relationships actually form. You can always shift to
+  commuting later; the first-year immersion is the hard part to get back.
+</div>
+
 <h3>Housing &amp; residential life</h3>
 <div class="card">
   <ul>

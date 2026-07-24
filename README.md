@@ -1,10 +1,13 @@
 # NYUAD Compass 🧭
 
 A big, self-contained student guide and four-year planner for **New York University Abu Dhabi**, built around an
-Economics major. **Main goal:** a senior-track, top-pay role at a top Abu Dhabi / Dubai institution (sovereign
-wealth fund, ministry, PMO, Central Bank, top bank, or elite consulting) straight from the bachelor's — no
-master's or PhD first. **Side goal:** the Rhodes Scholarship (kept in full; it shares almost every step with the
-main goal). Study-away semesters in Florence (sophomore spring) and New York (junior fall) feed the career mission.
+Economics major and written for a **UAE national** (no international arrival/landing logistics). **Main goal:**
+a senior-track, top-pay role at a top Abu Dhabi / Dubai institution (sovereign wealth fund, ministry, PMO,
+Central Bank, top bank, or elite consulting) straight from the bachelor's — no master's or PhD first — using the
+national fast-track and Emiratization programs. **Side goal:** the Rhodes Scholarship (kept in full; it shares
+almost every step with the main goal). Study-away semesters in Florence (sophomore spring) and New York (junior
+fall) feed the career mission. Dedicated playbooks for **Mubadala, ADIA, the PMO/government leadership track, and
+the economic ministries**.
 
 ## Run it
 
@@ -20,13 +23,16 @@ localStorage — nothing leaves your machine.
 
 | Section | Contents |
 |---|---|
-| **Home** | Plan-at-a-glance dashboard and quick-start moves |
-| **Arrival & First 30 Days** | Landing-day logistics, Marhaba orientation strategy, week-by-week first-month plan, unwritten rules |
-| **Packing & Tech Setup** | Pack-vs-buy tables, document checklists, tech loadout, pre-flight digital setup |
+| **Home** | Plan-at-a-glance dashboard and quick-start moves (written for a UAE national) |
+| **Packing & Tech Setup** | Light move-in kit + account/tech setup for a local student (no international-relocation logistics) |
 | **First Semester Plan** | The registered Fall 2026 schedule (Markets, Calculus, History and Globalization + zero-credit Methods of the Written Voice), course-by-course strategy, the credit-pacing math, and a morning + 1–3 PM schedule template |
 | **Schedule Builder** | Interactive weekly grid with automatic conflict detection and preference checks (morning + 1–3 PM, no late classes) |
 | **Four-Year Plan** | Semester-by-semester Economics plan with a finance-concentration layer, fitting both study-aways, J-Terms, summers, capstone, and the Rhodes timeline |
-| **Career Mission** (main goal) | The plan for a senior-track, top-pay role in Abu Dhabi/Dubai straight from the bachelor's: target employers (ADIA, Mubadala, ADQ, ministries, PMO, Central Bank, FAB/Emirates NBD, MBB), aligned job titles, the fast-track leadership/graduate programs, eligibility (national vs. expat), and a four-year action plan |
+| **Career Mission** (main goal) | The plan for a senior-track, top-pay role in Abu Dhabi/Dubai straight from the bachelor's: target employers (ADIA, Mubadala, ADQ, ministries, PMO, Central Bank, FAB/Emirates NBD, MBB), aligned job titles, the fast-track leadership/graduate programs, eligibility, and a four-year action plan |
+| **Mubadala Playbook** (UAE national) | Step-by-step route into Mubadala: roles, Emirati development programme + internships, year-by-year plan, interview prep, networking, saveable checklist |
+| **ADIA Playbook** (UAE national) | Route into the Abu Dhabi Investment Authority: asset-class analyst roles, national development programme, quant/CFA edge, year-by-year plan, interview prep, checklist |
+| **PMO & Gov Leadership** (fastest to senior) | The fastest route to a senior government role: UAE Government Leaders Programme, National Experts Programme, PMO/policy roles, building the public-impact record, checklist |
+| **Ministries & Central Bank** (UAE national) | Economist/policy roles at the Ministry of Finance, Ministry of Economy, Central Bank, and emirate economic departments, with national graduate routes and a checklist |
 | **Core Curriculum** | Strategy for choosing Core courses, saving culture slots for Florence, the 10-minute course evaluation method, double-counting questions |
 | **J-Term & Summers** | All three January Terms and all three summers planned, summer Calculus/Multivariable pre-flight checklist, research-vs-course decision framework |
 | **Rhodes Roadmap** | Eligibility (constituency check first), selection criteria vs. myths, year-by-year actions, referee strategy, parallel scholarship paths, impact-journal template |

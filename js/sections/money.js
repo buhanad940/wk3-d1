@@ -13,6 +13,13 @@ window.APP_SECTIONS["money"] = {
   and earning on campus — so finances stay a solved problem in the background of your plan.
 </p>
 
+<div class="callout info">
+  <strong>UAE-national note.</strong> As a national living at home base, your cost picture is usually gentler
+  than an international student's — no home flights, and possibly family support or national scholarship options.
+  Ask about <strong>UAE-national-specific scholarships and grants</strong> (federal and emirate) alongside NYUAD
+  aid. Your study-away semesters (Florence, New York) are where costs spike — budget for those specifically.
+</div>
+
 <div class="callout warn">
   <strong>Verify your own package.</strong> Financial aid at NYUAD is individual: packages differ in what they
   cover (tuition, housing, meals, travel allowances, study away, summers). Everything below is the general

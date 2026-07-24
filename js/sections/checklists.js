@@ -13,7 +13,12 @@ window.APP_SECTIONS["checklists"] = {
   print-friendly.
 </p>
 
-<h3>📦 Pre-arrival checklist</h3>
+<div class="callout info">
+  <strong>UAE-national note:</strong> you skip the visa/immigration and international-arrival items below —
+  keep the account setup, forms, and academic-prep items, which apply to every incoming student.
+</div>
+
+<h3>📦 Pre-semester setup checklist</h3>
 <div class="card">
   <label class="check"><input type="checkbox" data-ck="pre-1"> Passport valid well beyond the semester; UAE student visa process started per NYUAD instructions.</label>
   <label class="check"><input type="checkbox" data-ck="pre-2"> AEP materials read; reading-annotation habit started (see First Semester section).</label>

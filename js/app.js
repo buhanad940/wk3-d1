@@ -39,10 +39,10 @@
   /* ---------- Render sections + grouped nav ---------- */
 
   var NAV_GROUPS = [
-    { label: "Start Here", ids: ["home", "arrival", "packing", "first-semester", "schedule-builder"] },
+    { label: "Start Here", ids: ["home", "packing", "first-semester", "schedule-builder"] },
     { label: "Academics", ids: ["four-year", "core-curriculum", "jterm-summer", "professors", "advising"] },
     { label: "Go Global", ids: ["study-away", "travel", "languages"] },
-    { label: "Ambition", ids: ["career-mission", "mubadala", "careers", "rhodes", "research-capstone", "leadership", "writing-lab", "quant-toolkit"] },
+    { label: "Ambition", ids: ["career-mission", "mubadala", "adia", "pmo", "ministries", "careers", "rhodes", "research-capstone", "leadership", "writing-lab", "quant-toolkit"] },
     { label: "Campus & City", ids: ["campus-life", "abu-dhabi", "community", "money"] },
     { label: "Wellbeing", ids: ["support", "wellbeing", "safety", "habits"] },
     { label: "Toolkit", ids: ["gpa-tools", "checklists", "glossary"] }
