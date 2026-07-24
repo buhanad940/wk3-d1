@@ -8,11 +8,19 @@ window.APP_SECTIONS["careers"] = {
   html: `
 <h2>Internships &amp; Careers for an NYUAD Economist</h2>
 <p class="section-lede">
-  Rhodes or not, you graduate into a career — and the Rhodes plan and the career plan are built from the same
-  parts: skills, experiences, references, and a story. This section maps the economics career landscape from
-  Abu Dhabi, the recruiting calendar (including your New York junior fall), and how to build the CV in parallel
-  with everything else.
+  This is the tactical companion to your <strong>Career Mission</strong> (your main goal — the senior-track,
+  top-pay role in Abu Dhabi / Dubai straight from your bachelor's). That section names the target employers,
+  job titles, and fast-track programs; this one covers the mechanics: the recruiting calendar, the CV, and
+  networking — all pointed at the same Gulf outcome. Your side goal (Rhodes) is built from the same parts, so
+  nothing here is wasted either way.
 </p>
+
+<div class="callout tip">
+  <strong>Start with the mission.</strong> If you have not read the <strong>Career Mission</strong> section yet,
+  read it first — it is the strategy (who to work for, and the fast track to senior in Abu Dhabi/Dubai). This
+  section is the execution (how to actually get hired). The single highest-leverage action across both is the
+  junior-summer internship at a target UAE employer that converts into a full-time offer.
+</div>
 
 <h3>Where NYUAD economics graduates actually go</h3>
 <div class="card-grid">

@@ -42,7 +42,7 @@
     { label: "Start Here", ids: ["home", "arrival", "packing", "first-semester", "schedule-builder"] },
     { label: "Academics", ids: ["four-year", "core-curriculum", "jterm-summer", "professors", "advising"] },
     { label: "Go Global", ids: ["study-away", "travel", "languages"] },
-    { label: "Ambition", ids: ["rhodes", "research-capstone", "careers", "leadership", "writing-lab", "quant-toolkit"] },
+    { label: "Ambition", ids: ["career-mission", "careers", "rhodes", "research-capstone", "leadership", "writing-lab", "quant-toolkit"] },
     { label: "Campus & City", ids: ["campus-life", "abu-dhabi", "community", "money"] },
     { label: "Wellbeing", ids: ["support", "wellbeing", "safety", "habits"] },
     { label: "Toolkit", ids: ["gpa-tools", "checklists", "glossary"] }

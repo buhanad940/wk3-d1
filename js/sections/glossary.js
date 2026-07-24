@@ -17,7 +17,14 @@ window.APP_SECTIONS["glossary"] = {
 <table>
   <thead><tr><th>Term</th><th>Meaning</th></tr></thead>
   <tbody>
+    <tr><td><strong>ADIA</strong></td><td>Abu Dhabi Investment Authority — one of the world's largest sovereign wealth funds and a headline target employer for your career mission (Investment/Research Analyst roles).</td></tr>
+    <tr><td><strong>ADGM / DIFC</strong></td><td>Abu Dhabi Global Market / Dubai International Financial Centre — the two financial free zones and their regulators; sources of finance, policy, and regulatory roles.</td></tr>
     <tr><td><strong>AEP</strong></td><td>Academic Enrichment Program — pre-first-year academic preparation (your reading + FYWS prep track, continuing into fall as the zero-credit Methods of the Written Voice writing course).</td></tr>
+    <tr><td><strong>Emiratization</strong></td><td>UAE policy and programs to bring UAE nationals into the workforce, including fast-track graduate and leadership tracks. If you are a UAE national, these are among the fastest routes to senior public-sector roles (see Career Mission).</td></tr>
+    <tr><td><strong>MBB</strong></td><td>McKinsey, BCG, Bain — the three elite management-consulting firms, all with large Abu Dhabi/Dubai practices. Entry as Business Analyst; the fastest general accelerator toward a senior fund or ministry role.</td></tr>
+    <tr><td><strong>Mubadala / ADQ / ICD</strong></td><td>Major UAE sovereign / government-owned investors (Mubadala and ADQ in Abu Dhabi, Investment Corporation of Dubai in Dubai) — core career-mission target employers.</td></tr>
+    <tr><td><strong>PMO</strong></td><td>Prime Minister's Office (within the Ministry of Cabinet Affairs) — a government target for senior policy/strategy roles; associated with national leadership programs.</td></tr>
+    <tr><td><strong>SWF</strong></td><td>Sovereign Wealth Fund — a state-owned investment fund (ADIA, Mubadala, ADQ, EIA). The highest-paying graduate destinations in your mission map.</td></tr>
     <tr><td><strong>Albert</strong></td><td>NYU's student information system — registration, course search, grades. The only authoritative source for course times.</td></tr>
     <tr><td><strong>ARC</strong></td><td>Academic Resource Center — tutoring, academic coaching, study-skills workshops.</td></tr>
     <tr><td><strong>Capstone</strong></td><td>Your two-course senior research sequence in Economics: Capstone Seminar (ECON-UH 4020) then Capstone Project (ECON-UH 4099).</td></tr>
@@ -49,6 +56,17 @@ window.APP_SECTIONS["glossary"] = {
 <h3>FAQ — asked every year, answered honestly</h3>
 
 <details open>
+  <summary>Can I really get a "senior role" straight out of undergrad?</summary>
+  <p>Not a literal <em>senior title</em> (Director, VP) — those take years of delivery anywhere serious, and
+  the Career Mission section is blunt about that. What you <strong>can</strong> get is the fastest existing track
+  to senior responsibility and top graduate pay: a high-trajectory analyst/graduate role at a sovereign fund,
+  bank, ministry, or MBB, plus — if you are a UAE national — dedicated government leadership programs built to
+  accelerate young talent into senior public-sector roles. Aim at "on the fastest track that exists," land the
+  return-offer internship, protect your GPA, and you compress the climb by years. The full map, employers, job
+  titles, and year-by-year plan are in <strong>Career Mission</strong>.</p>
+</details>
+
+<details>
   <summary>Is a 12-credit first semester "behind"?</summary>
   <p>No — it is a load choice with trade-offs, and a common gentle-start pattern. What matters is the four-year
   credit arithmetic: 12 now means the missing credits return later via J-Terms or a 16-credit semester, and

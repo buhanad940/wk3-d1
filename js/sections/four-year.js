@@ -14,6 +14,16 @@ window.APP_SECTIONS["four-year"] = {
   flagged for your adviser; everything else below reflects the official rules as given.
 </p>
 
+<div class="callout info">
+  <strong>Every semester below serves your main goal.</strong> The point of this degree plan is the
+  <strong>Career Mission</strong>: a senior-track, top-pay role at a top Abu Dhabi / Dubai institution
+  (ADIA, Mubadala, a ministry, the PMO, the Central Bank, a top bank, or MBB) straight from your bachelor's.
+  Read the mission map so you know <em>why</em> each course is here: GPA and quantitative rigor (Calculus →
+  Econometrics) are what these employers screen on; the finance concentration credentials you for investment
+  roles; New York is the network you bring back; and the internships in Years 2–3 are the actual hiring channel.
+  The Rhodes side goal rides along on the same plan.
+</div>
+
 <h3>The official study-away pathway, in one table</h3>
 <div class="table-wrap">
 <table>

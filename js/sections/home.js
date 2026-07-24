@@ -9,9 +9,13 @@ window.APP_SECTIONS["home"] = {
 <h2>Welcome to NYUAD Compass</h2>
 <p class="section-lede">
   A big, practical, everything-in-one-place guide built around <strong>your</strong> plan:
-  Economics major at New York University Abu Dhabi, Rhodes Scholarship as the long-term goal,
-  the Academic Enrichment Program (AEP) before your first year, study away in Florence and New York,
-  and a schedule that keeps your afternoons early and your evenings free.
+  Economics major at New York University Abu Dhabi, aimed at one <strong>main goal</strong> —
+  landing the highest-paying, fastest-to-senior role you can at a top Abu Dhabi / Dubai institution
+  (a sovereign wealth fund like ADIA or Mubadala, a ministry or the Prime Minister's Office, the Central
+  Bank, a top bank, or elite consulting) <strong>straight out of your bachelor's, no master's or PhD first</strong>.
+  The Rhodes Scholarship is your <strong>side</strong> goal (kept in full, and it shares almost every step
+  with the main one). Plus the AEP before your first year, study away in Florence and New York, and a schedule
+  that keeps your afternoons early and your evenings free.
 </p>
 
 <div class="callout warn">
@@ -30,16 +34,24 @@ window.APP_SECTIONS["home"] = {
 <h3>Your plan at a glance</h3>
 <div class="card-grid">
   <div class="card">
-    <h4>🎓 Degree goal</h4>
-    <p><strong>B.A. in Economics with a Finance and Market Studies concentration</strong> (confirm the exact
-       name), NYU Abu Dhabi, Class of 2030. Major: 72 credits; major-with-concentration: minimum 80 credits;
-       General Education: 26 credits. New York is the concentration's officially recommended, and your planned,
-       anchor semester — see the Four-Year Plan's finance layer.</p>
+    <h4>🏛️ Main goal — career</h4>
+    <p><strong>A senior-track, top-pay role in Abu Dhabi or Dubai, straight from your bachelor's.</strong>
+       Sovereign wealth funds (ADIA, Mubadala, ADQ), ministries / the PMO, the Central Bank, top banks (FAB,
+       Emirates NBD), or elite consulting (MBB). The full employer map, job titles, fast-track programs, and
+       four-year plan are in the <strong>Career Mission</strong> section.</p>
   </div>
   <div class="card">
-    <h4>🏆 Long-term goal</h4>
-    <p><strong>Rhodes Scholarship.</strong> The full four-year roadmap is in the Rhodes section —
-       grades, leadership, service, research, and references all planned by semester.</p>
+    <h4>🏆 Side goal — Rhodes</h4>
+    <p><strong>Rhodes Scholarship.</strong> Kept in full in the Rhodes section — and its roadmap (grades,
+       leadership, research, references) is nearly identical to the career mission's, so pursuing it costs you
+       almost nothing extra.</p>
+  </div>
+  <div class="card">
+    <h4>🎓 Degree</h4>
+    <p><strong>B.A. in Economics with a Finance and Market Studies concentration</strong> (confirm the exact
+       name), NYU Abu Dhabi, Class of 2030. Major: 72 credits; major-with-concentration: minimum 80 credits;
+       General Education: 26 credits. New York anchors the finance concentration — reframed as the credential you
+       bring <em>back</em> to Abu Dhabi/Dubai (see Career Mission and the Four-Year Plan).</p>
   </div>
   <div class="card">
     <h4>📚 First semester — registered ✅</h4>
@@ -74,7 +86,8 @@ window.APP_SECTIONS["home"] = {
   <tbody>
     <tr><td><strong>Arrival &amp; First 30 Days</strong></td><td>Landing-day logistics, how to play Marhaba orientation, a week-by-week first-month plan, and the unwritten rules.</td></tr>
     <tr><td><strong>Packing &amp; Tech Setup</strong></td><td>What to pack vs. buy in Abu Dhabi, the documents list, and the digital setup to finish before you fly.</td></tr>
-    <tr><td><strong>First Semester</strong></td><td>Your exact course plan, AEP prep, Calculus Plans A/B/C, summer-course options, and a morning + 1–3 PM schedule template.</td></tr>
+    <tr><td><strong>Career Mission</strong> <span class="badge core">main goal</span></td><td>The plan for a senior-track, top-pay role in Abu Dhabi/Dubai straight from your bachelor's: target employers (ADIA, Mubadala, ministries, PMO, Central Bank, banks, MBB), job titles, the fast-track leadership/graduate programs, and what to do each year.</td></tr>
+    <tr><td><strong>First Semester</strong></td><td>Your registered Fall 2026 schedule, AEP prep, course-by-course strategy, and a morning + 1–3 PM schedule template.</td></tr>
     <tr><td><strong>Schedule Builder</strong></td><td>An interactive weekly grid: sketch candidate sections and get automatic checks against your morning + 1–3 PM, no-late-classes preference.</td></tr>
     <tr><td><strong>Four-Year Plan</strong></td><td>Semester-by-semester Economics plan built on the official study-away prerequisite chains, the Abu-Dhabi-only course rule, the 3.5 GPA gate, and the Rhodes timeline.</td></tr>
     <tr><td><strong>Core Curriculum</strong></td><td>The real Gen Ed structure (26 credits: PE, Quantitative Reasoning, Experimental Inquiry, Islamic Studies, Colloquia, Field Colloquia, four Core Competencies) and how to sequence it.</td></tr>
@@ -107,8 +120,8 @@ window.APP_SECTIONS["home"] = {
 
 <h3>Quick start — your next five moves</h3>
 <div class="card">
-  <label class="check"><input type="checkbox" data-ck="home-move-1"> Read the <strong>First Semester</strong> section and pick your Calculus plan (A, B, or C).</label>
-  <label class="check"><input type="checkbox" data-ck="home-move-2"> Read the <strong>Rhodes Roadmap</strong> "Year 1" list — the first-year actions are small but they compound.</label>
+  <label class="check"><input type="checkbox" data-ck="home-move-1"> Read the <strong>Career Mission</strong> section — your main goal, the target employers, and the Year 1 moves that start the clock.</label>
+  <label class="check"><input type="checkbox" data-ck="home-move-2"> Read the <strong>Rhodes Roadmap</strong> "Year 1" list — the side goal, and it shares almost every step with the career mission.</label>
   <label class="check"><input type="checkbox" data-ck="home-move-3"> Copy the adviser questions you need from the <strong>Advising</strong> section into a note for your first meeting.</label>
   <label class="check"><input type="checkbox" data-ck="home-move-4"> Add your first professor research entries in the <strong>Professors</strong> comparison tool.</label>
   <label class="check"><input type="checkbox" data-ck="home-move-5"> Work through the <strong>Pre-Arrival Checklist</strong> in Checklists &amp; Templates.</label>

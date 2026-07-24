@@ -57,6 +57,29 @@ window.APP_SECTIONS["advising"] = {
 </details>
 
 <details>
+  <summary>🏛️ Career mission — senior-track role in Abu Dhabi / Dubai (main goal)</summary>
+  <ul>
+    <li>My main goal is a senior-track, high-paying role at a top UAE institution — a sovereign fund (ADIA,
+        Mubadala, ADQ), a ministry or the PMO, the Central Bank, a top bank, or MBB consulting — straight from
+        my bachelor's, no master's first. Given my profile, which of these is the most realistic <em>and</em>
+        highest-ceiling target, and what would you change in my plan to aim at it?</li>
+    <li>Can you confirm my <strong>eligibility track</strong>: as a <em>[UAE national / expatriate resident]</em>,
+        which fast-track programs am I eligible for (UAE Government Leaders Programme, National Experts Programme,
+        Emiratization graduate tracks) versus the open analyst/graduate/consulting routes?</li>
+    <li>Which employers on my target list recruit NYUAD Economics students directly, and who is the Career
+        Development contact for sovereign funds, government, and consulting specifically?</li>
+    <li>What GPA threshold do ADIA / Mubadala / MBB actually screen on for their graduate and analyst intakes,
+        and am I on track for it?</li>
+    <li>Which of these roles genuinely require or prefer a master's (e.g., research economist at the Central
+        Bank), and which take a strong bachelor's + internship record — so I know where "no master's first"
+        holds and where it doesn't?</li>
+    <li>What is the internship sequence that most reliably converts to a full-time offer at these employers, and
+        when do their applications open (I want the junior-summer one locked)?</li>
+    <li>How much does Arabic matter for the government and local-institution roles, and what level should I reach?</li>
+  </ul>
+</details>
+
+<details>
   <summary>🧮 Math sequence (Calculus ✓ fall — what's next)</summary>
   <ul>
     <li>With Calculus (MATH-UH 1013, Paparella) completing this fall, when exactly should Multivariable

@@ -1,8 +1,10 @@
 # NYUAD Compass 🧭
 
 A big, self-contained student guide and four-year planner for **New York University Abu Dhabi**, built around an
-Economics major on the Rhodes Scholarship track, with study-away semesters in Florence (sophomore spring) and
-New York (junior fall).
+Economics major. **Main goal:** a senior-track, top-pay role at a top Abu Dhabi / Dubai institution (sovereign
+wealth fund, ministry, PMO, Central Bank, top bank, or elite consulting) straight from the bachelor's — no
+master's or PhD first. **Side goal:** the Rhodes Scholarship (kept in full; it shares almost every step with the
+main goal). Study-away semesters in Florence (sophomore spring) and New York (junior fall) feed the career mission.
 
 ## Run it
 
@@ -24,6 +26,7 @@ localStorage — nothing leaves your machine.
 | **First Semester Plan** | The registered Fall 2026 schedule (Markets, Calculus, History and Globalization + zero-credit Methods of the Written Voice), course-by-course strategy, the credit-pacing math, and a morning + 1–3 PM schedule template |
 | **Schedule Builder** | Interactive weekly grid with automatic conflict detection and preference checks (morning + 1–3 PM, no late classes) |
 | **Four-Year Plan** | Semester-by-semester Economics plan with a finance-concentration layer, fitting both study-aways, J-Terms, summers, capstone, and the Rhodes timeline |
+| **Career Mission** (main goal) | The plan for a senior-track, top-pay role in Abu Dhabi/Dubai straight from the bachelor's: target employers (ADIA, Mubadala, ADQ, ministries, PMO, Central Bank, FAB/Emirates NBD, MBB), aligned job titles, the fast-track leadership/graduate programs, eligibility (national vs. expat), and a four-year action plan |
 | **Core Curriculum** | Strategy for choosing Core courses, saving culture slots for Florence, the 10-minute course evaluation method, double-counting questions |
 | **J-Term & Summers** | All three January Terms and all three summers planned, summer Calculus/Multivariable pre-flight checklist, research-vs-course decision framework |
 | **Rhodes Roadmap** | Eligibility (constituency check first), selection criteria vs. myths, year-by-year actions, referee strategy, parallel scholarship paths, impact-journal template |

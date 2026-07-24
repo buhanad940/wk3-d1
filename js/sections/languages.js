@@ -8,10 +8,17 @@ window.APP_SECTIONS["languages"] = {
   html: `
 <h2>Languages — Arabic, Italian &amp; the Multilingual Dividend</h2>
 <p class="section-lede">
-  You are spending four years in an Arabic-speaking country, a semester in Italy, and a career in a field where
-  languages open doors (development economics, policy, international organizations all reward them). Your plan
-  has natural language slots — here is how to use them without overloading.
+  You are spending four years in an Arabic-speaking country, a semester in Italy, and building a career in the
+  Gulf — where Arabic is a genuine hiring edge. Your plan has natural language slots; here is how to use them
+  without overloading.
 </p>
+
+<div class="callout tip">
+  <strong>Arabic is a career-mission asset, not just a nice-to-have.</strong> For your main goal — a role at a
+  UAE ministry, the PMO, the Central Bank, a sovereign fund, or a local bank — functional Arabic widens the door
+  and, for government and local-institution roles, can be close to expected. Treat it as strategic infrastructure
+  for the career mission, and start in Year 1 (see Career Mission's four-year plan).
+</div>
 
 <h3>Arabic — the home-base language</h3>
 <div class="card">

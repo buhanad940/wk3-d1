@@ -20,6 +20,14 @@ window.APP_SECTIONS["gpa-tools"] = {
   Year 1 onward so a dip shows up with time to recover, not during the application window itself.
 </div>
 
+<div class="callout warn">
+  <strong>GPA is also your main goal's first filter.</strong> ADIA, Mubadala, MBB, and the bank graduate
+  programmes screen hard on GPA — it is the number that decides whether your application is read at all (see
+  Career Mission). Practically, keep your cumulative comfortably above the 3.5 study-away gate and push toward
+  the top of the band: for these employers, GPA is the cheapest credential to protect and the most expensive to
+  repair. Watch it here from Year 1.
+</div>
+
 <div class="callout info">
   <strong>Points scale used:</strong> A = 4.0, A− = 3.667, B+ = 3.333, B = 3.0, B− = 2.667, C+ = 2.333,
   C = 2.0, C− = 1.667, D+ = 1.333, D = 1.0, F = 0. Pass/Fail courses are excluded from GPA (mark them P to

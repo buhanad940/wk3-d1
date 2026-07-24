@@ -6,13 +6,22 @@ window.APP_SECTIONS["rhodes"] = {
   title: "Rhodes Roadmap",
   icon: "🏆",
   html: `
-<h2>Rhodes Scholarship Roadmap</h2>
+<h2>Rhodes Scholarship Roadmap <span class="badge">side goal</span></h2>
 <p class="section-lede">
   The Rhodes Scholarship funds postgraduate study at the University of Oxford. It is won on four things the
   selectors state openly: academic excellence, energy to use your talents to the full, truth/courage/devotion to
   duty and kindness, and moral force of character and instincts to lead. This page turns those into a four-year
   operating plan — plus the honest parts most guides skip.
 </p>
+
+<div class="callout info">
+  <strong>Rhodes is your side goal — and it is nearly free to pursue.</strong> Your main goal is the career
+  mission (a senior-track role in Abu Dhabi / Dubai straight from your bachelor's — see the Career Mission
+  section). The good news: the Rhodes roadmap below — a top GPA, deep leadership, research, real impact, and
+  professors who vouch for you — is <em>the same portfolio</em> that lands the sovereign-fund, ministry, and
+  consulting roles. Build it once and both goals are served. If the two ever conflict senior year (a Rhodes that
+  defers a great UAE offer), that is a good problem you decide calmly, with an offer already in hand.
+</div>
 
 <div class="callout danger">
   <strong>Step zero — eligibility, before anything else.</strong> Rhodes is awarded by

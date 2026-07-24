@@ -8,10 +8,18 @@ window.APP_SECTIONS["leadership"] = {
   html: `
 <h2>Leadership, SIGs &amp; Campus Impact</h2>
 <p class="section-lede">
-  "Moral force of character and instincts to lead" is literally on the Rhodes criteria list — but leadership
-  that counts is built, not claimed. This section covers the NYUAD club ecosystem, the path from member to
-  leader, starting something new, and how to lead in ways that produce real outcomes (and honest stories).
+  Leadership serves both your goals at once: it is literally on the Rhodes criteria list, and it is exactly
+  what sovereign funds, ministries, and consulting firms look for when they fast-track young hires into senior
+  responsibility (your main goal — see Career Mission). Leadership that counts is built, not claimed. This
+  section covers the NYUAD club ecosystem, the path from member to leader, starting something new, and how to
+  lead in ways that produce real outcomes (and honest stories) — the kind a recruiter and a Rhodes panel both reward.
 </p>
+
+<div class="callout tip">
+  <strong>Aim your leadership at the mission.</strong> A named role with real deliverables (led a team, ran a
+  budget, shipped an event, founded something) is what a Mubadala or ministry interviewer probes for. One deep,
+  outcome-producing leadership story beats a long list of memberships — for the job and for Rhodes.
+</div>
 
 <h3>The ecosystem, mapped</h3>
 <div class="card">

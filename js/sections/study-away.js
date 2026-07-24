@@ -14,6 +14,15 @@ window.APP_SECTIONS["study-away"] = {
   provided the sequencing below is followed.
 </p>
 
+<div class="callout info">
+  <strong>New York, reframed for your main goal.</strong> Your career mission is a role in <em>Abu Dhabi or
+  Dubai</em> — so New York is not a departure from that, it is fuel for it: the finance credential, the global
+  network, and the recruiting access you bring <strong>back</strong> to the Gulf. While there, target a
+  junior-summer internship pipeline that lands you at a UAE sovereign fund, bank, ministry, or consultancy (see
+  the Career Mission section). Florence, earlier, is exploration; New York is the concentration credential with
+  a Gulf destination in mind.
+</div>
+
 <div class="callout danger">
   <strong>Study away is only allowed in specific semesters.</strong> The official pathway is explicit: you may
   study away in <strong>sophomore spring</strong>, <strong>junior fall</strong>, or <strong>junior spring</strong>
