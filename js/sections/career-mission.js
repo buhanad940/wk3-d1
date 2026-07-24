@@ -47,6 +47,9 @@ window.APP_SECTIONS["career-mission"] = {
         accelerators. Sovereign funds, banks, MBB, and Big 4 all hire internationally.</li>
   </ul>
   Confirm which applies to you with NYUAD Career Development in Year 1 — it changes which doors are widest.
+  <br><br><strong>Your status: UAE national ✅</strong> — so the national fast-track and Emiratization programs
+  below are your <em>headline</em> path, not a footnote. Your top target, Mubadala, has its own dedicated
+  step-by-step section: see the <strong>Mubadala Playbook</strong>.
 </div>
 
 <h3>Target employers — Abu Dhabi &amp; Dubai, mapped to an Economics major</h3>
@@ -64,7 +67,8 @@ app's disclaimer says.</p>
       <li><strong>Entry titles:</strong> Investment Analyst, Research Analyst, Strategy Analyst, Economist.</li>
       <li><strong>Fast-track in:</strong> the <em>Mubadala</em> graduate / development programme and the
           <em>ADIA</em> graduate track (confirm current names). These are the crown-jewel graduate jobs in Abu
-          Dhabi — tax-free comp among the highest for graduates globally.</li>
+          Dhabi — tax-free comp among the highest for graduates globally.
+          <strong>→ Mubadala has its own dedicated Mubadala Playbook section.</strong></li>
       <li><strong>They screen on:</strong> GPA, quantitative rigor (Econometrics, Data Analysis, finance),
           a return-offer internship, and polish under interview pressure.</li>
     </ul>
