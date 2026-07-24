@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>NYUAD Compass — Student Guide &amp; Four-Year Planner</title>
+<link rel="stylesheet" href="css/styles.css?v=20260724">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("nyuad-compass-theme");
+      if (saved === "dark" || saved === "light") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) { /* private mode */ }
+  })();
+</script>
+</head>
+<body>
+
+<div class="bg-aurora" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+</div>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">🧭</span>
+    <div>
+      <h1>NYUAD Compass</h1>
+      <p class="tagline">New York University Abu Dhabi — Economics · Finance · Rhodes Track · Study Away</p>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <button type="button" class="palette-trigger" id="palette-trigger" aria-label="Search the guide">
+      <span>🔍</span><span class="trigger-text">Search or jump to a section…</span>
+      <span class="kbd-hint">Ctrl K</span>
+    </button>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+  </div>
+</header>
+
+<div class="disclaimer" role="note">
+  <strong>Unofficial student guide.</strong> Nothing here replaces official NYUAD information. Course offerings, codes,
+  professor assignments, and meeting times change every semester — always confirm through the official course search /
+  registration system (Albert) and your academic adviser before making decisions.
+</div>
+
+<div class="layout">
+  <nav class="sidenav" id="sidenav" aria-label="Guide sections"></nav>
+  <main id="main-content"></main>
+</div>
+
+<footer class="footer">
+  <p>NYUAD Compass — a personal planning app. Built for planning, not an official NYUAD or NYU publication.
+  Verify everything important with <em>students.nyuad.nyu.edu</em>, your adviser, and official NYUAD offices.</p>
+</footer>
+
+<div class="palette-overlay" id="palette-overlay" role="dialog" aria-modal="true" aria-label="Search">
+  <div class="palette">
+    <input type="search" id="global-search" placeholder="Search everything… Calculus, Florence, Rhodes, GPA gate…" aria-label="Search the guide" autocomplete="off">
+    <div id="search-results" class="search-results hidden" aria-live="polite"></div>
+    <div class="palette-foot">
+      <span><kbd>↵</kbd> open top result</span>
+      <span><kbd>Esc</kbd> close</span>
+      <span><kbd>Ctrl</kbd>+<kbd>K</kbd> toggle</span>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="back-top" id="back-top" aria-label="Back to top">↑</button>
+
+<script src="js/sections/home.js?v=20260724"></script>
+<script src="js/sections/packing.js?v=20260724"></script>
+<script src="js/sections/first-semester.js?v=20260724"></script>
+<script src="js/sections/schedule-builder.js?v=20260724"></script>
+<script src="js/sections/four-year.js?v=20260724"></script>
+<script src="js/sections/career-mission.js?v=20260724"></script>
+<script src="js/sections/mubadala.js?v=20260724"></script>
+<script src="js/sections/adia.js?v=20260724"></script>
+<script src="js/sections/pmo.js?v=20260724"></script>
+<script src="js/sections/ministries.js?v=20260724"></script>
+<script src="js/sections/core-curriculum.js?v=20260724"></script>
+<script src="js/sections/jterm-summer.js?v=20260724"></script>
+<script src="js/sections/rhodes.js?v=20260724"></script>
+<script src="js/sections/study-away.js?v=20260724"></script>
+<script src="js/sections/professors.js?v=20260724"></script>
+<script src="js/sections/advising.js?v=20260724"></script>
+<script src="js/sections/writing-lab.js?v=20260724"></script>
+<script src="js/sections/quant-toolkit.js?v=20260724"></script>
+<script src="js/sections/research-capstone.js?v=20260724"></script>
+<script src="js/sections/careers.js?v=20260724"></script>
+<script src="js/sections/leadership.js?v=20260724"></script>
+<script src="js/sections/money.js?v=20260724"></script>
+<script src="js/sections/campus-life.js?v=20260724"></script>
+<script src="js/sections/abu-dhabi.js?v=20260724"></script>
+<script src="js/sections/travel.js?v=20260724"></script>
+<script src="js/sections/languages.js?v=20260724"></script>
+<script src="js/sections/community.js?v=20260724"></script>
+<script src="js/sections/support.js?v=20260724"></script>
+<script src="js/sections/wellbeing.js?v=20260724"></script>
+<script src="js/sections/safety.js?v=20260724"></script>
+<script src="js/sections/habits.js?v=20260724"></script>
+<script src="js/sections/gpa-tools.js?v=20260724"></script>
+<script src="js/sections/checklists.js?v=20260724"></script>
+<script src="js/sections/glossary.js?v=20260724"></script>
+<script src="js/app.js?v=20260724"></script>
+</body>
+</html>
